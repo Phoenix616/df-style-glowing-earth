@@ -1,0 +1,90 @@
+/*Missionen - Händler - Informationszentrale in Sivila*/
+td.areadescription a[href="main.php?change=points"] {color:#B70000;}
+td.areadescription a[href="main.php?view=stats"] {color:#62C400;}
+
+/*Stufe 1 - 0-19Hp*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=100"]:before {content:"0-19Hp - ";color:#62C400;} /*Nahrungsmangel der Sivila-Taverne*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=100"]:after {content:" - (+1Hp, +1SC, 20min) - Schafskotelett zur Sivila-Taverne bringen";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=101"]:before {content:"0-19Hp - ";color:#62C400;} /*Gehorsamsverweigerung*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=101"]:after {content:" - (+1Hp, +2SC, 60min) - 20 Nebelzerstäuber in Mibress vernichten";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=102"]:before {content:"0-19Hp - ";color:#62C400;} /*Aggressive Wurmloch-Qualle*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=102"]:after {content:" - (+1Hp, +2SC, 30min) - aggr. Wurmloch-Qualle im IGHZ vernichten";color:#62C400;}
+
+/*Stufe 2 - 10-29Hp*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=103"]:before {content:"10-29Hp - ";color:#62C400;} /*Fluchtversuch*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=103"]:after {content:" - (+1Hp, +1SC, 30min) - flugunfähigen Nasrana-Piraten im IGHZ vernichten";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=104"]:before {content:"10-29Hp - ";color:#62C400;} /*Angriff auf ein Verbündetes Schiff*/ 
+td.areadescription a[href="main.php?view=quests&arrive_eval=104"]:after {content:" - (+2Hp, +1SC, 30min) - Reparatur-Kit einem beschädigtem kleinem Frachter übergeben (zufälliges Gebiet)";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=105"]:before {content:"10-29Hp - ";color:#62C400;} /*Treibstoffmangel*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=105"]:after {content:" - (+1Hp, +1SC, 20min, -3xRib.M1) - mit eingestelltem Sprungmodulator zum Handels-Konvoi springen und Ribs übergeben";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=115"]:before {content:"10-29Hp - ";color:#62C400;} /*Aktienauftrag*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=115"]:after {content:" - (+1Hp, +1SC, 30min) - zur Börse im IGHZ fliegen";color:#62C400;}
+
+/*Stufe 3 - 20-39Hp*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=106"]:before {content:"20-39Hp - ";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=107"]:before {content:"20-39Hp - ";color:#62C400;} /*Das nicht zurückgebrachte Artefakt*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=107"]:after {content:" - (+1Hp, +1SC, 20min) - unbekanntes Artefakt im IGHZ bei RS Pira III abholen";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=108"]:before {content:"20-39Hp - ";color:#62C400;} /*Eigenartige Vorfälle*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=108"]:after {content:" - (+1Hp, +1SC, 60min) - alle RS im IGHZ untersuchen";color:#62C400;}
+
+/*Stufe 4 - 30-49Hp*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=109"]:before {content:"30-49Hp - ";color:#62C400;} /*Verstreute Warenstücke*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=109"]:after {content:" - (+3Hp, +4SC, 120min) - Gebiete mit dem Desator-Scanner nach Wrackteilen absuchen";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=110"]:before {content:"30-49Hp - ";color:#62C400;} /*Zerstörung von Piratenschiffen*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=110"]:after {content:" - (+1Hp, +2SC, 22min) - 15-30 Nasrana-Piraten vernichten";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=111"]:before {content:"30-49Hp - ";color:#62C400;} /*(Folgemission zu 213) Verteidigung eines Planeten*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=111"]:after {content:" - (+1Hp, +2SC, 60min) - Kreuzer im Sichtfeld des Planeten zerstören und danach den Plünderer";color:#62C400;}
+
+/*Stufe 5 - 40-59Hp*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=112"]:before {content:"40-59Hp - ";color:#62C400;} /*Weltraumplage*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=112"]:after {content:" - (+1Hp, +2SC, 20min) - Gargom (Käfig holen), Barni (Leichnam finden), Gargom (Käfig abgeben)";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=113"]:before {content:"40-59Hp - ";color:#62C400;} /*Eindringen der Funksysteme*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=113"]:after {content:" - (+1Hp, +3SC, 30min) - IGHZ (5x Tirium abgeben), Ithkrox (Satellit absetzen)";color:#62C400;}
+
+
+/*Missionen - Piraten*/
+ /*Lieferbote*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=200"]:after {content:" - (+1Pp, +1SC, 60min) - Lieferung nach Imantor bringen";color:#62C400;}
+ /*Gehorsamsverweigerung*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=201"]:after {content:" - (+2Pp, +1SC, 60min) - 25 Plünderschiffe in Gargom vernichten";color:#62C400;}
+ /*Verräter*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=202"]:after {content:" - (+1Pp, +1SC, 30min) - Einen Piraten in der Gegend abschiessen";color:#62C400;} 
+ /*Übernahme eines feindlichen Schiffes*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=203"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=203"]:after {content:" - (+2Pp, +1SC, 30min) - Lieferung zu einem Frachter bringen";color:#62C400;}
+ /*Diebe?*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=204"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=204"]:after {content:" - (+1Pp, +1SC, 20min) - An der Pira ein Artefakt abholen";color:#62C400;}
+ /*Energiemangel*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=205"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=205"]:after {content:" - (+1Pp, +1SC, 20min) - 3x Resbat M1 mit einem Sprungmodulator liefern";color:#62C400;}
+ /*Verirrtes Schutzgeld*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=206"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=206"]:after {content:" - (+1Pp, +1SC, 60min) - RS abfliegen (Hauptsächlich IHZ)";color:#62C400;}
+ /*Ankunft erwartet*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=207"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=207"]:after {content:" - (+1Pp, +1SC, 15min) - modifizierten Tiefenscanner in der Gegend aktivieren";color:#62C400;}
+ /**/
+td.areadescription a[href="main.php?view=quests&arrive_eval=208"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=208"]:after {content:" - (+Pp, +SC, min) - ";color:#62C400;} 
+ /*Missglückte Flucht*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=209"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=209"]:after {content:" - (+3Pp, +4SC, 120min) - Gebiete mit dem Desator-Scanner nach Wrackteilen absuchen";color:#62C400;}
+ /*Zerstörungskommando*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=210"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=210"]:after {content:" - (+1Pp, +2SC, 30min) - Forscher in Nuhilro holen";color:#62C400;}
+ /*(Folgemission zu Zerstörungskommando) stiller Adler*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=211"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=211"]:after {content:" - Zerstören von einem Sateliten in der Region";color:#62C400;}
+ /*Ressourcen-Erschließung*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=212"]:before {content:"- ";} /*(Folgemission zu 113) stiller Adler*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=212"]:after {content:" - (+2Pp, +2SC, 120min) - Planeten auf Ressourcen scannen";color:#62C400;}
+ /*(Folgemission zu Ressourcen-Erschließung) Territorien Ausbau*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=213"]:before {content:"- ";} /*(Folgemission zu 113) stiller Adler*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=213"]:after {content:" - Signalgeber beim Plani platzieren";color:#62C400;}
+ /*Aktienauftrag*/
+td.areadescription a[href="main.php?view=quests&arrive_eval=214"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=214"]:after {content:" - (+1Pp, +1SC, 30min) zur Börse im IGHZ fliegen";color:#62C400;}
+ /*Gravitationsfeld */
+td.areadescription a[href="main.php?view=quests&arrive_eval=216"]:before {content:"- ";}
+td.areadescription a[href="main.php?view=quests&arrive_eval=216"]:after {content:" - (+1Pp, +1SC, 24min) Position im Gravi-Loch anfliegen";color:#62C400;}

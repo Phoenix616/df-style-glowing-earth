@@ -1,0 +1,272 @@
+/*Achtung Umlaute:
+Ä: \0000C4
+ä: \0000E4
+Ö: \0000D6
+ö: \0000F6
+Ü: \0000DC
+ü: \0000FC
+ß: \0000DF
+*/
+
+
+/*http://forum.darkfleet.de/viewtopic.php?f=7&t=2248*/
+p.listusersrow a[href$="watchuser&act_user_id=27"]:after   {content:" (Adminhelferlein) ";color: red;} /*Phönix*/
+
+p.listusersrow a[href$="watchuser&act_user_id=3528"]:after {content:" (Mod/Astroj\0000E4gerin) ";color:#32CD32;} /*Ayiana*/
+p.listusersrow a[href$="watchuser&act_user_id=54"]:after {content:" (Hilfs-Admin/J\0000E4gerin) ";color:#32CD32;} /*Calideya*/
+p.listusersrow a[href$="watchuser&act_user_id=251"]:after {content:" (Mod) ";color:#32CD32;} /*Captain Jack Sparrow*/
+p.listusersrow a[href$="watchuser&act_user_id=3575"]:after {content:" (Mod) ";color:#32CD32;} /*Chay von Bass-Teth*/
+p.listusersrow a[href$="watchuser&act_user_id=304"]:after  {content:" (Mod) ";color:#32CD32;} /*Hyperion*/
+p.listusersrow a[href$="watchuser&act_user_id=4239"]:after {content:" (Mod/J\0000E4ger) ";color:#32CD32;} /*Mythos (Vagabond)*/
+p.listusersrow a[href$="watchuser&act_user_id=1142"]:after {content:" (S-Mod) ";color:#32CD32;} /*Nyrrti*/
+p.listusersrow a[href$="watchuser&act_user_id=7959"]:after {content:" (Mod) ";color:#32CD32;} /*SpaceNagao*/
+p.listusersrow a[href$="watchuser&act_user_id=5401"]:after {content:" (Mod/J\0000E4ger) ";color:#32CD32;} /*GhostStalker*/
+p.listusersrow a[href$="watchuser&act_user_id=377"]:after  {content:" (S-Mod/Geldverleiher )";color:#32CD32;} /*Tungdil Goldhand*/
+p.listusersrow a[href$="watchuser&act_user_id=71"]:after  {content:" (Mod) ";color:#32CD32;} /*STL (Arthur Dent)*/
+
+/*Ex-Mods*/
+p.listusersrow a[href$="watchuser&act_user_id=252"]:after  {content:" (Kartographin/J\0000E4gerin) ";color:#cc7300;}/*Dita von Teese*/
+p.listusersrow a[href$="watchuser&act_user_id=1657"]:after {content:" (H\0000E4ndler) ";color:#cc7300;} /*FS60*/
+p.listusersrow a[href$="watchuser&act_user_id=4239"]:after {content:" (J\0000E4ger) ";color:#cc7300;} /*Mythos*/
+
+
+p.listusersrow a[href$="watchuser&act_user_id=2"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=25"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=29"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=32"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=44"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=67"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=88"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=114"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=127"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=130"]:after {content:" (J\0000E4ger) ";color:#cc7300;}/*VenomEX*/
+p.listusersrow a[href$="watchuser&act_user_id=168"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=186"]:after {content:" (J\0000E4gerin) ";color:#cc7300;}/*Evil Tiffany*/
+p.listusersrow a[href$="watchuser&act_user_id=278"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=310"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=380"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=450"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=513"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=518"]:after {content:" (PK!) ";color:#ff0000;}/*Fallen Angel*/
+p.listusersrow a[href$="watchuser&act_user_id=521"]:after {content:" (PK!) ";color:#ff0000;}/*Divinemode*/
+p.listusersrow a[href$="watchuser&act_user_id=531"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=566"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=605"]:after {content:" (J\0000E4gerin) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=591"]:after {content:" (Planetenschaffer) ";color:#47a9be;}
+p.listusersrow a[href$="watchuser&act_user_id=658"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=666"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=695"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=726"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=733"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=757"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=771"]:after {content:" (J\0000E4ger) ";color:#cc7300;}	/*Hawk*/
+p.listusersrow a[href$="watchuser&act_user_id=792"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=827"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=828"]:after {content:" (Betr\0000FCger) ";color:#ffec00;}
+p.listusersrow a[href$="watchuser&act_user_id=959"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=967"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1010"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1206"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1209"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1279"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1311"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1390"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1584"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1601"]:after {content:" (Stylebastler/J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1631"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=1646"]:after {content:" (Bojensteller/Jäger) ";color:#cc7300;} /*Cany/snip*/
+p.listusersrow a[href$="watchuser&act_user_id=1723"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1838"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=1916"]:after {content:" (J\0000E4ger) ";color:#cc7300;}/*Space Phönix*/
+p.listusersrow a[href$="watchuser&act_user_id=1976"]:after {content:" (PK!) ";color:#ff0000;}/*Loki0815*/
+p.listusersrow a[href$="watchuser&act_user_id=2166"]:after {content:" (J\0000E4gerin) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2267"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2269"]:after {content:" (J\0000E4ger) ";color:#cc7300;}/*Schwaben Bulli*/
+p.listusersrow a[href$="watchuser&act_user_id=2289"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2310"]:after {content:" (PK!) ";color:#ff0000;}/*Erbse - El Capitano*/
+p.listusersrow a[href$="watchuser&act_user_id=2370"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2442"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2383"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=2550"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2516"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2608"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=2706"]:after {content:" (KST) ";color:#FF0080;}
+p.listusersrow a[href$="watchuser&act_user_id=2863"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=2899"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=2943"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3025"]:after {content:" (J\0000E4ger) ";color:#cc7300;}/*Rico Dogsoldier*/
+p.listusersrow a[href$="watchuser&act_user_id=3030"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3032"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3041"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3083"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3093"]:after {content:" (Fl.-Questler) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3108"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3137"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3231"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3266"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3285"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3392"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3470"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3496"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3527"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3534"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3553"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3736"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3774"]:after {content:" (J\0000E4ger ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3778"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3785"]:after {content:" (J\0000E4ger) ";color:#cc7300;}/*Ultra Hörnchen*/
+p.listusersrow a[href$="watchuser&act_user_id=3905"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=3963"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=3990"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4000"]:after {content:" (PK!) ";color:#ff0000;} /*-=Link=-*/
+p.listusersrow a[href$="watchuser&act_user_id=4020"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4059"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4073"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4166"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4258"]:after {content:" (PK!/H\0000E4ndler) ";color:#ff0000;}/*Evil Punkrocker*/
+p.listusersrow a[href$="watchuser&act_user_id=4310"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4339"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=4354"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4397"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4526"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4584"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4645"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4713"]:after {content:" (J\0000E4gerin) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4743"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4772"]:after {content:" (Fl.-Questler) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4829"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4847"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4920"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=4965"]:after {content:" (PK! entfernt) ";color:#ff0000;}/*aus Sicherheitsstyle entfernt*/
+p.listusersrow a[href$="watchuser&act_user_id=5401"]:after {content:" (H\0000E4ndler / J\0000E4ger) ";color:#00cc00;}
+p.listusersrow a[href$="watchuser&act_user_id=5111"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5142"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=5154"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5186"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5190"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5243"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5267"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5329"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5430"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5465"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5449"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=5684"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5701"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5715"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=5864"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=5897"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=6011"]:after {content:" (Kartograph/J\0000E4ger) ";color:#47a9be;}
+p.listusersrow a[href$="watchuser&act_user_id=6013"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6046"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6111"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=6124"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=6128"]:after {content:" (Lagerrist) ";color:#47a9be;}
+p.listusersrow a[href$="watchuser&act_user_id=6278"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6345"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6549"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=6627"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6696"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6792"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6830"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6854"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6861"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=6925"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7018"]:after {content:" (Flotten-J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7080"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7124"]:after {content:" (H\0000E4ndler) ";color:#00cc00;}
+p.listusersrow a[href$="watchuser&act_user_id=7176"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=7209"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7286"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7405"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7654"]:after {content:" (Astroj\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7543"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7565"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7561"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=7588"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=7908"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=7979"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=8001"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=8030"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=8061"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=8266"]:after {content:" (PK!) ";color:#ff0000;}
+p.listusersrow a[href$="watchuser&act_user_id=8427"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=8496"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=8636"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=8674"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+p.listusersrow a[href$="watchuser&act_user_id=8698"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
+
+
+/*Betrüger*/
+
+p.listusersrow a[href$="watchuser&act_user_id=42"]:after {content:" (Dropdieb) ";color:#00BF00;}/*SpaceScampi (ID: 42) <-- genannt von Ghoststalker*/
+p.listusersrow a[href$="watchuser&act_user_id=132"]:after {content:" (Dropdieb) ";color:#00BF00;}/*skycabrio (ID: 132)<-- genannt von Zuckerböhnchen*/
+p.listusersrow a[href$="watchuser&act_user_id=260"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Andromeda09*/
+p.listusersrow a[href$="watchuser&act_user_id=273"]:after {content:" (Goldhand-Kreditinstitut-Betr.) ";color:#00BF00;}
+p.listusersrow a[href$="watchuser&act_user_id=364"]:after {content:" (Dropdieb) ";color:#00BF00;}/*SpaceElektra (ID: 364) <-- genannt von Hyper Helmchen*/
+p.listusersrow a[href$="watchuser&act_user_id=366"]:after {content:" (Clanbetr\0000FCger)  ";color:#00BF00;}/*Andromeda Ascendant*/
+p.listusersrow a[href$="watchuser&act_user_id=381"]:after {content:" (Clanbetr\0000FCger)  ";color:#00BF00;}/*Numen*/
+p.listusersrow a[href$="watchuser&act_user_id=787"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}
+p.listusersrow a[href$="watchuser&act_user_id=828"]:after {content:" (Dropdieb) ";color:#00BF00;}/*NiMaTiV*/
+p.listusersrow a[href$="watchuser&act_user_id=997"]:after {content:" (Dropdieb) ";color:#00BF00;}/*Der Meister*/
+p.listusersrow a[href$="watchuser&act_user_id=2224"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*D3STRUCT0R (ID:2224) <-- genannt von Sick Soldier*/
+p.listusersrow a[href$="watchuser&act_user_id=2478"]:after {content:" (Dropdieb) ";color:#00BF00;}/*Hägar (ID 2478)<--- genannt von Ghoststalker*/
+p.listusersrow a[href$="watchuser&act_user_id=2656"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*marv*/
+p.listusersrow a[href$="watchuser&act_user_id=2675"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}
+p.listusersrow a[href$="watchuser&act_user_id=2800"]:after {content:" (Clan-/W\0000FCrfelbetr.) ";color:#00BF00;}/*Wrukolakas id=2800<-- genannt von shadow8883, hat den Clan BaR betrogen. / Handel by mig01*/
+p.listusersrow a[href$="watchuser&act_user_id=3033"]:after {content:" (W\0000FCrfelbetr.) ";color:#00BF00;}/*Banshee1980*/
+/*p.listusersrow a[href$="watchuser&act_user_id=3036"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;} Vahid (ID: 3036) <-- genannt von benjaminrije*/
+p.listusersrow a[href$="watchuser&act_user_id=3024"]:after {content:" (Handelsbetr\0000FCger) ";color:#00BF00;}/*kralle des todes*/
+p.listusersrow a[href$="watchuser&act_user_id=3247"]:after {content:" (W\0000FCrfelbetr.) ";color:#00BF00;}/*Mister Black Unit*/
+p.listusersrow a[href$="watchuser&act_user_id=3348"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Little Evil*/
+p.listusersrow a[href$="watchuser&act_user_id=3694"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*MrDarkFleet (ID: 3694) <-- gemeldet von Sir Black*/
+p.listusersrow a[href$="watchuser&act_user_id=3721"]:after {content:" (Handelsbetr\0000FCger) ";color:#00BF00;}/*Goldmünze*/
+p.listusersrow a[href$="watchuser&act_user_id=3795"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*SoulReaver*/
+p.listusersrow a[href$="watchuser&act_user_id=3833"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}
+p.listusersrow a[href$="watchuser&act_user_id=4235"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Felix91 (ID: 4235) <-- genannt von Xindical*/
+p.listusersrow a[href$="watchuser&act_user_id=4918"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*zernicht0r*/
+p.listusersrow a[href$="watchuser&act_user_id=4936"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Bloody*/
+p.listusersrow a[href$="watchuser&act_user_id=5088"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Wetzu*/
+p.listusersrow a[href$="watchuser&act_user_id=5354"]:after {content:" (Dropdieb) ";color:#00BF00;}/*Erzengelhaniel (ID: 5354) <-- genannt von jphh93*/
+p.listusersrow a[href$="watchuser&act_user_id=5466"]:after {content:" (Dropdieb) ";color:#00BF00;}/*Samir Nasri*/
+p.listusersrow a[href$="watchuser&act_user_id=5475"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*daniel*/
+p.listusersrow a[href$="watchuser&act_user_id=5477"]:after {content:" (Dropdieb) ";color:#00BF00;}/*herbert s*/
+p.listusersrow a[href$="watchuser&act_user_id=5561"]:after {content:" (Dropdieb) ";color:#00BF00;}/*Actio (ID: 5561)<-- genannt von Falke*/
+p.listusersrow a[href$="watchuser&act_user_id=5951"]:after {content:" (Dropdieb) ";color:#00BF00;}/*SuperMario100*/
+p.listusersrow a[href$="watchuser&act_user_id=6114"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*T-Check (ID: 6114) <-- genannt von Homer Simpsons*/
+p.listusersrow a[href$="watchuser&act_user_id=6215"]:after {content:" (Handelsbetr\0000FCger) ";color:#00BF00;}/*Absicht (ID: 6215) <-- genannt von -=Patti=-*/
+p.listusersrow a[href$="watchuser&act_user_id=6491"]:after {content:" (W\0000FCrfelbetr.) ";color:#00BF00;}/*Kalli*/
+p.listusersrow a[href$="watchuser&act_user_id=6549"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Spaceboy (ID: 6549)(Teilweise Rückerstattung) <-- gemeldet von Tirunata*/
+p.listusersrow a[href$="watchuser&act_user_id=6678"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Eoban*/
+p.listusersrow a[href$="watchuser&act_user_id=7075"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}
+p.listusersrow a[href$="watchuser&act_user_id=7079"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}
+p.listusersrow a[href$="watchuser&act_user_id=7500"]:after {content:" (Clanbetr\0000FCger)  ";color:#00BF00;}/*Anarion Tinuviel*/
+p.listusersrow a[href$="watchuser&act_user_id=7620"]:after {content:" (Allround-Betr\0000FCger)  ";color:#00BF00;}/*Darkrai*/
+p.listusersrow a[href$="watchuser&act_user_id=8069"]:after {content:" (Clan-/W\0000FCrfelbetr.) ";color:#00BF00;}/*Arigad*/
+p.listusersrow a[href$="watchuser&act_user_id=8262"]:after {content:" (W\0000FCrfelbetr.) ";color:#00BF00;}
+p.listusersrow a[href$="watchuser&act_user_id=8274"]:after {content:" (Handelsbetr\0000FCger) ";color:#00BF00;}/*Black Nirvana*/
+p.listusersrow a[href$="watchuser&act_user_id=8438"]:after {content:" (Clanbetr\0000FCger) ";color:#00BF00;}/*Lord Max*/
+p.listusersrow a[href$="watchuser&act_user_id=8510"]:after {content:" (Handelsbetr\0000FCger/Dropdieb) ";color:#00BF00;}/*Golum (id=8510)<--- genannt von Jean LaFitte*/
+p.listusersrow a[href$="watchuser&act_user_id=8574"]:after {content:" (W\0000FCrfelbetr.) ";color:#00BF00;}/*joey*/
+p.listusersrow a[href$="watchuser&act_user_id=8597"]:after {content:" (W\0000FCrfelbetr.) ";color:#00BF00;}/*The Tiger (ID: 5897) <-- genannt von T-Pain*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

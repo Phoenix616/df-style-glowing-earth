@@ -1,0 +1,17 @@
+@import url(style..base.css);
+@import url(css/cid.css);
+@import url(css/chattext.ge.css);
+
+.framemainbg {color:#c9c9c9;background:black fixed;margin:10px;border-collapse:separate;}
+
+/*Weltraum transparent*/
+.framemapbg a[href="map.php"] {right:16px; color:#FF2F2F;}
+.framemapbg a[href="map.php"]:hover {color:#E36B30;}
+.framemapbg td[style*="/rand/space"], .framemapbg td[style$="/black.jpg);"] {opacity:0.51;}
+.framemapbg td[style$="/space9117.jpg);"] {opacity:1.0;}
+.imagefield[src*="/rand/space"], .imagefield[src$="/black.jpg"] {opacity:0.51;}
+.imagefield[src$="/space9117.jpg"] {opacity:1.0;}
+.areadescription td[background*="/rand/space"], .areadescription td[background$="/black.jpg"] {opacity:0.51;}
+.areadescription td[background$="/space9117.jpg"] {opacity:1.0;}
+.areadescription table#build_fields td[background^="../images/map/"]:hover {opacity:1.0;}
+.areadescription table#destroy_fields td[background^="../images/map/"] a:hover {opacity:0.51;}

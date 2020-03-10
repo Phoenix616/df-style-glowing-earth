@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+/* Angeberei (Uni1 only) */
+
+p.listusersrow a[href$="watchuser&act_user_id=0"]:before { content: url(taruner_klein.gif); color: #D20000; }

@@ -1,0 +1,46 @@
+/*SprungMenü / auch für Sprungtor*/
+.frameitembg a[href^="item.php?action=jumpdrive2&z_pos_id="] {background:black;}
+.areadescription a[href^="main.php?arrive_eval=activate&building=10&oldarrive=activatemenu&bfunc=jumpdrive2&z_pos_id="] {background:#0C0D0F;}
+a[href$="=jumpdrive2&z_pos_id=144"]:after {content:" >Gargom >Nuhilro";} /*Gravi*/
+a[href$="=jumpdrive2&z_pos_id=1"] {visibility:hidden;color:#62C400!important;font-size:0px;} /*IGHZ*/
+a[href$="=jumpdrive2&z_pos_id=1"]:after {visibility:visible;content:"IGHZ >Gigelsa >Mibress";font-size:12px;padding-left:10px;}
+a[href$="=jumpdrive2&z_pos_id=2502"]:after {content:" >Sral";} /*Lichtu*/
+a[href$="=jumpdrive2&z_pos_id=85"]:after {content:" >Athos/Nasrana >Imantor";} /*Sivila*/
+a[href$="=jumpdrive4"], a[href$="=jumpdrive6"] {color:#7F6FB7!important;} /*öffentliche Sprungbojen*/
+a[href$="=jumpdrive5"] {color:#62C400!important;} /*eigene Planeten*/
+
+/*Tirium-Raffinerie einfärben*/
+.areadescription a[href$="building=8&oldarrive=activatemenu"] {color:#EE7621 /*FF6A00*/;}
+.areadescription a[href$="building=8&oldarrive=buildmenu"] {color:#EE7621;}
+/*Sprungtor einfärben*/
+.areadescription a[href$="building=10&oldarrive=activatemenu"] {color:#62C400;}
+.areadescription a[href$="building=10&oldarrive=buildmenu"] {color:#62C400;}
+/*Reparaturwerft einfärben*/
+.areadescription a[href$="building=11&oldarrive=activatemenu"] {color:#7F6FB7;}
+.areadescription a[href$="building=11&oldarrive=buildmenu"] {color:#7F6FB7;}
+/*Struktur-Modulationslabor einfärben*/
+.areadescription a[href$="building=18&oldarrive=activatemenu"] {color:#7F6FB7;}
+.areadescription a[href$="building=18&oldarrive=buildmenu"] {color:#7F6FB7;}
+
+/*Clanmenü*/
+a[href="clanmenu.php?action=clanitem"], a[href="clanmenu.php?action=add_member"] {color:#7F6FB7!important;}
+a[href="clanmenu.php?action=ban_member"], a[href="clanmenu.php?action=del_member"] {color:#EE7621!important;}
+
+/*Schnellangriff einfärben*/
+.areadescription p a[href$="action=fastattack"] {color:#EE7621;}
+
+/*Großes Wurmloch in Gigelsa*/
+.areadescription table tbody tr td a[href*="&value="] {padding:5px;}
+
+/*Bank/Verkauf*/
+.areadescription table[align="left"] tbody tr:nth-child(2n-1) {background:#141619;}
+.areadescription span[onclick^="document.getElementById('anz_"] {font-weight:bold;color:#FF0000;padding-left:2px;}
+.areadescription span[onclick$="').value = 1"] {color:#C0C0C0;}
+.areadescription span[onclick$="').value = 2"] {color:#C0C097;}
+.areadescription span[onclick$="').value = 3"] {color:#C0C080;}
+.areadescription span[onclick$="').value = 4"] {color:#D1C080;}
+.areadescription span[onclick$="').value = 5"] {color:#E8C080;}
+.areadescription span[onclick$="').value = 6"] {color:#E5AC57;}
+.areadescription span[onclick$="').value = 7"] {color:#E28826;}
+.areadescription span[onclick$="').value = 8"] {color:#E26526;}
+.areadescription span[onclick$="').value = 9"] {color:#E24A26;}

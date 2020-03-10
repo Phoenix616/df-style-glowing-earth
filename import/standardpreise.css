@@ -1,0 +1,497 @@
+/*@charset "utf-8";*/
+/* STDpreise
+Einkauf:
+td.areadescription a[href$="arrive_eval=shop&shopitem=ITEM_NUMBER"]:after {content: " (STD: STD_PREIS Gm)"; }
+Verkauf:
+td.areadescription b[onmouseover^="tt('ITEM_NAME"]:after { content: " (Verk.STD: STD_VERKAUFS_PREIS Gm) "; opacity: 0.7; }
+
+Achtung Umlaute:
+Ã„: \0000C4
+Ã¤: \0000E4
+Ã–: \0000D6
+Ã¶: \0000F6
+Ãœ: \0000DC
+Ã¼: \0000FC
+ÃŸ: \0000DF
+
+
+*/
+
+
+/* Verkauf */
+
+/* Kristalle */
+td.areadescription b[onmouseover*="-Kristall',"]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover*="-Kristallsplitter',"]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('verk\0000FCmmerter "]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('pulsierender "]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+
+
+td.areadescription b[onmouseover^="tt('Abwehr-Phalanx Mark I ("]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Algium',"]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('antiker Diamantbohrer',"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antikes Artefakt ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Geschoss Mark I ("]:after { content: " (Verk.STD: 400 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Geschoss Mark II ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Reduktionsstrahler"]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Reduktionswelle"]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Schild Mark I ("]:after { content: " (Verk.STD: 6 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Schild Mark II ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Schild Mark III ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Schild Mark IV ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Schild Mark V ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Antimaterie-Verst\0000E4rker Mark II ("]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Athos-Gesteinsbrocken',"]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Backzutaten',"]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Baryon-Partikelemitter Mark I ("]:after { content: " (Verk.STD: 300 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Bergbau-Laser Mark I ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Bergbau-Laser Mark II ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('besch\0000E4digter Diamantbohrer"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('blaue Diode"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('bunte Cocktailmischung"]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('bunter Cocktail"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Clan-Sprungantrieb Mark I ("]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Clan-Sprungantrieb Mark II ("]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Cocktailmixer"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Container der KopfgeldjÃ¤ger"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('D-FL-Defense Mark I ("]:after { content: " (Verk.STD: 300 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('D-FL-Defense Mark II ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenbankverkn\0000FCpfungs CPU Mark II ("]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Armadaorganisation"]:after { content: " (Verk.STD: 1.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Astrogeologie"]:after { content: " (Verk.STD: 20.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Batterietechnologie"]:after { content: " (Verk.STD: 4.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der EMP-Technologie"]:after { content: " (Verk.STD: 3.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Handelstransmission"]:after { content: " (Verk.STD: 4.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Holographieaufzeichnung"]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Kampftaktik"]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Laderaumtechnik"]:after { content: " (Verk.STD: 1.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Marktwirtschaft"]:after { content: " (Verk.STD: 1.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Modulmontage"]:after { content: " (Verk.STD: 6.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Nanorobotik"]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Ribium-Einspeisung"]:after { content: " (Verk.STD: 4.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der R\0000FCstungsdetektion"]:after { content: " (Verk.STD: 4.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Signatur-Scannertechnik"]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Signaturst\0000F6rung"]:after { content: " (Verk.STD: 7.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Spionagetechnologie"]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Sprungtechnologie"]:after { content: " (Verk.STD: 7.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Tarntechnik"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Tiefenscannertechnologie"]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Traktorstrahltechnik"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Waffensystemtechnik"]:after { content: " (Verk.STD: 7.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall der Waffentechnologie"]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Angriffsst\0000E4rkewissens"]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Antimateriewissens"]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Basiswissens"]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Energieregeneratorwissens ("]:after { content: " (Verk.STD: 140.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Gl\0000FCcks"]:after { content: " (Verk.STD: 300 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Gro\0000DFhandelswissen"]:after { content: " (Verk.STD: 2.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des NPC-Scannerwissens"]:after { content: " (Verk.STD: 3.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Pechs"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Planetenmanagements"]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Reparaturwissens"]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Schiffsr\0000FCstungswissens"]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Schildwissens"]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Sprungantriebswissen"]:after { content: " (Verk.STD: 7.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenkristall des Wurmloch-Reisewissens"]:after { content: " (Verk.STD: 6 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Datenspeicher"]:after { content: " (Verk.STD: 75 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('defekte Software"]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Defekter Wurmloch-Generator Mark I ("]:after { content: " (Verk.STD: 100.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Desator-Scanner ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Destruktionsstrahler Mark I ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Destruktionsstrahler Mark II ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Diffusorschild Mark I ("]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Diffusorschild Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Dimensionsboje Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Dimensionskapsel ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Dimensionsstein"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Dipol-Frequenzmodulation Mark II ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Dithexyl Strahler Mark I ("]:after { content: " (Verk.STD: 400 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('eiserner Container"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('EMP-Bombe Mark I ("]:after { content: " (Verk.STD: 75 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('EMP-Langstreckenrakete Mark I ("]:after { content: " (Verk.STD: 35 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('EMP-Rakete Mark I ("]:after { content: " (Verk.STD: 75 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('EMP-Rakete Mark II ("]:after { content: " (Verk.STD: 75 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energie-Analyse Update II ("]:after { content: " (Verk.STD: 60 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energie-Analyse Version I ("]:after { content: " (Verk.STD: 150.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energie-Analyse Version II ("]:after { content: " (Verk.STD: 150.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energie-Booster Mark I ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energiekapsel"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energierichtstrahler Mark I ("]:after { content: " (Verk.STD: 7.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energierichtstrahler Mark II ("]:after { content: " (Verk.STD: 7.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Energiespeicher-Erweiterung Mark I ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Entspannungs-Tee ("]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('feiner Sternenstaub"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Feinster Goldstaub"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Feldkompensationschip"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('feurige Cocktailmischung"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('feuriger Cocktail"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Frequenzdestabilisator Mark I ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Flotten-Sprungantrieb Mark I ("]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Flotten-Sprungantrieb Mark II ("]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Flotten-Suchmodul Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('fl\0000FCssiger Kloakenm\0000FCll"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Frequenzdestabilisator Mark I ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Frequenzverst\0000E4rker Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Funkkondensator Mark I ("]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Funksignal-St\0000F6rer Mark I ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Funksignal-St\0000F6rer Mark II ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Gamma Expander Mark I ("]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Gamma Expander Mark II ("]:after { content: " (Verk.STD: 850 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Ganbu-Barren'"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('gelbe Diode"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('gelbe Materie"]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Geschenk von"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('geschmolzenes Gold"]:after { content: " (variabler Verkaufspreis) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('GewÃ¼rz'"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('GewÃ¼rz-Kapsel ("]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Grimunit-Brocken',"]:after { content: " (Verk.STD: 120 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Grimunit-Plasma',"]:after { content: " (Verk.STD: 75 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('groÃŸe Diode"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Handels-Transmitter CPU Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Handels-Transmitter CPU Mark III ("]:after { content: " (Verk.STD: 25.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Handels-Transmitter Mark I ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Handels-Transmitter Mark II ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Handels-Transmitter Mark III ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Handtuch"]:after { content: " (Verk.STD: 3 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Hangar-Kopplungsmodul Mark I ("]:after { content: " (Verk.STD: 2.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Hedon'"]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Helianthus annuus'"]:after { content: " (Verk.STD: 30 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Holo-Transmitter Mark I ("]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Holo-Transmitter Mark II ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Holo-Transmitter Mark III ("]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Holographie-Aufzeichner Mark II ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Holographie-Aufzeichner Mark III ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Holz'"]:after { content: " (Verk.STD: 2 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Hybrid Sinter Mark I ("]:after { content: " (Verk.STD: 700 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('IR-Interface"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Item-Koordinatenscanner Mark I ("]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kampftaktik-Studiensoftware Version I ("]:after { content: " (Verk.STD: 600 Gm) ";opacity: 0.7;  }
+td.areadescription b[onmouseover^="tt('Kampftaktik-Studiensoftware Version II ("]:after { content: " (Verk.STD: 1.000 Gm) ";opacity: 0.7;  }
+td.areadescription b[onmouseover^="tt('kaputte Diode"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kartenscanner Mark I ("]:after { content: " (Verk.STD: 8.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kartenscanner Mark II ("]:after { content: " (Verk.STD: 10.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kartenscanner Mark III ("]:after { content: " (Verk.STD: 12.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kartenscanner Mark VII ("]:after { content: " (Verk.STD: 20.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('kleiner Gesteinsbrocken',"]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('kleiner Laser Mark I ("]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('kleiner Laser Mark II ("]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('kleiner Laser Mark III ("]:after { content: " (Verk.STD: 350 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('kleiner Laserkristall Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('kleiner Laserkristall Mark III ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kochtopf ("]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kontroll-Laser Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kristallgitter"]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kristallsockel"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Kurzstrecken-Sprungantrieb Mark I ("]:after { content: " (Verk.STD: 12.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('LN-Panzerung Mark I ("]:after { content: " (Verk.STD: 400 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Erweiterung Mark I ("]:after { content: " (Verk.STD: 2.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Erweiterung Mark II ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Erweiterung Mark III ("]:after { content: " (Verk.STD: 3.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Erweiterung Mark IV ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Erweiterung Mark V ("]:after { content: " (Verk.STD: 4.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Erweiterung Mark VI ("]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Erweiterung Mark VII ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Laderaum-Scanner Mark I ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('langweilige Cocktailmischung"]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('langweiliger Cocktail"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('LaserkÃ¤fig Mark I ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('leere Reservebatterie"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('leerer Tank"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Leichnam eines seltsamen Wesens',"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Lichtb\0000FCndel-Kristall Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Materienstaub"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Metallst\0000FCck"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Metallplatte"]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('MF-Generator Mark I ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('minenartiger Raketenantrieb Mark I ("]:after { content: " (Verk.STD: 32 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Mini-Nanoroboter Mark I ("]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Modifizierte Energiekapsel ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Modulslot Mark I ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Modulslot Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Modulslot Mark III ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Modulslot Mark IV ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor CPU Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor CPU Mark III ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-RÃ¼stungsdetektor Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor Mark III ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-Scanner Chip Mark II ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-Scanner Chip Mark III ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-Scanner Chip Mark IV ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-Scanner Mark I ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-Scanner Mark II ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-Scanner Mark III ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nachrichtenschnittstelle Mark I ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nachrichtenschnittstelle Mark II ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nanokit Mark I ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nanoroboter Mark I ("]:after { content: " (Verk.STD: 8 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nanoroboter Mark II ("]:after { content: " (Verk.STD: 8 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nanoroboter Mark III ("]:after { content: " (Verk.STD: 12 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nanoroboter Mark IV ("]:after { content: " (Verk.STD: 8 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nargum Hydra Mark I ("]:after { content: " (Verk.STD: 400 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nargum Hydra Mark II ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nimatat Evaluator Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nuklear-Detonator Mark I ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nuklear-Detonator Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Nuklear-Detonator Mark III ("]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Orim-Flak Mark I ("]:after { content: " (Verk.STD: 600 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Orim-Flak Mark II ("]:after { content: " (Verk.STD: 711 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Peilsender Mark I ("]:after { content: " (Verk.STD: 99 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Peilsender Mark II ("]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('PI-Panzerung Mark I ("]:after { content: " (Verk.STD: 350 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('PI-Panzerung Mark II ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Phasenmodulations-Chip Mark II ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Phasenzerrer Mark I ("]:after { content: " (Verk.STD: 150.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Phasenzerrer Mark II ("]:after { content: " (Verk.STD: 150.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Phoenix Hybrid Mark I ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Photonen-Gesch\0000FCtz Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Plasmaofen"]:after { content: " (Verk.STD: 200 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Platinenverst\0000E4rker Mark II ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Platinierte Panzerung Mark I ("]:after { content: " (Verk.STD: 400 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Platinierte Panzerung Mark II ("]:after { content: " (Verk.STD: 1250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('primitive Cocktailmischung"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('primitiver Cocktail"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('private Sprungboje Mark I ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Quadro-Laserb\0000FCndelei Mark II ("]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Quadro-Lasersystem Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Quallen-Gehirnstrommesser"]:after { content: " (Verk.STD: 48 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Quallen-Plasma-Schild Mark I ("]:after { content: ""; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Quallengehirn"]:after { content: " (Verk.STD: 59 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Quallenhaut"]:after { content: " (Verk.STD: 12 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('R.A.M.-Defender Mark I ("]:after { content: " (Verk.STD: 200 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Raummine Mark I ("]:after { content: " (Verk.STD: 400 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reparatur-Droid Mark I ("]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reparatur-Droid Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reparatur-Droid Mark III ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reparatur-Kit der IGSB',"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reservebatterie Mark I ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reservebatterie Mark II ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reservebatterie Mark III ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reservebatterie Mark IV ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Rhodon"]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Ribium-Treibstoff Mark I ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Ribium-Treibstoff Mark II ("]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Ribium-Treibstoff Mark III ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Ribium-Treibstoff Mark IV ("]:after { content: " (Verk.STD: 30 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Ribium-Treibstoff Mark V ("]:after { content: " (Verk.STD: 40 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('richtig sch\0000F6n fette Vakuumtorte"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('rosa Rettungsring"]:after { content: " (Verk.STD: 700 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('rote Diode"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('rote Rose"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schafsfleisch',"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('SchafskÃ¤se',"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schafskotelett',"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schiffsvibromatik"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schild-Disruptor Erweiterung Mark I ("]:after { content: " (Verk.STD: 1.250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schild-Disruptor Mark I ("]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schild-Disruptor Mark II ("]:after { content: " (Verk.STD: 2.300 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schild-Rakete Mark I ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schild-Rakete Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schild-Regeneration Version I ("]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schild-Regeneration Version II ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schildlaser Mark I ("]:after { content: " (Verk.STD: 150 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Schl\0000FCssel-Dekoder ("]:after { content: " (Verk.STD: 65 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('seltsame Materie"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('seltsamer Metallklumpen"]:after { content: " (Verk.STD: 50 Gm, an der Sensorstation: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('seltsamer Satellit ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('seltsames Artefakt',"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sidoner-Container',"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sidoner-Forschungsaufzeichnung"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sidoner-Forschungsergebnisse III ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sidoner-Forschungssoftware ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signalgeber Mark I ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-Scanner Mark I ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-Scanner Mark II ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-Scanner Sensor Mark II ("]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-Sprungantrieb Mark I ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-Sprungantrieb Mark II ("]:after { content: " (Verk.STD: 3.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-Sprungverst\0000E4rker Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-St\0000F6rer Mark I ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Signatur-St\0000F6rer Mark II ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sildioxid Amber Mark I ("]:after { content: " (Verk.STD: 400 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('SMFT-Modul Mark I ("]:after { content: " (Verk.STD: 4.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Solarkapsel ("]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sondenlaser Mark I ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sonnenstab"]:after { content: " (Verk.STD: 1.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Spezialsonde Mark I ("]:after { content: " (Verk.STD: 64 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Spezialsonde Mark II ("]:after { content: " (Verk.STD: 80 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Spezialsonde Mark III ("]:after { content: " (Verk.STD: 96 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Spionagemodul Mark I ("]:after { content: " (Verk.STD: 15.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sponsorgutschein"]:after { content: " (Achtung! Nicht im Shop verkaufen!)"; color:#F00; }
+td.areadescription b[onmouseover^="tt('Sprung-Kanalisator Mark II ("]:after { content: " (Verk.STD: 280 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sprungkapsel"]:after { content: " (Verk.STD: 70 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Sprungmodulator Mark I ("]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Stahlcontainer"]:after { content: " (Verk.STD: 30 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('SteinbeiÃŸer-Ei"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('SteinbeiÃŸer-Klaue'"]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Strahlungsverst\0000E4rker Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('St\0000F6rungsignal-Verst\0000E4rker Mark II ("]:after { content: " (Verk.STD: 30.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('St\0000F6rungssignal Mark I ("]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('St\0000F6rungssignal Mark II ("]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tarnkappe Mark I ("]:after { content: " (Verk.STD: 15.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tarnkappe Mark II ("]:after { content: " (Verk.STD: 15.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tarnkappe Mark III ("]:after { content: " (Verk.STD: 17.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tarnkappenupgrade Mark II ("]:after { content: " (Verk.STD: 224 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tarnkappenupgrade Mark III ("]:after { content: " (Verk.STD: 300 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tarnmechanismus Mark I ("]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Technologiekristall Mark I ("]:after { content: " (Verk.STD: 8 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Technologiekristall Mark II ("]:after { content: " (Verk.STD: 8 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Technologiekristall Mark III ("]:after { content: " (Verk.STD: 39 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Teidamfleisch'"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Therim-Reagenz"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Therim Reaktiv-Panzerung Mark I ("]:after { content: " (Verk.STD: 950 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('thermische Schmelze',"]:after { content: " (Verk.STD: 375 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Thermotransmitter Mark I ("]:after { content: " (Verk.STD: 200 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Thermotransmitter Mark II ("]:after { content: " (Verk.STD: 3.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Brocken"]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Detektor Software Version I ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Detektor Software Version II ("]:after { content: " (Verk.STD: 1.275 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Detektor Update I ("]:after { content: " (Verk.STD: 1.275 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Diamant"]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Kristall Kategorie I',"]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Kristall Kategorie II',"]:after { content: " (Verk.STD: 1.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tirium-Kristall Kategorie III',"]:after { content: " (Verk.STD: 5.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Titanat Panzerung Mark I ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Titanat Panzerung Mark II ("]:after { content: " (Verk.STD: 750 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Toaster"]:after { content: " (Verk.STD: 100 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Torpedo Mark I ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Torpedo Mark II ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Trainingsanzug"]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Traktorstrahl Mark I ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Traktorstrahl Mark II ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Traktorstrahl Mark III ("]:after { content: " (Verk.STD: 2.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Traktorstrahl-Erweiterung Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Traktorstrahl-Erweiterung Mark III ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Traktorstrahl-Erweiterung Mark IV ("]:after { content: " (Verk.STD: 374 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Tr\0000FCmmer-Scanning Version I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('unbekannte Cocktailmischung"]:after { content: " (Verk.STD: 5 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('unbekannter Cocktail"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('unkompilierte Software"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vectare Velox Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Verf\0000FChrerischer, roter Knopf"]:after { content: " (Verk.STD: 1 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Verkabelung"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('verschmorte Verkabelung"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Verschollener Container ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Versiegelter Gasbeh\0000E4lter mit Adon"]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Verteidigungslaser Mark I ("]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Verteidigungslaser Mark II ("]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vertexdestruktor Mark I ("]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vertexdestruktor Mark II ("]:after { content: " (Verk.STD: 20.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vertexdestruktor Mark III ("]:after { content: " (Verk.STD: 20.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vertexdestruktor-Verbesserung Mark II ("]:after { content: " (Verk.STD: 20.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vertexdestruktor-Verbesserung Mark III ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vinconlaser Mark I ("]:after { content: " (Verk.STD: 12.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Vinconlaser Mark II ("]:after { content: " (Verk.STD: 40.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('violette Diode"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Wachstums-Enzym"]:after { content: " (Verk.STD: 115 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('waffenfÃ¤higes Therim ("]:after { content: " (Verk.STD: 3.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Weltraumm\0000FCll"]:after { content: " (Verk.STD: 200 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Wrackcontainer"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Wurmloch-Generator Reparatur-Kit ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Wurmloch-Generator Mark I ("]:after { content: " (Verk.STD: 100.000 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Zerst\0000F6rtes Warenst\0000FCck',"]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Zirkonat-VerstÃ¤rkung Mark II ("]:after { content: " (Verk.STD: 0 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('zugebundenes Paket"]:after { content: " (Verk.STD: 10 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('\0000E4tzende Orim-Fl\0000FCssigkeit"]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('\0000F6ffentliche Sprungboje Mark I ("]:after { content: " (Verk.STD: 1.500 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('\0000F6ffentliche Sprungboje Mark II ("]:after { content: " (Verk.STD: 3.000 Gm) "; opacity: 0.7; }
+
+
+
+
+/*
+td.areadescription b[onmouseover^="tt('ITEM_NAME"]:after { content: " (Verk.STD: STD_VERKAUFS_PREIS Gm) "; opacity: 0.7; }
+*/
+
+
+/* Einkauf*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=1"]:after {content: " (STD: 16 Gm)"; } /*Nanoroboter Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=3"]:after {content: " (STD: 5.000 Gm)"; } /*Traktorstrahl Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=4"]:after {content: " (STD: 7.000 Gm)"; } /*NPC-Scanner Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=5"]:after {content: " (STD: 1.000 Gm)"; } /*Datenkristall des Basiswissens*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=6"]:after {content: " (STD: 1.500 Gm)"; } /*Datenkristall der Waffentechnologie*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=7"]:after {content: " (STD: 1.500 Gm)"; } /*Datenkristall des Reparaturwissens*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=8"]:after {content: " (STD: 5.000 Gm)"; } /*Datenkristall des Schildwissens*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=9"]:after {content: " (STD: 5.000 Gm)"; } /*Datenkristall des SchiffsrÃƒÂƒÃ‚Å’stungswissens*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=10"]:after {content: " (STD: 5.000 Gm)"; } /*Datenkristall des AngriffsstÃƒÂƒÃ‚â‚¬rkewissens*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=11"]:after {content: " (STD: 30 Gm)"; } /*Reservebatterie Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=15"]:after {content: " (STD: 3.000 Gm)"; } /*Datenkristall der Marktwirtschaft*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=44"]:after {content: " (STD: 50 Gm)"; } /*Schild-Rakete Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=45"]:after {content: " (STD: 50 Gm)"; } /*Nuklear-Detonator Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=46"]:after {content: " (STD: 50 Gm)"; } /*Torpedo Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=47"]:after {content: " (STD: 150 Gm)"; } /*EMP-Rakete Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=48"]:after {content: " (STD: 4.000 Gm)"; } /*Laderaum-Erweiterung Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=49"]:after {content: " (STD: 4.000 Gm)"; } /*Datenkristall des GroÃƒÂƒÃ…Å¾handelswissen*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=52"]:after {content: " (STD: 5.000 Gm)"; } /*Signatur-Scanner Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=53"]:after {content: " (STD: 7.000 Gm)"; } /*Signatur-Sprungantrieb Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=54"]:after {content: " (STD: 2.000 Gm)"; } /*Bergbau-Laser Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=57"]:after {content: " (STD: 1.500 Gm)"; } /*Holo-Transmitter Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=58"]:after {content: " (STD: 7.000 Gm)"; } /*Handels-Transmitter Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=59"]:after {content: " (STD: 8.000 Gm)"; } /*Datenkristall der Batterietechnologie*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=64"]:after {content: " (STD: 20 Gm)"; } /*rote Rose*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=68"]:after {content: " (STD: 3.000 Gm)"; } /*Datenkristall der Laderaumtechnik*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=69"]:after {content: " (STD: 5.000 Gm)"; } /*Laderaum-Erweiterung Mark II*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=73"]:after {content: " (STD: 1.000 Gm)"; } /*Holographie-Aufzeichner Mark II */
+td.areadescription a[href$="arrive_eval=shop&shopitem=75"]:after {content: " (STD: 3.000 Gm)"; } /*ÃƒÂƒÃ‚Â¶ffentliche Sprungboje Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=78"]:after {content: " (STD: 6.000 Gm)"; } /*Datenkristall der EMP-Technologie*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=80"]:after {content: " (STD: 6.000 Gm)"; } /*Datenkristall des NPC-Scannerwissens*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=84"]:after {content: " (STD: 2.000 Gm)"; } /*Signalgeber Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=88"]:after {content: " (STD: 8.000 Gm)"; } /*Datenkristall der Handelstransmission */
+td.areadescription a[href$="arrive_eval=shop&shopitem=92"]:after {content: " (STD: 2.000 Gm)"; } /*Signatur-Scanner Sensor Mark II*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=94"]:after {content: " (STD: 9.000 Gm)"; } /*Datenkristall der Ribium-Einspeisung*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=96"]:after {content: " (STD: 10.000 Gm)"; } /*Flotten-Sprungantrieb Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=97"]:after {content: " (STD: 10.000 Gm)"; } /*Clan-Sprungantrieb Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=101"]:after {content: " (STD: 8.000 Gm)"; } /*Datenkristall der RÃƒÂƒÃ‚Å’stungsdetektion*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=104"]:after {content: " (STD: 500 Gm)"; } /*Flotten-Suchmodul Mark I */
+td.areadescription a[href$="arrive_eval=shop&shopitem=105"]:after {content: " (STD: 1.000 Gm)"; } /*Datenkristall des Planetenmanagements*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=106"]:after {content: " (STD: 6.000 Gm)"; } /*Laderaum-Erweiterung Mark III*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=111"]:after {content: " (STD: 15.000 Gm)"; } /*Datenkristall der Sprungtechnologie*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=114"]:after {content: " (STD: 15.000 Gm)"; } /*Datenkristall der Waffensystemtechnik*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=118"]:after {content: " (STD: 7.000 Gm)"; } /*Laderaum-Erweiterung Mark IV*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=119"]:after {content: " (STD: 15.000 Gm)"; } /*Datenkristall der SignaturstÃƒÂƒÃ‚Â¶rung*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=122"]:after {content: " (STD: 40.000 Gm)"; } /*Vertexdestruktor-Verbesserung Mark II*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=124"]:after {content: " (STD: 300.000 Gm)"; } /*Energie-Analyse Version I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=125"]:after {content: " (STD: 30.000 Gm)"; } /*Tarnkappe Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=127"]:after {content: " (STD: 15.000 Gm)"; } /*Energierichtstrahler Mark I */
+td.areadescription a[href$="arrive_eval=shop&shopitem=130"]:after {content: " (STD: 8.000 Gm)"; } /*Laderaum-Erweiterung Mark V*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=135"]:after {content: " (STD: 60.000 Gm)"; } /*StÃƒÂƒÃ‚Â¶rungssignal-VerstÃƒÂƒÃ‚â‚¬rker Mark II*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=142"]:after {content: " (STD: 50.000 Gm)"; } /*Handels-Transmitter CPU Mark III*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=146"]:after {content: " (STD: 300.000 Gm)"; } /*Phasenzerrer Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=149"]:after {content: " (STD: 150 Gm)"; } /*Datenspeicher*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=151"]:after {content: " (STD: 40.000 Gm)"; } /*Datenkristall der Astrogeologie*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=157"]:after {content: " (STD: 128 Gm)"; } /*Spezialsonde Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=158"]:after {content: " (STD: 5.000 Gm)"; } /*Nachrichtenschnittstelle Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=159"]:after {content: " (STD: 160 Gm)"; } /*Spezialsonde Mark II*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=160"]:after {content: " (STD: 192 Gm)"; } /*Spezialsonde Mark III*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=165"]:after {content: " (STD: 16.000 Gm)"; } /*Kartenscanner Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=166"]:after {content: " (STD: 7.000 Gm)"; } /*Laderaum-Scanner Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=167"]:after {content: " (STD: 10.000 Gm)"; } /*Laderaum-Erweiterung Mark VI*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=168"]:after {content: " (STD: 1.000 Gm)"; } /*Holographie-Aufzeichner Mark III */
+td.areadescription a[href$="arrive_eval=shop&shopitem=170"]:after {content: " (STD: 20.000 Gm)"; } /*Kartenscanner Mark II*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=171"]:after {content: " (STD: 24.000 Gm)"; } /*Kartenscanner Mark III*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=172"]:after {content: " (STD: 40.000 Gm)"; } /*Kartenscanner Mark VII*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=220"]:after {content: " (STD: 10.000 Gm)"; } /*Datenkristall der Spionagetechnologie*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=223"]:after {content: " (STD: 7.000 Gm)"; } /*private Sprungboje Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=225"]:after {content: " (STD: 1.400 Gm)"; } /*rosa Rettungsring*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=228"]:after {content: " (STD: 12.000 Gm)"; } /*Datenkristall der Modulmontage*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=270"]:after {content: " (STD: 60.000 Gm)"; } /*Zirkonat-VerstÃ¤rkung Mark II*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=20028"]:after {content: " (STD: 500 Gm)"; } /*Versiegelter GasbehÃ¤lter mit Adon*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=20043"]:after {content: " (STD: 4.000 Gm)"; } /*Hangar-Kopplungsmodul Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=20046"]:after {content: " (STD: 7.000 Gm)"; } /* Kristallgitter */
+td.areadescription a[href$="arrive_eval=shop&shopitem=200504"]:after {content: " (STD: 2.000 Gm)"; } /*MF-Generator Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200574"]:after {content: " (STD: 40 Gm)"; } /*Tarnmechanismus Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200607"]:after {content: " (STD: 3.000 Gm)"; } /*DK des Laderaumwissen*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200617"]:after {content: " (STD: 4.500 Gm)"; } /*DK der Modulationstechnik*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200618"]:after {content: " (STD: 4.500 Gm)"; } /*DK der Drohnenkenntnis*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200622"]:after {content: " (STD: 5.000 Gm)"; } /*DK der Barrieretechnik*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200649"]:after {content: " (STD: 5.000 Gm)"; } /*DK des Bankwissens*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200652"]:after {content: " (STD: 200.000 Gm)"; } /*Defekter Wurmloch-Generator Mark I*/
+td.areadescription a[href$="arrive_eval=shop&shopitem=200657"]:after {content: " (STD: 280.000 Gm)"; } /*Datenkristall des Energieregeneratorwissens*/
+
+
+td.areadescription a[href$="arrive_npc=buy&shopitem=20032"]:after {content: " (STD: 50 Gm)"; opacity: 0.7;} /*Reparatur-Droid Mark II fÃ¼r 62*/
+td.areadescription a[href$="arrive_npc=buy&shopitem=20033"]:after {content: " (STD: 100 Gm)"; opacity: 0.7;} /*Reparatur-Droid Mark III*/
+td.areadescription a[href$="arrive_npc=buy&shopitem=20039"]:after {content: " (STD: 8.000 Gm)"; opacity: 0.7;} /*SMFT-Modul Mark I*/
+td.areadescription a[href$="arrive_npc=buy&shopitem=200516"]:after {content: " (STD: 15.000 Gm)"; opacity: 0.7;} /* Datenkristall des Sprungantriebswissen */
+
+

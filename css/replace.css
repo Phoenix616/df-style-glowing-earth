@@ -1,0 +1,15 @@
+/*- Texte ersetzen -*/
+
+/*"Nehmen" ersetzen*/
+//a[href*="action=take&act_item_id="] {visibility:hidden;font-size:0px;background:#0C0D0F;}
+//a[href*="action=take&act_item_id="]:after {visibility:visible;content:"an Bord holen";font-size:12px;}
+
+/*Bank - "Item mitnehmen" ersetzen*/
+a[href$="arrive_eval=itemmitnahme0"] {visibility:hidden;font-size:0px;background:#0D0F10;}
+a[href$="arrive_eval=itemmitnahme0"]:after {visibility:visible;content:"Item-Kategorien anzeigen";font-size:12px;}
+
+/*Schließen
+.frameitembg a[href$="action=closeinv"] {visibility:hidden;font-size:0px;background:black;}
+.frameitembg a[href$="action=closeinv"]:after {visibility:visible;content:"schließen";font-size:12px;}
+*/
+.frameitembg .small center br {display:none;}

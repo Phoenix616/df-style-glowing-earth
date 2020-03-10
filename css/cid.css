@@ -1,0 +1,33 @@
+/* > CID-Zusatzkomponente */
+/*   (von kstyle adaptiert) */ 
+/*
+p.listitemrow { position: relative; font-size: 0px; color: transparent; background: url(../listrow.gif) repeat-y; padding: 5px 2px 2px 5px; border: 0px ; border-right: 1px solid #131517; border-bottom: 1px solid #0A0A0A; }
+p.listitemrow a{ color: silver; font-size: 12px; }
+p.listitemrow:hover { background: #513E0F url(../listitemrowhover.gif) ; margin-left: 1px; margin-top: -2px; padding-bottom: 1px; padding-top: 7px; border: 1px solid #C49C04; -webkit-border-top-left-radius: 6px; -moz-border-radius-topleft: 6px; border-top-left-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-bottomright: 6px; border-bottom-right-radius: 6px;}
+
+p.listitemrow:hover a[href*="action=activate"]:before { content: url(../spn1.png); position: absolute; top: 6px; right: 47px; opacity: 0.80; }
+p.listitemrow:hover a[href*="action=activate"]:hover:before { opacity: 1.00; }
+p.listitemrow b { color: silver; font-size: 12px; }
+.frameitembg > p.listitemrow:last-of-type   { border-bottom: 1px solid #25282B; -moz-border-radius: 0px 0px 8px 8px; border-radius: 0px 0px 8px 8px; -webkit-border-radius: 0px 0px 8px 8px; }
+.frameitembg > p.listitemrow:last-of-type:hover   { border: 1px solid #C49C04; }
+
+.itemamount { font-weight: bold; color: #8F8F8F; margin-right: 4px; }
+.itemmagic  { font-weight: bold; color: #9ACD32; margin-left: 2px;}
+.itemequipped b { color: #EE4000 !important; }
+.itemequipped b:before { content:" - " ;}
+
+p.listitemrow .iteminventorypics { max-height: 15px; opacity: 0.80; }
+p.listitemrow .iteminventorypics:hover { opacity: 1.00; }
+
+
+p.listitemrow img[src$="icon_transfer.gif"] { display: none; }
+p.listitemrow img[src$="icon_drop.gif"]     { display: none; }
+p.listitemrow img[src$="icon_view.gif"]     { display: none; }
+p.listitemrow:hover img[src$="icon_transfer.gif"] { display: inline-block; position: absolute; top: 3px; right: 2px; }
+p.listitemrow:hover img[src$="icon_drop.gif"]     { display: inline-block; position: absolute; top: 4px; right: 16px; }
+p.listitemrow:hover img[src$="icon_view.gif"]     { display: inline-block; position: absolute; top: 4px; right: 28px; }
+*/
+
+.frameitembg #divend { background-color: #212121; }
+.itemamount { font-weight: bold; color: #8F8F8F; margin-right: 2px; }
+p.listitemrow img[src$="icon_drop.gif"]:after { content: " - "; position: absolute; display: inline-block;}

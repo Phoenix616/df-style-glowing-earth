@@ -1,0 +1,442 @@
+/*Darkfleet style - Glowing Earth layout - für FF 3.5 - (c) 2009 by Space Phönix (id=1916)
+   edited by VenomEX (id=130)*/
+
+/*Import*/
+@import url(import/berufe.css);
+@import url(import/angeberei.css);
+@import url(import/standardpreise.css);
+@import url(import/rs.css);
+
+@import url(css/einfaerben.css);
+@import url(css/zustand.css);
+@import url(css/shortcuts.css);
+@import url(css/replace.css);
+@import url(css/missions.css);
+
+
+/*global*/
+p,ul,ol,div,td,span,
+layer,table,body {color:silver;font:12px Arial, "Bank Gothic Medium BT", Verdana}
+p {color:silver;margin:0px;padding:0px;}
+
+/*body*/
+body {background:#ffffff;margin:0px;}
+
+/*table*/
+table {border:0px;color:silver;border-collapse:collapse;} /*cellspacing & cellpadding & border =0 no longer needed*/
+td {padding:0px;margin:0px;}
+
+
+/*links*/
+a:link {color:#D0AA06;text-decoration:none;font-weight:bold;}
+a:visited {color:#D0AA06;text-decoration:none;font-weight:bold;}
+a:active {color:#D0AA06;text-decoration:none;font-weight:bold;cursor:progress;}
+a:hover {color:#D0AA06;text-decoration:underline;font-weight:bold;}
+
+.submit {color:black;font-size:10px;font-weight:bold;background:#2C2C2C;margin-right:2px;margin-left:1px;height:17px;border:solid 1px black;cursor:pointer;border-radius:4px;}
+
+/*fonts*/
+h1 {color:#ffd800;font:12px bold;margin-bottom:0px;}
+.medium {color:silver;font-size:11px;}
+.small {color:silver;font-size:10px;}
+
+
+/*colors*/
+.fontcolor {color:silver;}
+.white {color:#FFFFFF;}
+
+
+/*bgcolors*/
+.body {background:#FFFFFF;}
+.divider {background:#555555;}
+.outline {background:#999999;}
+.menubg {background:#F1F1F1;}
+.brightbg {background:#E5E5E5;}
+.verybrightbg {background:#F1F1F1;}
+.reallybrightbg {background:#FAFAFA;}
+.whitebg {background:#FFFFFF;}
+.blackbg {background:#000000;}
+.brownbg {background:#E1D8D1;}
+
+
+/*forms*/
+.registerinput {color:silver;width:100%;font-size:10px;}
+.registersubmit {color:silver;font-size:10px;cursor:pointer;width:160px;height:20px;background:url(registerinput.png);border:0px;padding-bottom:3px;padding-bottom:3px;}
+.registersubmit:hover {color:#ffd800;}
+.registersubmit:active {background-position:bottom;}
+.logininput {width:100%;font-size:10px;}
+.loginsubmit {width:100%;font-size:10px;}
+select {color:#706C6B;font-size:11px;background:#332400;border:solid 1px #BA9400;border-radius:4px;}
+select:hover {color:silver;}
+textarea {width:100%;color:#706C6B;font-size:12px;padding-top:5px;background:#291D00 url(textarea.png);border:solid 1px #514000;border-radius:4px;}
+textarea:focus {color:silver;background:#332400 url(textarea_f.png);border-color:#BA9400;}
+
+
+/*Input-Buttons*/
+input[name="Submit"] {color:silver;font-size:10px;cursor:pointer;width:60px;height:20px;background:url(registerinput60.png);border:0px}
+input[name="Submit"]:hover {color:#D0AA06;text-shadow:0px 0px 0px, 0 0 0.1em #ffd800, 0 0 0.1em #ffd800;}
+input[name="Submit"]:active {background-position:bottom;}
+input[value="Neue Beschreibung speichern"] {width:160px;height:20px;background:url(registerinput160.png);border:0px}
+input[value="Nachricht abschicken"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Ändern"] {width:60px;height:20px;background:url(registerinput60.png);border:0px}
+input[value="Steuersatz festlegen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Taktik ändern" ] {width:85px;height:20px;background:url(registerinput85.png);border:0px}
+input[value="Abgeben"] {width:60px;height:20px;background:url(registerinput60.png);border:0px}
+input[value="Abwerfen"] {width:60px;height:20px;background:url(registerinput60.png);border:0px}
+input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {width:265px;height:20px;background:url(registerinput265.png);border:0px}
+input[value="Kaufen"] {width:60px;height:20px;background:url(registerinput60.png);border:0px}
+input[value="Aktien ordern"] {width:85px;height:20px;background:url(registerinput85.png);border:0px}
+input[value="Aktien verkaufen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Überweisung durchführen"] {width:160px;height:20px;background:url(registerinput160.png);border:0px}
+input[value="Nachricht erstellen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Zum Verkauf geben"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Rechte ändern"] {width:85px;height:20px;background:url(registerinput85.png);border:0px}
+input[value="Per Funk senden"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Per Clanfunk senden"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Verpacken (Kosten:1 Credit)"] {width:160px;height:20px;background:url(registerinput160.png);border:0px}
+input[value="Kopfgeld aussetzen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Passwort überprüfen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Spieler ignorieren"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Email-Adresse eintragen"] {width:160px;height:20px;background:url(registerinput160.png);border:0px}
+input[value="Passwort ändern"] {width:120px;height:20px;background:url(registerinput120.png);border:0px;color:red;}
+input[value="Alter ändern"] {width:85px;height:20px;background:url(registerinput85.png);border:0px}
+input[value="Kompletten Account jetzt löschen"] {width:160px;height:20px;background:url(registerinput160.png);border:0px;color:red;}
+input[value="Style ändern"] {width:85px;height:20px;background:url(registerinput85.png);border:0px}
+input[value="Abschicken (Kosten:7 Credits)"] {width:160px;height:20px;background:url(registerinput160.png);border:0px;color:red;}
+input[value="Namen und Geschlecht ändern"] {width:160px;height:20px;background:url(registerinput160.png);border:0px;color:red;}
+input[value="Rasse wechseln"] {width:120px!important;height:20px;background:url(registerinput120.png);border:0px;color:red;}
+input[value="Angebot machen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px;color:red;}
+input[value="Mitgliederrechte setzen"] {width:160px;height:20px;background:url(registerinput160.png);border:0px;color:red;}
+input[value="Nachricht absenden"] {width:120px;height:20px;background:url(registerinput120.png);border:0px}
+input[value="Freund eintragen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px;}
+input[value="Sprungboje absetzen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px;}
+input[value="Ändern (Kosten:1 Credit)"] {width:160px;height:20px;background:url(registerinput160.png);border:0px;color:red;}
+input[value="Planet löschen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px;color:red;}
+input[value="Beamvorgang auslösen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px;}
+input[value="Raumjäger einlagern lassen"] {width:160px;height:20px;background:url(registerinput160.png);border:0px;}
+input[value="Raumjäger abholen"] {width:120px;height:20px;background:url(registerinput120.png);border:0px;}
+
+
+/*chatform*/
+.framechatformbg {background:black url(chatformbg.jpg) no-repeat;color:silver;}
+.framechatformbg table {border:0px!important;}
+input.input {color:silver;font-size:11px;background:url(input.jpg);height:17px;padding-left:3px;padding-right:3px;border:solid 1px #604A1D;border-radius:10px;}
+input.input:focus {color:silver;background-position:bottom left;padding-left:3px;border-color:#B47A06;border-radius:10px;}
+.submitsagen {color:#C0C0C0;font-size:10px;font-weight:bold;background:url(button.png);margin-right:2px;margin-left:1px;width:88px;height:17px;border:0px;cursor:pointer;}
+.submitschreien {color:#6495ED;font-size:10px;font-weight:bold;background:url(button.png);margin-right:2px;margin-left:1px;width:88px;height:17px;border:0px;cursor:pointer;}
+.submitmodchat			{color:#9A1085;font-size:10px;font-weight:bold;background:url(button.png);margin-right:2px;margin-left:1px;width:88px;height:17px;border:0px;cursor:pointer;}
+.submitclan {color:#EE7621;font-size:10px;font-weight:bold;background:url(button.png);margin-right:2px;margin-left:1px;width:88px;height:17px;border:0px;cursor:pointer;}
+.submitgroup {color:#62C400;font-size:10px;font-weight:bold;background:url(button.png);margin-right:2px;margin-left:1px;width:88px;height:17px;border:0px;cursor:pointer;}
+.submitworldsay {color:#008B00;font-size:10px;font-weight:bold;background:url(button.png);margin-right:2px;margin-left:1px;width:88px;height:17px;border:0px;cursor:pointer;}
+.submitwhisper {color:#B90000;font-size:10px;font-weight:bold;background:url(button.png);margin-right:2px;margin-left:1px;width:88px;height:17px;border:0px;cursor:pointer;}
+
+.framechatformbg input[type="submit"]:hover, .framechatformbg input[type="submit"]:focus {background-position:bottom;}
+
+#fcred {background:url(button_r.png);}
+#fcred:hover {background-position:bottom;}
+#fcyellow {background:url(button_y.png);}
+#fcyellow:hover {background-position:bottom;}
+#fcgreen {}
+
+
+/*banner stuff*/
+.bannerad {border:1px solid #C85424;}
+.framebannerbg {background:black url(bannerbgv5.jpg) no-repeat;border-bottom:1px solid #000000;}
+
+
+/*main module*/
+.framemainbg {color:#c9c9c9;background:black url(framemainbg2.jpg) fixed;margin:10px;border-collapse:separate;}
+.framemainbg:before {content:"(created by Space Phönix / edit by VenomEX)";display:block;color:#333333;font-size:9px;opacity:0.8;text-align:right;margin-top:-10px;cursor:default;}
+td.mainheader {color:#ffd800;text-shadow:0px 0px 0px, 0 0 0.1em #ffd800, 0 0 0.1em #ffd800;font-size:35px;font-family:"Arial";/*font-weight:bold;*/  height:55px;border-top:solid 1px #1C1F21;border-bottom:solid 1px black;border-left:solid 1px #2F3337;border-right:solid 1px #131517;border-collapse:separate;}
+table.areadescription {/* color:silver; *//* background:black url(areadescription.gif) no-repeat; *//* width:100%; *//* padding:1px; *//* padding-top:0px; *//* border-top:solid 1px black; *//* border-bottom:solid 1px #010202; *//* border-left:solid 1px black; *//* border-right:solid 1px black; *//* border-collapse:separate; */}
+td.areadescription {color:silver;background:transparent no-repeat;padding:5px;border-top:solid 1px #1C1F21;border-bottom:solid 1px #111314;border-left:solid 1px  #2F3337;border-right:solid 1px #131517;}
+.imageborder {background:#2F3337;padding-right:1px;margin-right:10px;margin-bottom:0px;border-right:solid 1px black;}
+p.maincaption {color:#ffd800;font-size:30px;text-shadow:0px 0px 0px, 0 0 0.1em #ffd800, 0 0 0.1em #ffd800;font-family:"Arial";background:transparent left top;padding:2px 2px 2px 5px;}
+p.maincaption2 {color:#EEE8AA;font-size:13px;font-weight:bold;background:url(caption.png) no-repeat;height:30px;width:816px;margin-bottom:-8px!important;padding:8px 0px 0px 10px;}
+.framemainbg p.listrow {color:silver;background:url(row_bottom.png) bottom left no-repeat;/*margin-left:-1px;*/ padding:1px 3px 20px 10px;width:801px!important;border-right:1px solid #131517;}
+.framemainbg table > tbody > tr > td > p.listrow {color:silver;background:url(row_bottom.png) bottom left no-repeat;margin-left:-1px;padding:1px 3px 20px 10px;}
+.framemainbg table > tbody > tr > td + td > p.listrow {color:silver;background:url(row_bottom.png) bottom right no-repeat;margin-left:-1px;padding:1px 3px 20px 10px;}
+.framemainbg p.listcaption {color:#EEE8AA;font-size:13px;font-weight:bold;background:url(caption.png) no-repeat;height:30px;width:816px;margin-bottom:-8px!important;padding:8px 0px 0px 10px;}
+fieldset {border:3px ridge #131517;/*border-radius:4px;*/ background:black url(areadescription.gif) no-repeat;color:silver;padding:10px;margin:10px;}
+legend {color:#ffd800;border:1px solid #131517;border-radius:4px 4px 0px 0px;background:black url(areadescription.gif) no-repeat bottom left;}
+p.maindesc1 {color:silver;background:url(row_bottom_land.png) bottom left no-repeat;margin-left:-1px;padding:1px 3px 20px 10px;width:584px!important;}
+p.maindesc2 {color:silver;background:transparent;width:100%;border:solid 0 #999999}
+p.listusersrow {color:silver;background:#0C0D0F url(row.gif) bottom left no-repeat;margin-left:-1px;padding:1px 3px 1px 10px;width:802px!important;border-right:1px solid #131517;}
+td > p.listusersrow:last-of-type {background:url(row_bottom.png) transparent bottom left;border:0px;padding-bottom:17px;width:803px!important;}
+/*
+p.listplaceitemsrow {color:silver;background:#0C0D0F url(row.gif) bottom left no-repeat;margin-left:-1px;padding:1px 3px 1px 10px;width:802px!important;border-right:1px solid #131517;}
+td > p.listplaceitemsrow:last-of-type {background:url(row_bottom.png) transparent bottom left;border:0px;padding-bottom:17px;width:803px!important;}
+*/
+		div.listplaceitemsrow { padding: 2px; padding-left: 5px; background:#0C0D0F url(row.gif) border: 1px solid #444499; border-top: 0px; overflow: hidden; }
+		p.listplaceitemsrow { padding: 2px; padding-left: 5px; background:#0C0D0F url(row.gif) border: 1px solid #444499; border-top: 0px; overflow: hidden; }
+
+p.listlandrow {color:silver;background:#0C0D0F url(row_land.gif) bottom left no-repeat;margin-left:-1px;padding:1px 3px 1px 10px;width:584px!important;border-right:1px solid #131517;}
+td > p.listlandrow:last-of-type {background:url(row_bottom_land.png) transparent bottom left;border:0px;padding-bottom:13px;width:585px!important;}
+p.landlistcaption + p.listlandrow {text-align:center;}
+p.personlistcaption {color:#DACB65;font-weight:bold;background:url(caption.png) no-repeat;width:816px;margin-bottom:-8px!important;height:30px!important;padding:8px 0px 0px 10px;border:solid 0px #a2a09f;}
+p.itemlistcaption {color:silver;font-weight:bold;background:url(caption.png) no-repeat;width:816px;margin-bottom:-8px!important;height:30px!important;padding:8px 0px 0px 10px;border:solid 0px #a2a09f;}
+p.landlistcaption {color:#BEFC61;font-weight:bold;background:url(caption_land.png) no-repeat;width:600px;margin-bottom:-8px!important;height:30px!important;padding:8px 0px 0px 10px;border:solid 0px #a2a09f;}
+td[style*="1px solid rgb(68, 68, 153);"] {border-color:#2B2F33!important;}
+
+
+/*Item-hover*/
+#ttcontainer {background:black url(tooltip.gif) no-repeat!important;width:350px!important;}
+#ttCaption {background:transparent!important;border:1px solid #1C1F21!important;border-bottom:1px solid #070809!important;}
+#ttContent {background:transparent!important;border:1px solid #1C1F21!important;border-top:1px solid #1C1F21!important;}
+
+
+/*Statistik*/
+.framemainbg p.maincaption2 ~ table {width:815px}
+.framemainbg p.maincaption2 ~ table > tbody > tr > td.listrow {color:silver;background:#0C0D0F url(row.gif) bottom left no-repeat;padding:1px 10px 1px 10px;}
+.framemainbg p.maincaption2 ~ table > tbody > tr > td.listrow:last-of-type {border-right:1px solid #131517;}
+
+
+/*Freundesliste*/
+.framemainbg form[action="friends.php?action=insertuser"] ~ p.maincaption2        	{color:transparent;font-size:0px;}
+.framemainbg form[action="friends.php?action=insertuser"] + p.maincaption2:after	{content:"Freunde online:";color:#EEE8AA;font-size:13px;font-weight:bold;}
+.framemainbg form[action="friends.php?action=insertuser"] + p.maincaption2 ~ p.maincaption2:after	{content:"Freunde offline:";color:#EEE8AA;font-size:13px;font-weight:bold;}
+
+.friendlist {float:left;margin:0 .5em 0em 0;width:300px;}
+.friendlist li {position:relative;padding:2px;padding-left:5px;background:#0C0D0F url(row_land.gif) bottom left no-repeat;}
+.friendlist li:nth-child(2n-1) {background:#141619 url(row_land.gif) bottom left no-repeat;}
+.friendlist li a {padding:3px;}
+.friendlist li a.delete_friend {right:0px;position:absolute;}
+.friendlist li a.delete_friend:after {content:"x";font-size:11px;font-weight:normal;}
+.friendlist + .maincaption2 {clear:both;}
+
+/*Verkaufen abständevereinheitlichen*/
+
+td.areadescription > form > table[align="left"] > tbody > tr > td {width:490px;}
+td.areadescription > form > table[align="left"] > tbody > tr > td + td {width:0%;}
+/*td.areadescription > form > table[align="left"] > tbody > tr > td + td + td {width:*%;}*/
+
+
+/*TS-Rot machen*/
+
+span[title*="Geschützt vor"] {color:red;font-weight:bold;}
+
+
+/*Counter
+, decimal-leading-zero*/
+p.listusersrow {counter-increment:ships;}
+p.listusersrow:before {content:counter( ships ) " | ";font-weight:bold;}
+p.itemlistcaption {counter-reset:ships}
+
+p.listplaceitemsrow {counter-increment:items;}
+p.listplaceitemsrow > b:before {content:counter( items ) " | ";}
+div.listplaceitemsrow {counter-increment:items;}
+div.listplaceitemsrow > b:before {content:counter( items ) " | ";}
+
+
+/*NPC Bilder verschieben*/
+
+.listusersrow {border:0px solid;overflow:hidden;}
+.listplaceitemsrow {border:0px solid;overflow:hidden;}
+
+
+/*User-Klasse*/
+
+em {font-size:1em;font-style:normal;}
+.relation {font-weight:bold;text-transform:uppercase;}
+.friendly {color:#17A105;} /*Freund*/
+.enemy {color:#FF0000;} /*?-Feind*/
+.member {color:#0055AA;} /*Clan/Flotten/Armada-Mitglied*/
+.admin {color:#FF0000;} /*Admin*/
+
+
+/*item module*/
+
+.frameitembg {color:silver;background:#060606 url(frameitembg.gif) scroll repeat-y;padding:10px;overflow-x:hidden;}
+.frameitembg p.listcaption {color:#B70000;font-weight:bold;background:url(listcaption_n.jpg) no-repeat;padding:3px 2px 2px 5px;border:solid 0px;border-right:1px solid #131517;border-top-right-radius:6px;}
+.frameitembg > p.listcaption:last-of-type {color:#B70000;font-weight:bold;border-right:1px solid #131517;border-bottom:1px solid #25282B;border-bottom-right-radius:6px;border-bottom-left-radius:6px;}
+
+
+p.listsubcaption {color:silver;border-bottom:0px solid #d6cbc2}
+
+.frameitembg p.listrow	{color:silver;background:url(listrow.gif) repeat-y;padding:1px 3px 1px 5px;
+						border:0px;border-right:1px solid #131517;}
+.frameitembg > p.listrow:last-of-type	{/*background:url(shortcutsbottom.gif) no-repeat bottom left;*/border-bottom:1px solid #25282B;padding-bottom:3px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;}
+.frameitembg div[style="margin-top:10px;margin-bottom:10px;"] {margin-top:0px !important;padding:1px 3px 1px 5px;
+background:url(listrow.gif) repeat-y;border-bottom:1px solid #25282B;border-right:1px solid #131517;border-bottom-right-radius:6px;border-bottom-left-radius:6px;}
+
+.frameitembg p.listrow .iteminventorypics {display:none;}
+
+div.listrow {color:silver;background:url(listrow.gif) repeat-y;padding:1px 3px 1px 5px;border:0px;border-right:1px solid #131517;}
+
+p.listmainrow {background-color:transparent;padding:2px 2px 2px 5px;bottom:55px;border:solid 1px #d6cbc2;border-radius:4px 4px 0px 0px;}
+
+.healthok {color:#9ACD32;}
+.healthmed {color:#FF8000;}
+.healthcritical {color:#D20000;}
+.valueincreased {font-weight:bold;color:#EE4000;}
+
+p.listrow a[href*="item.php?action=watch"] .iteminventorypics {display:inline;}
+
+p.listrow[style="text-align:center;"] + p.listrow + div {background:url(shortcutsbottom.gif) no-repeat bottom left;border-right:1px solid #131517;width:92,857142857142857142857142857143%;padding-bottom:3px;border-radius:0px 0px 6px 0px;}
+
+
+.frameitembg hr {background:#1C1E20 url(row_hr.gif) no-repeat;height:2px;border:0px;}
+
+
+/*Forschungsmenu*/
+table.abilitymenu {border-collapse:separate;background:url(listrow.gif) repeat-y;border-right:1px solid #131517!important;border-bottom:1px solid #25282B;border-radius:0px 0px 8px 8px;}
+table.abilitymenu td {padding:0px 3px 0px 4px;}
+table.abilitymenu + br + p.listcaption {border-bottom:0px!important;border-bottom-right-radius:0px!important;border-bottom-left-radius:0px!important;}
+.bold td {color:#DACB65;font-weight:bold;background:transparent;border:0px!important;}
+a[href*="ability.php?action=delqueue"]:after {content:"x";}
+table.abilitymenu tbody tr:nth-child(2n) {background:#141619;}
+
+
+/*Wormhole*/
+#wormhole {color:silver!important;background:#332400!important;border:solid 1px #BA9400!important;border-radius:4px;}
+
+/*Taktik-Menue*/
+
+form[action^="item.php?action=tactic"] > p.listrow {border-bottom:1px solid #25282B;border-radius:0px 0px 8px 8px!important;}
+
+/*CSF-Counter*/
+
+.frameitembg a[href*="clanmenu.php?action=clanitem2&sell_item="] {counter-increment:clanitems;}
+.frameitembg a[href*="clanmenu.php?action=clanitem2&sell_item="]:before {content:counter( clanitems ) " | ";}
+
+
+/*menu module*/
+.framemenubg {color:silver;background:#060606 url(frameitembg.gif) repeat-y fixed;}
+
+
+/*misc*/
+.borderbg {background-color:#D0CFCF;}
+
+
+/*- Bilder ersetzen -*/
+img[src$="item_divider.gif"] {height:0px;}
+img[src$="close.gif"] {display:none;}
+
+img[src$="newmsg.jpg"] {background:url(sur/newmsg.jpg);height:0 !important;height:130px;overflow:hidden;padding-top:130px;width:350px;}
+img[src$="niederlage.jpg"] {background:url(sur/niederlage.jpg);height:0 !important;height:87px;overflow:hidden;padding-top:87px;width:109px;}
+img[src$="sieg.jpg"] {background:url(sur/sieg.jpg);height:0 !important;height:87px;overflow:hidden;padding-top:87px;width:109px;}
+img[src$="tech1.jpg"] {background:url(sur/tech1.jpg);height:0 !important;height:70px;overflow:hidden;padding-top:70px;width:350px;}
+img[src$="fire1.jpg"] {background:url(sur/fire1.jpg);height:0 !important;height:70px;overflow:hidden;padding-top:70px;width:350px;}
+
+
+/*Abstände optimieren*/
+td.areadescription a[href^="javascript:dropitem("] {padding-left:5px;} /*Item deponieren*/
+td.areadescription a[href^="javascript:getitem("] {padding-left:5px;}/*Item nehmen*/
+body.frameitembg a[href^="item.php?action=moneytransfer3&moneytotransfer="]:nth-child(4n) {padding-left:15px;} /*Gm transferieren*/
+body.frameitembg a[href^="item.php?action=transfer2&act_item_id="]:nth-child(4n+3) {padding-left:15px;} /*Item transferieren*/
+body.frameitembg a[href*="z_user_id="]:nth-child(4n+1) {padding-left:15px;} /*Items auf einen Spieler anwenden*/
+
+
+/*css transform 3d
+body , body.framemapbg > * { perspective: 400px; } #mapWrapper , body.framemapbg > center:nth-child(2) > div:nth-child(1) , body.framemapbg > center:nth-child(3) > div:first-child { transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); top:-50px; } #fueldisp { transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); top:0px; }
+body , body.framemapbg > * { -webkit-perspective: 400px; perspective: 400px; } #mapWrapper , body.framemapbg > center:nth-child(2) > div:nth-child(1) , body.framemapbg > center:nth-child(3) > div:first-child { -webkit-transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); top:-50px; } #fueldisp { -webkit-transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); top:0px; }
+body , body.frameajaxmapbg > * { -webkit-perspective: 400px; perspective: 400px; } #mapWrapper , body.frameajaxmapbg > center:nth-child(2) > div:nth-child(1) , body.frameajaxmapbg > center:nth-child(3) > div:first-child { -webkit-transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); top:-50px; } #fueldisp { -webkit-transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); top:0px; }
+*/
+
+/*
+.framemapbg {color:silver;background:#0C0D0D url(framemapbg_d.jpg) no-repeat fixed;margin:3px 10px 10px;margin-top:5px;padding-left:2px;}
+.framemapbg p.positiontext {color:#D0AA06;font-size:10px;width:250px;margin-bottom:1px;text-align:right;}
+.framemapbg a[href*="reload"] {position:absolute;left:16px;top:5px;}
+.framemapbg img[src$="relmap.gif"] { display: none; }
+.framemapbg a[href*="reload"]:after { content: "Aktualisieren"; background: url(arrow_refresh_small.png) no-repeat center left; padding-left: 12px; }
+.framemapbg #energydisp {background:transparent;height:12px!important;padding-left:49px;padding-right:49px;border:0px;}
+.framemapbg #fullenergydisp {font-weight:bold;margin-top:0px;position:absolute;left:50px!important;border-width:0px!important;background:url(empty_b.jpg) right no-repeat!important;}
+.framemapbg #curenergy {font-weight:bold;position:absolute;left:50px!important;background:url(full_b.png) right no-repeat!important;margin-left:7px!important;border:0px !important;}
+.framemapbg #test {color:silver;font-weight:bold;position:absolute;margin-top:10px;left:50px!important;border-width:0px!important;}
+*/
+
+/*alte Map Treibstoff*/
+.framemapbg {color:silver;background:#0C0D0D url(framemapbg_d.jpg) no-repeat fixed;margin:3px 10px 10px;margin-top:5px;padding-left:2px;}
+.framemapbg p.positiontext {color:#D0AA06;font-size:10px;width:250px;margin-bottom:1px;text-align:right;}
+.framemapbg a[href*="reload"] {position:absolute;left:16px;top:5px;}
+.framemapbg img[src$="relmap.gif"] { display: none; }
+.framemapbg a[href*="reload"]:after { content: "Aktualisieren"; background: url(arrow_refresh_small.png) no-repeat center left; padding-left: 12px; }
+.framemapbg #fueldisp {background:transparent;height:12px!important;padding-left:49px;padding-right:49px;border:0px;}
+.framemapbg #fullfueldisp {font-weight:bold;margin-top:0px;position:absolute;left:50px!important;border-width:0px!important;background:url(empty_b.jpg) right no-repeat!important;}
+.framemapbg #curfuel {font-weight:bold;position:absolute;left:50px!important;background:url(full_b.png) right no-repeat!important;margin-left:7px!important;border:0px !important;}
+.framemapbg #mapenergy {color:silver;font-weight:bold;position:absolute;margin-top:10px;left:50px!important;border-width:0px!important;}
+
+/*> > Logout*/
+.framemapbg a[href="logout.php"] {position:absolute;margin-top:14px;left:16px;width:111px;height:16px;padding:2px 0px 0px 9px;text-align:center;background:black;border:1px solid #25282B;border-radius:6px;}
+.framemapbg a[href="map.php"], .framemapbg a[href="map.html.php"] {position:absolute;left:144px;width:111px;height:16px;padding:2px 0px 0px 9px;text-align:center;background:black;border:1px solid #25282B;border-radius:6px;}
+.framemapbg a[href="logout.php"]:before {content:url(simg/check.png);position:absolute;left:3px;top:0px;height:14px;padding:4px 3px 0px 0px;background:black;border-right:1px solid #25282B;}
+.framemapbg a[href="map.php"]:before, .framemapbg a[href="map.html.php"]:before {content:url(simg/cross.png);position:absolute;left:4px;top:0px;height:14px;padding:4px 2px 0px 0px;background:black;border-right:1px solid #25282B;}
+.framemapbg a[href="logout.php"]:hover, .framemapbg a[href="map.php"]:hover, .framemapbg a[href="map.html.php"]:hover {border:1px solid #3C0;text-decoration:none;}
+
+/*verbesserte Map
+.frameajaxmapbg {background:#0C0D0D url(framemapbg_d.jpg) no-repeat fixed!important;margin-top:5px;padding-left:2px;}
+.frameajaxmapbg p.positiontext {text-align:center;color:#ffd800;font-size:10px;}
+.frameajaxmapbg img[src$="relmap.gif"] {background:url(arrow_refresh_small.png);height:0px !important;padding-top:12px;width:12px;}
+.frameajaxmapbg #mapWrapper {width:250px;height:250px;overflow:hidden;position:relative;margin:0 auto;}
+.frameajaxmapbg #usership {position:absolute;top:100px;left:100px;}
+.frameajaxmapbg #mapTable {position:relative;width:350px;}
+.frameajaxmapbg #mapTable a {position:relative;float:left;width:50px;height:50px;}
+.frameajaxmapbg #mapTable a:hover {cursor:pointer;}
+.frameajaxmapbg #mapTable img {background:transparent;position:absolute;top:0px;left:0px;border:none;}
+.frameajaxmapbg #mapTable img.imagefield {z-index:-3;}
+.frameajaxmapbg #mapTable img.imageusers {z-index:-2;}
+.frameajaxmapbg #mapTable img.imagenpcs {z-index:-1;}
+.frameajaxmapbg #energydisp {position:relative;margin:0 auto;width:150px;}
+.frameajaxmapbg #fullenergydisp {background:url(empty_b.jpg) right no-repeat!important;border:0px!important;}
+.frameajaxmapbg #curenergy {background:url(full_b.png) right no-repeat!important;margin-left:7px;border:0px!important;}
+.frameajaxmapbg #mapenergy {text-align:center;margin-top:10px!important;}
+#mapTable a#oli:hover, #mapTable a#oben:hover, #mapTable a#ore:hover, #mapTable a#links:hover, #mapTable a#rechts:hover, #mapTable a#uli:hover, #mapTable a#unten:hover, #mapTable a#ure:hover {cursor:pointer;}
+*/
+
+/*verbesserte Map Treibstoff*/
+.frameajaxmapbg {background:#0C0D0D url(framemapbg_d.jpg) no-repeat fixed!important;margin-top:5px;padding-left:2px;}
+.frameajaxmapbg p.positiontext {text-align:center;color:#ffd800;font-size:10px;}
+.frameajaxmapbg #mapWrapper {width:350px;height:350px;overflow:hidden;position:relative;margin:0 auto;}
+.frameajaxmapbg #usership {position:absolute;top:150px;left:150px;}
+.frameajaxmapbg #mapTable { position: relative; width: 450px; height: 450px; }
+.frameajaxmapbg #mapTable div { width: 100%; height: 50px; }
+.frameajaxmapbg #mapTable a { position: relative; float: left; width: 50px; height: 50px; border: none; }
+.frameajaxmapbg #mapTable a:hover { cursor: default; background-position: top left; background-repeat: no-repeat; }
+.frameajaxmapbg #mapTable img { background: transparent; position: absolute; top: 0; left: 0; border: none; }    
+.frameajaxmapbg #mapTable img.imagefield { z-index: -3;}
+.frameajaxmapbg #mapTable img.imageusers { z-index: -2;}
+.frameajaxmapbg #mapTable img.imagenpcs { z-index: -1; }
+.frameajaxmapbg a.nocango:hover {background-image: url(../images/map/nocango.gif) !important; }
+.frameajaxmapbg #ore:hover {background-image: url(../images/map/re-o.gif); }
+.frameajaxmapbg #oben:hover {background-image: url(../images/map/oben.gif); }
+.frameajaxmapbg #oli:hover {background-image: url(../images/map/li-o.gif); }
+.frameajaxmapbg #links:hover {background-image: url(../images/map/links.gif); }
+.frameajaxmapbg #uli:hover {background-image: url(../images/map/li-u.gif); }
+.frameajaxmapbg #unten:hover {background-image: url(../images/map/unten.gif); }
+.frameajaxmapbg #ure:hover {background-image: url(../images/map/re-u.gif); }
+.frameajaxmapbg #rechts:hover {background-image: url(../images/map/rechts.gif); }
+.frameajaxmapbg #fueldisp {position:relative;margin:0 auto;width:150px;}
+.frameajaxmapbg #fullfueldisp {font-weight:bold;margin-top:0px;position:absolute;left:0px!important;border-width:0px!important;background:url(empty_b.jpg) right no-repeat!important;}
+.frameajaxmapbg #curfuel {font-weight:bold;position:absolute;left:0px!important;background:url(full_b.png) right no-repeat!important;margin-left:7px!important;border:0px !important;}
+.frameajaxmapbg #mapenergy {color:silver;font-weight:bold;position:absolute;margin-top:10px;left:20px!important;border-width:0px!important;}
+
+.frameajaxmapbg #mapTable a#oli:hover, #mapTable a#oben:hover, #mapTable a#ore:hover, #mapTable a#links:hover, #mapTable a#rechts:hover, #mapTable a#uli:hover, #mapTable a#unten:hover, #mapTable a#ure:hover {cursor:pointer;}
+
+/*- Bilder ersetzen - Ship*/
+img[src$="user1.gif"] {background:url(icon/StarCraft.gif);height:0 !important;padding-top:50px;width:50px;}
+img[src$="user2.gif"] {background:url(icon/snip.ship2.gif);height:0 !important;padding-top:50px;width:50px;}
+img[src$="user3.gif"] {background:url(icon/Phoenix.gif);height:0 !important;padding-top:50px;width:50px;}
+
+/*Sprung abbrechen*/
+#wormhole~a {font-size:25px;}
+
+/*Software*/
+.frameitembg span[title="Verteidigungsstärke"] + b {font-size:0px;visibility:hidden;}
+.frameitembg b + span.healthok[title^="Energie"]:after {content:".En";}
+.frameitembg b + span.healthok[title^="Kampf"]:after {content:".Ka";}
+.frameitembg b + span.healthok[title^="Tirium"]:after {content:".Ti";}
+.frameitembg b + span.healthok[title^="Trümmer"]:after {content:".Tr";}
+.frameitembg b + span.healthok[title^="Schild"]:after {content:".Sc";}
+.frameitembg b + span.healthok[title^="Sidoner"]:after {content:".Si";}
+.frameitembg script + p + p + p + div + p {font-size:11px;}
+
+/*Schild
+span#shielddisp {left:120px!important;top:2px!important;} /*kurz*/
+#shieldicons a[href="item.php?action=powershield"] {position:absolute;left:-122px;top:-1px;}
+#shieldicons a[href="item.php?action=powerenergy"] {position:absolute;left:-4px;}
+div#shielddisp {left:65px!important;top:2px!important;} /*erweitert*/
+#shieldlinks a[href="item.php?action=powershield"] {position:absolute;left:-107px;top:-1px;}
+#shieldlinks a[href="item.php?action=powerenergy"] {position:absolute;left:11px;}
+*/
+/*Opera-Fix*/
+p[style="display: none"] + table.areadescription {display:none;}

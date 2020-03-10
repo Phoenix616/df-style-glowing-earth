@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*img[src$="user3.gif"]   { background: url(StarCraft.gif); height: 0 !important; height:50px; overflow: hidden; padding-top: 50px; width: 50px;  }
+*/
+
+table tr td[background$='base1.jpg'] { background: url(rs/base1.jpg); }
+td.mainheader img[src$="base1.jpg"] { width: 0; background: url(rs/base1-65.jpg) no-repeat center; padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base1.jpg"] { width: 0; background: url(rs/base1.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base2.jpg'] { background: url(rs/base2.jpg); }
+td.mainheader img[src$="base2.jpg"] { width:0; background: url(rs/base2-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base2.jpg"] { width: 0; background: url(rs/base2.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base3.jpg'] { background: url(rs/base3.jpg); }
+td.mainheader img[src$="base3.jpg"] { width: 0; background: url(rs/base3-65.jpg) no-repeat center; padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base3.jpg"] { width: 0; background: url(rs/base3.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base4.jpg'] { background: url(rs/base4.jpg); }
+td.mainheader img[src$="base4.jpg"] { width: 0; background: url(rs/base4-65.jpg) no-repeat center; padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base4.jpg"] { width: 0; background: url(rs/base4.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base5.jpg'] { background: url(rs/base5.jpg); }
+td.mainheader img[src$="base5.jpg"] { width: 0 !important; background: url(rs/base5-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base5.jpg"] { width: 0 !important; background: url(rs/base5.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base6.jpg'] { background: url(rs/base6.jpg); }
+td.mainheader img[src$="base6.jpg"] { width: 0; background: url(rs/base6-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base6.jpg"] { width: 0; background: url(rs/base6.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base7.jpg'] { background: url(rs/base7.jpg); }
+td.mainheader img[src$="base7.jpg"] { width: 0; background: url(rs/base7-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base7.jpg"] { width: 0; background: url(rs/base7.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base8.jpg'] { background: url(rs/base8.jpg); }
+td.mainheader img[src$="base8.jpg"] { width: 0; background: url(rs/base8-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base8.jpg"] { width: 0; background: url(rs/base8.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base9.jpg'] { background: url(rs/base9.jpg); }
+td.mainheader img[src$="base9.jpg"] { width: 0; background: url(rs/base9-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base9.jpg"] { width: 0; background: url(rs/base9.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base10.jpg'] { background: url(rs/base10.jpg); }
+td.mainheader img[src$="base10.jpg"] { width: 0; background: url(rs/base10-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base10.jpg"] { width: 0; background: url(rs/base10.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base11.jpg'] { background: url(rs/base11.jpg); }
+td.mainheader img[src$="base11.jpg"] { width: 0; background: url(rs/base11-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base11.jpg"] { width: 0; background: url(rs/base11.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base12.jpg'] { background: url(rs/base12.jpg); }
+td.mainheader img[src$="base12.jpg"] { width: 0; background: url(rs/base12-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base12.jpg"] { width: 0; background: url(rs/base12.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base13.jpg'] { background: url(rs/base13.jpg); }
+td.mainheader img[src$="base13.jpg"] { width: 0; background: url(rs/base13-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base13.jpg"] { width: 0; background: url(rs/base13.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base14.jpg'] { background: url(rs/base14.jpg); }
+td.mainheader img[src$="base14.jpg"] { width: 0; background: url(rs/base14-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base14.jpg"] { width: 0; background: url(rs/base14.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base15.jpg'] { background: url(rs/base15.jpg); }
+td.mainheader img[src$="base15.jpg"] { width: 0; background: url(rs/base15-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base15.jpg"] { width: 0; background: url(rs/base15.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base16.jpg'] { background: url(rs/base16.jpg); }
+td.mainheader img[src$="base16.jpg"] { width: 0; background: url(rs/base16-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base16.jpg"] { width: 0; background: url(rs/base16.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base17.jpg'] { background: url(rs/base17.jpg); }
+td.mainheader img[src$="base17.jpg"] { width: 0; background: url(rs/base17-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base17.jpg"] { width: 0; background: url(rs/base17.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base18.jpg'] { background: url(rs/base18.jpg); }
+td.mainheader img[src$="base18.jpg"] { width: 0; background: url(rs/base18-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base18.jpg"] { width: 0; background: url(rs/base18.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base19.jpg'] { background: url(rs/base19.jpg); }
+td.mainheader img[src$="base19.jpg"] { width: 0; background: url(rs/base19-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base19.jpg"] { width: 0; background: url(rs/base19.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+
+table tr td[background$='base20.jpg'] { background: url(rs/base20.jpg); }
+td.mainheader img[src$="base20.jpg"] { width: 0; background: url(rs/base20-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base20.jpg"] { width: 0; background: url(rs/base20.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base21.jpg'] { background: url(rs/base21.jpg); }
+td.mainheader img[src$="base21.jpg"] { width: 0; background: url(rs/base21-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base21.jpg"] { width: 0; background: url(rs/base21.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base22.jpg'] { background: url(rs/base22.jpg); }
+td.mainheader img[src$="base22.jpg"] { width: 0; background: url(rs/base22-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base22.jpg"] { width: 0; background: url(rs/base22.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base23.jpg'] { background: url(rs/base23.jpg); }
+td.mainheader img[src$="base23.jpg"] { width: 0; background: url(rs/base23-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base23.jpg"] { width: 0; background: url(rs/base23.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base24.jpg'] { background: url(rs/base24.jpg); }
+td.mainheader img[src$="base24.jpg"] { width: 0; background: url(rs/base24-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base24.jpg"] { width: 0; background: url(rs/base24.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base25.jpg'] { background: url(rs/base25.jpg); }
+td.mainheader img[src$="base25.jpg"] { width: 0; background: url(rs/base25-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base25.jpg"] { width: 0; background: url(rs/base25.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base26.jpg'] { background: url(rs/base26.jpg); }
+td.mainheader img[src$="base26.jpg"] { width: 0; background: url(rs/base26-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base26.jpg"] { width: 0; background: url(rs/base26.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base27.jpg'] { background: url(rs/base27.jpg); }
+td.mainheader img[src$="base27.jpg"] { width: 0; background: url(rs/base27-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base27.jpg"] { width: 0; background: url(rs/base27.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base8.jpg'] { background: url(rs/base28.jpg); }
+td.mainheader img[src$="base8.jpg"] { width: 0; background: url(rs/base28-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base8.jpg"] { width: 0; background: url(rs/base28.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base29.jpg'] { background: url(rs/base29.jpg); }
+td.mainheader img[src$="base29.jpg"] { width: 0; background: url(rs/base29-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base29.jpg"] { width: 0; background: url(rs/base29.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+
+table tr td[background$='base30.jpg'] { background: url(rs/base30.jpg); }
+td.mainheader img[src$="base30.jpg"] { width: 0; background: url(rs/base30-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base30.jpg"] { width: 0; background: url(rs/base30.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base31.jpg'] { background: url(rs/base31.jpg); }
+td.mainheader img[src$="base31.jpg"] { width: 0; background: url(rs/base31-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base31.jpg"] { width: 0; background: url(rs/base31.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base32.jpg'] { background: url(rs/base32.jpg); }
+td.mainheader img[src$="base32.jpg"] { width: 0; background: url(rs/base32-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base32.jpg"] { width: 0; background: url(rs/base32.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
+
+table tr td[background$='base33.jpg'] { background: url(rs/base33.jpg); }
+td.mainheader img[src$="base33.jpg"] { width: 0; background: url(rs/base33-65.jpg) no-repeat center;  padding-left: 65px; overflow: hidden; }
+.framemainbg table div img[src$="base33.jpg"] { width: 0; background: url(rs/base33.jpg) no-repeat; padding-left: 25px; overflow: hidden; }
