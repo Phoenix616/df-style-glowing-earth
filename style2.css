@@ -2,8 +2,15 @@
 @import url(css/cid.css);
 @import url(css/chattext.ge.css);
 
-.framemainbg {color:#c9c9c9;background:black url(framemainbg2.jpg) fixed; z-index: 1;    opacity: 0.8;
-   -moz-opacity: 0.8;
-   -khtml-opacity: 0.8;
-   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-   filter:alpha(opacity=80);margin:10px;border-collapse:separate;}
+.framemainbg {
+    color: #c9c9c9;
+    background: black url(framemainbg2.jpg) fixed;
+    z-index: 1;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    margin: 10px;
+    border-collapse: separate;
+}

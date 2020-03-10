@@ -1,14 +1,77 @@
 /*chattext*/
-.framechattextbg {color:silver;background:black url(../chattextbg.jpg) no-repeat fixed;margin:5px 5px 5px 5px;padding-left:30px;}
-.chattext {color:silver;font-size:12px;background:url(area.png);font-family:Verdana;}
-.chattextscream {color:#6495ED;font-size:12px;background:url(area.png);font-family:Verdana;}
-.chattextclan {color:#EE7621;font-size:12px;background:url(area.png);font-family:Verdana;}
-.chattext i b {color:#C9C57C;}
-.chattextgroup {color:#62C400;font-size:12px;background:url(area.png);font-family:Verdana;}
-.chattextinfo {color:silver;font-style:italic;background:maroon url(area_d.png);font-size:13px;}
-.chattextwhisper {color:#B90000;font-size:12px;background:url(area.png);font-family:Verdana;}
-.chatpics {display:none;}
-span.chattextclan a[href*="main.php?showallmsgs"]:before {content:"(holographische) ";font-size:12px;}
-.worldsay {color:black;background-color:#7F6FB7;font-size:13px;}
-p.worldsay table tr {color:#EEE8AA;background:maroon}
-p.worldsay table tr td {color:#EEE8AA}
+.framechattextbg {
+    color: silver;
+    background: black url(../chattextbg.jpg) no-repeat fixed;
+    margin: 5px 5px 5px 5px;
+    padding-left: 30px;
+}
+
+.chattext {
+    color: silver;
+    font-size: 12px;
+    background: url(area.png);
+    font-family: Verdana;
+}
+
+.chattextscream {
+    color: #6495ED;
+    font-size: 12px;
+    background: url(area.png);
+    font-family: Verdana;
+}
+
+.chattextclan {
+    color: #EE7621;
+    font-size: 12px;
+    background: url(area.png);
+    font-family: Verdana;
+}
+
+.chattext i b {
+    color: #C9C57C;
+}
+
+.chattextgroup {
+    color: #62C400;
+    font-size: 12px;
+    background: url(area.png);
+    font-family: Verdana;
+}
+
+.chattextinfo {
+    color: silver;
+    font-style: italic;
+    background: maroon url(area_d.png);
+    font-size: 13px;
+}
+
+.chattextwhisper {
+    color: #B90000;
+    font-size: 12px;
+    background: url(area.png);
+    font-family: Verdana;
+}
+
+.chatpics {
+    display: none;
+}
+
+span.chattextclan a[href*="main.php?showallmsgs"]:before {
+    content: "(holographische) ";
+    font-size: 12px;
+}
+
+.worldsay {
+    color: black;
+    background-color: #7F6FB7;
+    font-size: 13px;
+}
+
+p.worldsay table tr {
+    color: #EEE8AA;
+    background: maroon
+}
+
+p.worldsay table tr td {
+    color: #EEE8AA
+}

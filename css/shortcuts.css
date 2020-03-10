@@ -1,10 +1,49 @@
 /*Shortcut-Menu .... fastspell <-> shortcuts*/
-a[href$="mode=delete"] {background:black;}
-a[href$="mode=delete"]:after {background:transparent;content:"x";font-size:11px;font-weight:normal;}
-table[id="fastspell"] tr td:first-child {background:url(../listcaption.jpg) no-repeat;}
-table[id="fastspell"] tr td:last-child {background:url(../listcaption.jpg) no-repeat right top;text-align:right;border-top-right-radius:6px;}
-table[id^="fastspell"] tr td {color:green;padding:3px 5px 2px 5px;border-bottom:1px solid #0A0A0A;}
-span.fast_spell_set {color:green;font-weight:bold;}
-table[id^="fastspell"] tr td[width="95%"]	{background:url(../listrow.gif) repeat-y;}
-table[id^="fastspell"] tr td[valign="top"]	{border-right:1px solid #131517;background:url(../listrow.gif) repeat-y right}
-span.small > center {background:url(../shortcutsbottom.gif) no-repeat bottom left;border-right:1px solid #131517;padding-bottom:3px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;}
+a[href$="mode=delete"] {
+    background: black;
+}
+
+a[href$="mode=delete"]:after {
+    background: transparent;
+    content: "x";
+    font-size: 11px;
+    font-weight: normal;
+}
+
+table[id="fastspell"] tr td:first-child {
+    background: url(../listcaption.jpg) no-repeat;
+}
+
+table[id="fastspell"] tr td:last-child {
+    background: url(../listcaption.jpg) no-repeat right top;
+    text-align: right;
+    border-top-right-radius: 6px;
+}
+
+table[id^="fastspell"] tr td {
+    color: green;
+    padding: 3px 5px 2px 5px;
+    border-bottom: 1px solid #0A0A0A;
+}
+
+span.fast_spell_set {
+    color: green;
+    font-weight: bold;
+}
+
+table[id^="fastspell"] tr td[width="95%"] {
+    background: url(../listrow.gif) repeat-y;
+}
+
+table[id^="fastspell"] tr td[valign="top"] {
+    border-right: 1px solid #131517;
+    background: url(../listrow.gif) repeat-y right
+}
+
+span.small > center {
+    background: url(../shortcutsbottom.gif) no-repeat bottom left;
+    border-right: 1px solid #131517;
+    padding-bottom: 3px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
