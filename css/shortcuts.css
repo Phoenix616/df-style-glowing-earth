@@ -11,11 +11,11 @@ a[href$="mode=delete"]:after {
 }
 
 table[id="fastspell"] tr td:first-child {
-    background: url(../listcaption.jpg) no-repeat;
+    background: url(../img/listcaption.jpg) no-repeat;
 }
 
 table[id="fastspell"] tr td:last-child {
-    background: url(../listcaption.jpg) no-repeat right top;
+    background: url(../img/listcaption.jpg) no-repeat right top;
     text-align: right;
     border-top-right-radius: 6px;
 }
@@ -32,16 +32,16 @@ span.fast_spell_set {
 }
 
 table[id^="fastspell"] tr td[width="95%"] {
-    background: url(../listrow.gif) repeat-y;
+    background: url(../img/listrow.gif) repeat-y;
 }
 
 table[id^="fastspell"] tr td[valign="top"] {
     border-right: 1px solid #131517;
-    background: url(../listrow.gif) repeat-y right
+    background: url(../img/listrow.gif) repeat-y right
 }
 
 span.small > center {
-    background: url(../shortcutsbottom.gif) no-repeat bottom left;
+    background: url(../img/shortcutsbottom.gif) no-repeat bottom left;
     border-right: 1px solid #131517;
     padding-bottom: 3px;
     border-bottom-right-radius: 6px;

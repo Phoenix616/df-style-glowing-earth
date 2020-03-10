@@ -1,7 +1,7 @@
 /*chattext*/
 .framechattextbg {
     color: silver;
-    background: black url(../chattextbg.jpg) no-repeat fixed;
+    background: black url(../img/chattextbg.jpg) no-repeat fixed;
     margin: 5px 5px 5px 5px;
     padding-left: 30px;
 }
@@ -9,21 +9,21 @@
 .chattext {
     color: silver;
     font-size: 12px;
-    background: url(area.png);
+    background: url(img/area.png);
     font-family: Verdana;
 }
 
 .chattextscream {
     color: #6495ED;
     font-size: 12px;
-    background: url(area.png);
+    background: url(img/area.png);
     font-family: Verdana;
 }
 
 .chattextclan {
     color: #EE7621;
     font-size: 12px;
-    background: url(area.png);
+    background: url(img/area.png);
     font-family: Verdana;
 }
 
@@ -34,7 +34,7 @@
 .chattextgroup {
     color: #62C400;
     font-size: 12px;
-    background: url(area.png);
+    background: url(img/area.png);
     font-family: Verdana;
 }
 
@@ -48,7 +48,7 @@
 .chattextwhisper {
     color: #B90000;
     font-size: 12px;
-    background: url(area.png);
+    background: url(img/area.png);
     font-family: Verdana;
 }
 

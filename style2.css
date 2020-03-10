@@ -4,7 +4,7 @@
 
 .framemainbg {
     color: #c9c9c9;
-    background: black url(framemainbg2.jpg) fixed;
+    background: black url(img/framemainbg2.jpg) fixed;
     z-index: 1;
     opacity: 0.8;
     -moz-opacity: 0.8;
