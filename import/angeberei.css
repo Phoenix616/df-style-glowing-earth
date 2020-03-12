@@ -3,3 +3,5 @@
 /* Angeberei (Uni1 only) */
 
 p.listusersrow a[href$="watchuser&act_user_id=0"]:before { content: url(../img/taruner_klein.gif); color: #D20000; }
+
+p.listusersrow a[href$="watchuser&act_user_id=1916"]:before {content:"Style Ersteller ";color: silver;}

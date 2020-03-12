@@ -1,5 +1,8 @@
-/*Darkfleet style - Glowing Earth layout - für FF 3.5 - (c) 2009 by Space Phönix (id=1916)
-   edited by VenomEX (id=130)*/
+/*
+Darkfleet style - Glowing Earth layout
+(c) 2009-2020 by Space Phönix (id=1916)
+Includes modifications by VenomEX (id=130)
+*/
 /*Import*/
 @import url(import/berufe.css);
 @import url(import/angeberei.css);
@@ -225,9 +228,9 @@ input[name="Submit"] {
     color: silver;
     font-size: 10px;
     cursor: pointer;
-    width: 60px;
+    width: 85px;
     height: 20px;
-    background: url(img/registerinput60.png);
+    background: url(img/registerinput85.png);
     border: 0px
 }
 
@@ -240,48 +243,10 @@ input[name="Submit"]:active {
     background-position: bottom;
 }
 
-input[value="Neue Beschreibung speichern"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px
-}
-
-input[value="Nachricht abschicken"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Ändern"] {
-    width: 60px;
-    height: 20px;
-    background: url(img/registerinput60.png);
-    border: 0px
-}
-
-input[value="Steuersatz festlegen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Taktik ändern" ] {
-    width: 85px;
-    height: 20px;
-    background: url(img/registerinput85.png);
-    border: 0px
-}
-
-input[value="Abgeben"] {
-    width: 60px;
-    height: 20px;
-    background: url(img/registerinput60.png);
-    border: 0px
-}
-
+/* 60px */
+input[value="Ändern"],
+input[value="Abgeben"],
+input[value="Kaufen"],
 input[value="Abwerfen"] {
     width: 60px;
     height: 20px;
@@ -289,225 +254,55 @@ input[value="Abwerfen"] {
     border: 0px
 }
 
-input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
-    width: 265px;
-    height: 20px;
-    background: url(img/registerinput265.png);
-    border: 0px
-}
-
-input[value="Kaufen"] {
+/* 85px */
+input[value="Taktik ändern" ],
+input[value="Aktien ordern"],
+input[value="Aktien verkaufen"],
+input[value="Rechte ändern"],
+input[value="Per Clanfunk senden"],
+input[value="Alter ändern"],
+input[value="Style ändern"] {
     width: 60px;
     height: 20px;
-    background: url(img/registerinput60.png);
-    border: 0px
-}
-
-input[value="Aktien ordern"] {
-    width: 85px;
-    height: 20px;
     background: url(img/registerinput85.png);
     border: 0px
 }
 
-input[value="Aktien verkaufen"] {
+/* 120px */
+input[value="Nachricht abschicken"],
+input[value="Steuersatz festlegen"],
+input[value="Nachricht erstellen"],
+input[value="Zum Verkauf geben"],
+input[value="Per Funk senden"],
+input[value="Kopfgeld aussetzen"],
+input[value="Passwort überprüfen"],
+input[value="Spieler ignorieren"],
+input[value="Passwort ändern"],
+input[value="Rasse wechseln"],
+input[value="Angebot machen"],
+input[value="Nachricht absenden"],
+input[value="Freund eintragen"],
+input[value="Sprungboje absetzen"],
+input[value="Planet löschen"],
+input[value="Beamvorgang auslösen"],
+input[value="Raumjäger abholen"],
+input[value="Kommentar speichern"] {
     width: 120px;
     height: 20px;
     background: url(img/registerinput120.png);
     border: 0px
 }
 
-input[value="Überweisung durchführen"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px
-}
-
-input[value="Nachricht erstellen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Zum Verkauf geben"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Rechte ändern"] {
-    width: 85px;
-    height: 20px;
-    background: url(img/registerinput85.png);
-    border: 0px
-}
-
-input[value="Per Funk senden"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Per Clanfunk senden"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Verpacken (Kosten:1 Credit)"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px
-}
-
-input[value="Kopfgeld aussetzen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Passwort überprüfen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Spieler ignorieren"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Email-Adresse eintragen"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px
-}
-
-input[value="Passwort ändern"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Alter ändern"] {
-    width: 85px;
-    height: 20px;
-    background: url(img/registerinput85.png);
-    border: 0px
-}
-
-input[value="Kompletten Account jetzt löschen"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Style ändern"] {
-    width: 85px;
-    height: 20px;
-    background: url(img/registerinput85.png);
-    border: 0px
-}
-
-input[value="Abschicken (Kosten:7 Credits)"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Namen und Geschlecht ändern"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Rasse wechseln"] {
-    width: 120px !important;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Angebot machen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Mitgliederrechte setzen"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Nachricht absenden"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
-}
-
-input[value="Freund eintragen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px;
-}
-
-input[value="Sprungboje absetzen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px;
-}
-
-input[value="Ändern (Kosten:1 Credit)"] {
-    width: 160px;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Planet löschen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px;
-    color: red;
-}
-
-input[value="Beamvorgang auslösen"] {
-    width: 120px;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px;
-}
-
+/* 160px */
+input[value="Neue Beschreibung speichern"],
+input[value="Überweisung durchführen"],
+input[value="Verpacken (Kosten:1 Credit)"],
+input[value="Email-Adresse eintragen"],
+input[value="Kompletten Account jetzt löschen"],
+input[value="Abschicken (Kosten:7 Credits)"],
+input[value="Namen und Geschlecht ändern"],
+input[value="Mitgliederrechte setzen"],
+input[value="Ändern (Kosten:1 Credit)"],
 input[value="Raumjäger einlagern lassen"] {
     width: 160px;
     height: 20px;
@@ -515,28 +310,46 @@ input[value="Raumjäger einlagern lassen"] {
     border: 0px;
 }
 
-input[value="Raumjäger abholen"] {
-    width: 120px;
+/* 265px */
+input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
+    width: 265px;
     height: 20px;
-    background: url(img/registerinput120.png);
+    background: url(img/registerinput265.png);
     border: 0px;
 }
 
+/* Chat */
+.framechattextbg {
+    color: silver;
+    background: black url(img/chattextbg.png) no-repeat fixed;
+    background-position-y: bottom;
+    padding: 0px 5px 5px 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-top: 1px #33383b solid;
+}
 
-/*chatform*/
+/* Chatform */
 .framechatformbg {
-    background: black url(img/chatformbg.jpg) no-repeat;
+    background: black url(img/chatformbg.png) no-repeat;
     color: silver;
 }
 
 .framechatformbg table {
     border: 0px !important;
+    margin-top: 1px;
+    margin-left: 36px;
+    width: 97% !important;
+}
+
+.framechatformbg table > tbody > tr:first-child > td:first-child {
+    padding-left: 3px !important;
 }
 
 input.input {
     color: silver;
     font-size: 11px;
-    background: url(img/input.jpg);
+    background: url(img/input.jpg) no-repeat;
     height: 17px;
     padding-left: 3px;
     padding-right: 3px;
@@ -687,7 +500,7 @@ input.input:focus {
 }
 
 .framemainbg:before {
-    content: "(created by Space Phönix / edit by VenomEX)";
+    content: "(created by Space Phönix)";
     display: block;
     color: #333333;
     font-size: 9px;
@@ -710,7 +523,17 @@ td.mainheader {
     border-collapse: separate;
 }
 
-table.areadescription { /* color:silver; *//* background:black url(areadescription.gif) no-repeat; *//* width:100%; *//* padding:1px; *//* padding-top:0px; *//* border-top:solid 1px black; *//* border-bottom:solid 1px #010202; *//* border-left:solid 1px black; *//* border-right:solid 1px black; *//* border-collapse:separate; */
+table.areadescription {
+    color: silver;
+    background: rgba(0, 0, 0, 0.8) url(img/areadescription.png) no-repeat;
+    width: 100%;
+    padding: 1px;
+    padding-top: 0px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px #010202;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-collapse: separate;
 }
 
 td.areadescription {
@@ -823,31 +646,40 @@ p.listusersrow {
     border-right: 1px solid #131517;
 }
 
-td > p.listusersrow:last-of-type {
+td > p.listusersrow:last-of-type,
+#UserDiv > p.listusersrow:last-of-type {
     background: url(img/row_bottom.png) transparent bottom left;
     border: 0px;
     padding-bottom: 17px;
     width: 803px !important;
 }
 
-/*
-p.listplaceitemsrow {color:silver;background:#0C0D0F url(row.gif) bottom left no-repeat;margin-left:-1px;padding:1px 3px 1px 10px;width:802px!important;border-right:1px solid #131517;}
-td > p.listplaceitemsrow:last-of-type {background:url(row_bottom.png) transparent bottom left;border:0px;padding-bottom:17px;width:803px!important;}
-*/
-div.listplaceitemsrow {
-    padding: 2px;
-    padding-left: 5px;
-    background: #0C0D0F url(img/row.gif);
-    border: 1px solid #444499;
-    border-top: 0px;
-    overflow: hidden;
+td > p.listusersrow + #UserDiv > p.listusersrow:first-child {
+    margin-top: -16px;
+    padding-top: 10px;
+}
+
+
+p.listplaceitemsrow {
+    color: silver;
+    background: #0C0D0F url(img/row.gif) bottom left no-repeat;
+    margin-left: -1px;
+    padding: 1px 3px 1px 10px;
+    width: 803px !important;
+    border-right: 1px solid #131517;
+}
+
+td > p.listplaceitemsrow:last-of-type {
+    background: url(img/row_bottom.png) transparent bottom left;
+    border: 0px;
+    padding-bottom: 17px;
+    width: 804px !important;
 }
 
 p.listplaceitemsrow {
     padding: 2px;
-    padding-left: 5px;
+    padding-left: 10px;
     background: #0C0D0F url(img/row.gif);
-    border: 1px solid #444499;
     border-top: 0px;
     overflow: hidden;
 }
@@ -864,7 +696,7 @@ p.listlandrow {
 td > p.listlandrow:last-of-type {
     background: url(img/row_bottom_land.png) transparent bottom left;
     border: 0px;
-    padding-bottom: 13px;
+    padding-bottom: 17px;
     width: 585px !important;
 }
 
@@ -913,7 +745,6 @@ td[style*="1px solid rgb(68, 68, 153);"] {
 /*Item-hover*/
 #ttcontainer {
     background: black url(img/tooltip.gif) no-repeat !important;
-    width: 350px !important;
 }
 
 #ttCaption {
@@ -944,6 +775,11 @@ td[style*="1px solid rgb(68, 68, 153);"] {
     border-right: 1px solid #131517;
 }
 
+/*Errungenschaften*/
+.framemainbg .areadescription table table div.loading[id^="process"] div.process.flatblue {
+    background-color: #D0AA06;
+}
+
 
 /*Freundesliste*/
 .framemainbg form[action="friends.php?action=insertuser"] ~ p.maincaption2 {
@@ -969,17 +805,19 @@ td[style*="1px solid rgb(68, 68, 153);"] {
     float: left;
     margin: 0 .5em 0em 0;
     width: 300px;
+    list-style: none;
+    padding-left: 0;
 }
 
 .friendlist li {
     position: relative;
     padding: 2px;
     padding-left: 5px;
-    background: #0C0D0F url(img/row_land.gif) bottom left no-repeat;
+    background: #0C0D0F url(img/row_friend.gif) bottom left no-repeat;
 }
 
 .friendlist li:nth-child(2n-1) {
-    background: #141619 url(img/row_land.gif) bottom left no-repeat;
+    background: #141619 url(img/row_friend.gif) bottom left no-repeat;
 }
 
 .friendlist li a {
@@ -987,7 +825,7 @@ td[style*="1px solid rgb(68, 68, 153);"] {
 }
 
 .friendlist li a.delete_friend {
-    right: 0px;
+    right: 4px;
     position: absolute;
 }
 
@@ -1000,6 +838,29 @@ td[style*="1px solid rgb(68, 68, 153);"] {
 .friendlist + .maincaption2 {
     clear: both;
 }
+
+
+.framemainbg p.maincaption2 ~ table.friendlist tbody tr td {
+    color: silver;
+    background: transparent !important;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+}
+
+.framemainbg p.maincaption2 ~ .friendlist {
+    background: url(img/row_bottom_friend.png) transparent bottom left;
+    padding-bottom: 20px;
+}
+
+.framemainbg #ttContainer {
+    width: unset !important;
+}
+
+.framemainbg #ttCaption {
+    color: silver !important;
+}
+
 
 /*Verkaufen abständevereinheitlichen*/
 
@@ -1022,13 +883,18 @@ span[title*="Geschützt vor"] {
 }
 
 
+/*Multi Ship indicator*/
+.listusersrow[id^="npc-"] > b:first-of-type {
+    color: #DACB65;
+}
+
 /*Counter
 , decimal-leading-zero*/
-p.listusersrow {
+#UserDiv p.listusersrow {
     counter-increment: ships;
 }
 
-p.listusersrow:before {
+#UserDiv p.listusersrow:before {
     content: counter(ships) " | ";
     font-weight: bold;
 }
@@ -1113,7 +979,7 @@ em {
 .frameitembg p.listcaption {
     color: #B70000;
     font-weight: bold;
-    background: url(img/listcaption_n.jpg) no-repeat;
+    background: url(img/listcaption_n.jpg) no-repeat black;
     padding: 3px 2px 2px 5px;
     border: solid 0px;
     border-right: 1px solid #131517;
@@ -1135,25 +1001,47 @@ p.listsubcaption {
     border-bottom: 0px solid #d6cbc2
 }
 
-.frameitembg p.listrow {
+.frameitembg .listrow,
+.frameitembg .listitemrow {
     color: silver;
-    background: url(img/listrow.gif) repeat-y;
+    background: url(img/listrow.gif) repeat-y black;
     padding: 1px 3px 1px 5px;
     border: 0px;
     border-right: 1px solid #131517;
 }
 
-.frameitembg > p.listrow:last-of-type { /*background:url(shortcutsbottom.gif) no-repeat bottom left;*/
+.frameitembg td.listrow {
+    background: unset;
+}
+
+.frameitembg table.listrow td.listrow:first-child {
+    border-right: 0px;
+}
+
+.frameitembg .listcaption ~ p.listrow:last-of-type,
+.frameitembg .listcaption ~ p:not(.listrow) + .listrow,
+.frameitembg .listcaption ~ form[name="transferfilter"] + .listrow,
+.frameitembg .listitemrow ~ #divend {
+    /*background:url(shortcutsbottom.gif) no-repeat bottom left;*/
     border-bottom: 1px solid #25282B;
     padding-bottom: 3px;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
 }
 
+.frameitembg .listitemrow ~ #divend {
+    background: url(img/listrow.gif) repeat-y black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px solid #131517;
+    margin: 0;
+    padding-top: 3px;
+}
+
 .frameitembg div[style="margin-top:10px;margin-bottom:10px;"] {
     margin-top: 0px !important;
     padding: 1px 3px 1px 5px;
-    background: url(img/listrow.gif) repeat-y;
+    background: url(img/listrow.gif) repeat-y black;
     border-bottom: 1px solid #25282B;
     border-right: 1px solid #131517;
     border-bottom-right-radius: 6px;
@@ -1166,7 +1054,7 @@ p.listsubcaption {
 
 div.listrow {
     color: silver;
-    background: url(img/listrow.gif) repeat-y;
+    background: url(img/listrow.gif) repeat-y black;
     padding: 1px 3px 1px 5px;
     border: 0px;
     border-right: 1px solid #131517;
@@ -1220,7 +1108,7 @@ p.listrow[style="text-align:center;"] + p.listrow + div {
 /*Forschungsmenu*/
 table.abilitymenu {
     border-collapse: separate;
-    background: url(img/listrow.gif) repeat-y;
+    background: url(img/listrow.gif) repeat-y black;
     border-right: 1px solid #131517 !important;
     border-bottom: 1px solid #25282B;
     border-radius: 0px 0px 8px 8px;
@@ -1260,7 +1148,7 @@ table.abilitymenu tbody tr:nth-child(2n) {
     border-radius: 4px;
 }
 
-/*Taktik-Menue*/
+/*Taktik-Menu*/
 
 form[action^="item.php?action=tactic"] > p.listrow {
     border-bottom: 1px solid #25282B;
@@ -1373,99 +1261,24 @@ body.frameitembg a[href*="z_user_id="]:nth-child(4n+1) {
 
 /*Items auf einen Spieler anwenden*/
 
-
-/*css transform 3d
-body , body.framemapbg > * { perspective: 400px; } #mapWrapper , body.framemapbg > center:nth-child(2) > div:nth-child(1) , body.framemapbg > center:nth-child(3) > div:first-child { transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); top:-50px; } #fueldisp { transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); top:0px; }
-body , body.framemapbg > * { -webkit-perspective: 400px; perspective: 400px; } #mapWrapper , body.framemapbg > center:nth-child(2) > div:nth-child(1) , body.framemapbg > center:nth-child(3) > div:first-child { -webkit-transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); top:-50px; } #fueldisp { -webkit-transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); top:0px; }
-body , body.frameajaxmapbg > * { -webkit-perspective: 400px; perspective: 400px; } #mapWrapper , body.frameajaxmapbg > center:nth-child(2) > div:nth-child(1) , body.frameajaxmapbg > center:nth-child(3) > div:first-child { -webkit-transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(45deg) rotateZ(0deg); top:-50px; } #fueldisp { -webkit-transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); top:0px; }
-*/
-
-/*
-.framemapbg {color:silver;background:#0C0D0D url(framemapbg_d.jpg) no-repeat fixed;margin:3px 10px 10px;margin-top:5px;padding-left:2px;}
-.framemapbg p.positiontext {color:#D0AA06;font-size:10px;width:250px;margin-bottom:1px;text-align:right;}
-.framemapbg a[href*="reload"] {position:absolute;left:16px;top:5px;}
-.framemapbg img[src$="relmap.gif"] { display: none; }
-.framemapbg a[href*="reload"]:after { content: "Aktualisieren"; background: url(img/arrow_refresh_small.png) no-repeat center left; padding-left: 12px; }
-.framemapbg #energydisp {background:transparent;height:12px!important;padding-left:49px;padding-right:49px;border:0px;}
-.framemapbg #fullenergydisp {font-weight:bold;margin-top:0px;position:absolute;left:50px!important;border-width:0px!important;background:url(empty_b.jpg) right no-repeat!important;}
-.framemapbg #curenergy {font-weight:bold;position:absolute;left:50px!important;background:url(full_b.png) right no-repeat!important;margin-left:7px!important;border:0px !important;}
-.framemapbg #test {color:silver;font-weight:bold;position:absolute;margin-top:10px;left:50px!important;border-width:0px!important;}
-*/
-
-/*alte Map Treibstoff*/
-.framemapbg {
-    color: silver;
-    background: #0C0D0D url(img/framemapbg_d.jpg) no-repeat fixed;
-    margin: 3px 10px 10px;
-    margin-top: 5px;
-    padding-left: 2px;
-}
-
-.framemapbg p.positiontext {
-    color: #D0AA06;
-    font-size: 10px;
-    width: 250px;
-    margin-bottom: 1px;
-    text-align: right;
-}
-
-.framemapbg a[href*="reload"] {
-    position: absolute;
-    left: 16px;
-    top: 5px;
-}
-
-.framemapbg img[src$="relmap.gif"] {
-    display: none;
-}
-
-.framemapbg a[href*="reload"]:after {
-    content: "Aktualisieren";
-    background: url(img/arrow_refresh_small.png) no-repeat center left;
-    padding-left: 12px;
-}
-
-.framemapbg #fueldisp {
-    background: transparent;
-    height: 12px !important;
-    padding-left: 49px;
-    padding-right: 49px;
-    border: 0px;
-}
-
-.framemapbg #fullfueldisp {
-    font-weight: bold;
-    margin-top: 0px;
-    position: absolute;
-    left: 50px !important;
-    border-width: 0px !important;
-    background: url(img/empty_b.jpg) right no-repeat !important;
-}
-
-.framemapbg #curfuel {
-    font-weight: bold;
-    position: absolute;
-    left: 50px !important;
-    background: url(img/full_b.png) right no-repeat !important;
-    margin-left: 7px !important;
-    border: 0px !important;
-}
-
-.framemapbg #mapenergy {
-    color: silver;
-    font-weight: bold;
-    position: absolute;
-    margin-top: 10px;
-    left: 50px !important;
-    border-width: 0px !important;
-}
-
 /*> > Logout*/
+
 .framemapbg a[href="logout.php"] {
     position: absolute;
     margin-top: 14px;
     left: 16px;
-    width: 111px;
+}
+
+.framemapbg a[href="map.php"],
+.framemapbg a[href="map.html.php"] {
+    position: absolute;
+    left: 191px;
+}
+
+.framemapbg a[href="logout.php"],
+.framemapbg a[href="map.php"],
+.framemapbg a[href="map.html.php"] {
+    width: 157px;
     height: 16px;
     padding: 2px 0px 0px 9px;
     text-align: center;
@@ -1474,79 +1287,94 @@ body , body.frameajaxmapbg > * { -webkit-perspective: 400px; perspective: 400px;
     border-radius: 6px;
 }
 
-.framemapbg a[href="map.php"], .framemapbg a[href="map.html.php"] {
-    position: absolute;
-    left: 144px;
-    width: 111px;
-    height: 16px;
-    padding: 2px 0px 0px 9px;
-    text-align: center;
-    background: black;
-    border: 1px solid #25282B;
-    border-radius: 6px;
-}
-
-.framemapbg a[href="logout.php"]:before {
-    content: url(img/check.png);
-    position: absolute;
-    left: 3px;
-    top: 0px;
-    height: 14px;
-    padding: 4px 3px 0px 0px;
-    background: black;
-    border-right: 1px solid #25282B;
-}
-
-.framemapbg a[href="map.php"]:before, .framemapbg a[href="map.html.php"]:before {
-    content: url(img/cross.png);
+.framemapbg a[href="logout.php"]:before,
+.framemapbg a[href="map.php"]:before,
+.framemapbg a[href="map.html.php"]:before {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: center;
     position: absolute;
     left: 4px;
     top: 0px;
     height: 14px;
+    width: 14px;
     padding: 4px 2px 0px 0px;
-    background: black;
     border-right: 1px solid #25282B;
 }
 
-.framemapbg a[href="logout.php"]:hover, .framemapbg a[href="map.php"]:hover, .framemapbg a[href="map.html.php"]:hover {
+.framemapbg a[href="logout.php"]:before {
+    background-image: url(img/check.png);
+}
+
+.framemapbg a[href="map.php"]:before,
+.framemapbg a[href="map.html.php"]:before {
+    background-image: url(img/cross.png);
+}
+
+.framemapbg a[href="logout.php"]:hover {
     border: 1px solid #3C0;
     text-decoration: none;
 }
 
-/*verbesserte Map
-.frameajaxmapbg {background:#0C0D0D url(framemapbg_d.jpg) no-repeat fixed!important;margin-top:5px;padding-left:2px;}
-.frameajaxmapbg p.positiontext {text-align:center;color:#ffd800;font-size:10px;}
-.frameajaxmapbg img[src$="relmap.gif"] {background:url(arrow_refresh_small.png);height:0px !important;padding-top:12px;width:12px;}
-.frameajaxmapbg #mapWrapper {width:250px;height:250px;overflow:hidden;position:relative;margin:0 auto;}
-.frameajaxmapbg #usership {position:absolute;top:100px;left:100px;}
-.frameajaxmapbg #mapTable {position:relative;width:350px;}
-.frameajaxmapbg #mapTable a {position:relative;float:left;width:50px;height:50px;}
-.frameajaxmapbg #mapTable a:hover {cursor:pointer;}
-.frameajaxmapbg #mapTable img {background:transparent;position:absolute;top:0px;left:0px;border:none;}
-.frameajaxmapbg #mapTable img.imagefield {z-index:-3;}
-.frameajaxmapbg #mapTable img.imageusers {z-index:-2;}
-.frameajaxmapbg #mapTable img.imagenpcs {z-index:-1;}
-.frameajaxmapbg #energydisp {position:relative;margin:0 auto;width:150px;}
-.frameajaxmapbg #fullenergydisp {background:url(empty_b.jpg) right no-repeat!important;border:0px!important;}
-.frameajaxmapbg #curenergy {background:url(full_b.png) right no-repeat!important;margin-left:7px;border:0px!important;}
-.frameajaxmapbg #mapenergy {text-align:center;margin-top:10px!important;}
-#mapTable a#oli:hover, #mapTable a#oben:hover, #mapTable a#ore:hover, #mapTable a#links:hover, #mapTable a#rechts:hover, #mapTable a#uli:hover, #mapTable a#unten:hover, #mapTable a#ure:hover {cursor:pointer;}
-*/
+.framemapbg a[href="map.php"]:hover, .framemapbg a[href="map.html.php"]:hover {
+    border: 1px solid red;
+    text-decoration: none;
+}
+
+/*verbesserte Map */
 
 /*verbesserte Map Treibstoff*/
+.framemapbg,
 .frameajaxmapbg {
-    background: #0C0D0D url(img/framemapbg_d.jpg) no-repeat fixed !important;
+    background: #060606 url(img/frameitembg.gif) scroll repeat-y;
     margin-top: 5px;
-    padding-left: 2px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
-.frameajaxmapbg p.positiontext {
-    text-align: center;
-    color: #ffd800;
-    font-size: 10px;
+/* Nachrichten */
+.positiontext > div:first-child {
+    width: unset !important;
 }
 
-.frameajaxmapbg #mapWrapper {
+.positiontext > div:first-child a {
+    font-size: 0;
+}
+
+.positiontext > div:first-child a blink {
+    background: url(img/mail_small.png) no-repeat center left;
+    padding-left: 14px;
+    font-size: 11px;
+}
+
+.positiontext > div:first-child a:hover blink {
+    background: unset;
+    padding-left: 0;
+}
+
+.positiontext > div:first-child a:hover blink:before {
+    content: "Nachrichten: ";
+}
+
+/* Reload */
+a#map-refresh img {
+    display: none;
+}
+
+a#map-refresh:after {
+    content: " ";
+    background: url(img/arrow_refresh_small.png) no-repeat center left;
+    padding-left: 12px;
+}
+
+/* Position */
+.positiontext div + div {
+    position: relative !important;
+    left: unset !important;
+}
+
+#mapWrapper {
     width: 350px;
     height: 350px;
     overflow: hidden;
@@ -1554,24 +1382,24 @@ body , body.frameajaxmapbg > * { -webkit-perspective: 400px; perspective: 400px;
     margin: 0 auto;
 }
 
-.frameajaxmapbg #usership {
+#usership {
     position: absolute;
     top: 150px;
     left: 150px;
 }
 
-.frameajaxmapbg #mapTable {
+#mapTable {
     position: relative;
     width: 450px;
     height: 450px;
 }
 
-.frameajaxmapbg #mapTable div {
+#mapTable div {
     width: 100%;
     height: 50px;
 }
 
-.frameajaxmapbg #mapTable a {
+#mapTable a {
     position: relative;
     float: left;
     width: 50px;
@@ -1579,13 +1407,13 @@ body , body.frameajaxmapbg > * { -webkit-perspective: 400px; perspective: 400px;
     border: none;
 }
 
-.frameajaxmapbg #mapTable a:hover {
+#mapTable a:hover {
     cursor: default;
     background-position: top left;
     background-repeat: no-repeat;
 }
 
-.frameajaxmapbg #mapTable img {
+#mapTable img {
     background: transparent;
     position: absolute;
     top: 0;
@@ -1593,88 +1421,154 @@ body , body.frameajaxmapbg > * { -webkit-perspective: 400px; perspective: 400px;
     border: none;
 }
 
-.frameajaxmapbg #mapTable img.imagefield {
+#mapTable img.imagefield {
     z-index: -3;
 }
 
-.frameajaxmapbg #mapTable img.imageusers {
+#mapTable img.imageusers {
     z-index: -2;
 }
 
-.frameajaxmapbg #mapTable img.imagenpcs {
+#mapTable img.imagenpcs {
     z-index: -1;
 }
 
-.frameajaxmapbg a.nocango:hover {
-    background-image: url(img/map/nocango.gif) !important;
+#mapTable a.nocango:hover {
+    background-image: url(img/map/no-cango.png) !important;
+    background-size: cover;
 }
 
-.frameajaxmapbg #ore:hover {
-    background-image: url(img/map/re-o.gif);
+#mapTable #ore:hover {
+    background-image: url(img/map/re-o.png);
 }
 
-.frameajaxmapbg #oben:hover {
-    background-image: url(img/map/oben.gif);
+#mapTable #oben:hover {
+    background-image: url(img/map/oben.png);
 }
 
-.frameajaxmapbg #oli:hover {
-    background-image: url(img/map/li-o.gif);
+#mapTable #oli:hover {
+    background-image: url(img/map/li-o.png);
 }
 
-.frameajaxmapbg #links:hover {
-    background-image: url(img/map/links.gif);
+#mapTable #links:hover {
+    background-image: url(img/map/links.png);
 }
 
-.frameajaxmapbg #uli:hover {
-    background-image: url(img/map/li-u.gif);
+#mapTable #uli:hover {
+    background-image: url(img/map/li-u.png);
 }
 
-.frameajaxmapbg #unten:hover {
-    background-image: url(img/map/unten.gif);
+#mapTable #unten:hover {
+    background-image: url(img/map/unten.png);
 }
 
-.frameajaxmapbg #ure:hover {
-    background-image: url(img/map/re-u.gif);
+#mapTable #ure:hover {
+    background-image: url(img/map/re-u.png);
 }
 
-.frameajaxmapbg #rechts:hover {
-    background-image: url(img/map/rechts.gif);
+#mapTable #rechts:hover {
+    background-image: url(img/map/rechts.png);
 }
 
-.frameajaxmapbg #fueldisp {
-    position: relative;
-    margin: 0 auto;
-    width: 150px;
-}
+/* Fuel display */
 
-.frameajaxmapbg #fullfueldisp {
-    font-weight: bold;
-    margin-top: 0px;
-    position: absolute;
-    left: 0px !important;
-    border-width: 0px !important;
-    background: url(img/empty_b.jpg) right no-repeat !important;
-}
-
-.frameajaxmapbg #curfuel {
-    font-weight: bold;
-    position: absolute;
-    left: 0px !important;
-    background: url(img/full_b.png) right no-repeat !important;
-    margin-left: 7px !important;
-    border: 0px !important;
-}
-
-.frameajaxmapbg #mapenergy {
+#mapenergy {
     color: silver;
     font-weight: bold;
     position: absolute;
     margin-top: 10px;
-    left: 20px !important;
+    text-align: center;
     border-width: 0px !important;
 }
 
-.frameajaxmapbg #mapTable a#oli:hover, #mapTable a#oben:hover, #mapTable a#ore:hover, #mapTable a#links:hover, #mapTable a#rechts:hover, #mapTable a#uli:hover, #mapTable a#unten:hover, #mapTable a#ure:hover {
+/* Shield/Energy */
+
+#fueldisp,
+#shielddisp.small,
+#energydisp.small {
+    position: relative;
+    margin: 0 auto;
+}
+
+#shielddisp.small,
+#energydisp.small {
+    width: 90px;
+}
+
+#fullfueldisp,
+#fullenergydisp,
+#fullshielddisp {
+    font-weight: bold;
+    position: absolute;
+    border-width: 0 !important;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#fullenergydisp,
+#fullshielddisp {
+    margin-top: -6px;
+}
+
+#fullenergydisp {
+    background-image: url(img/energy_empty_b.jpg) !important;
+}
+
+#fullshielddisp {
+    background-image: url(img/shield_empty_b.jpg) !important;
+}
+
+#fullfueldisp {
+    margin-top: 0px;
+    background-image: url(img/fuel_empty_b.jpg) !important;
+}
+
+#curshield,
+#curenergy,
+#curfuel {
+    font-weight: bold;
+    position: absolute;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: 7px !important;
+    border: 0px !important;
+}
+
+#curshield,
+#curenergy {
+    margin-top: -6px;
+}
+
+#curshield {
+    background-image: url(img/shield_full_b.png) !important;;
+}
+
+#curenergy {
+    background-image: url(img/energy_full_b.png) !important;
+}
+
+#curfuel {
+    background-image: url(img/fuel_full_b.png) !important;
+}
+
+#shieldtext {
+    margin-top: 4px;
+    color: #87f1ff;
+}
+
+#energytext {
+    margin-top: 4px;
+    color: #7affa0;
+}
+
+#mapTable a#oli:hover,
+#mapTable a#oben:hover,
+#mapTable a#ore:hover,
+#mapTable a#links:hover,
+#mapTable a#rechts:hover,
+#mapTable a#uli:hover,
+#mapTable a#unten:hover,
+#mapTable a#ure:hover {
     cursor: pointer;
 }
 
@@ -1699,6 +1593,12 @@ img[src$="user3.gif"] {
     height: 0 !important;
     padding-top: 50px;
     width: 50px;
+}
+
+/* Map Footer */
+#fueldisp + .small {
+    text-align: center;
+    padding-top: 10px !important;
 }
 
 /*Sprung abbrechen*/

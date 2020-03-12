@@ -8,7 +8,7 @@
 }
 
 a[href$="=jumpdrive2&z_pos_id=144"]:after {
-    content: " >Gargom >Nuhilro";
+    content: " > Gargom > Nuhilro";
 }
 
 /*Gravi*/
@@ -21,18 +21,17 @@ a[href$="=jumpdrive2&z_pos_id=1"] {
 /*IGHZ*/
 a[href$="=jumpdrive2&z_pos_id=1"]:after {
     visibility: visible;
-    content: "IGHZ >Gigelsa >Mibress";
+    content: "IGHZ > Gigelsa > Mibress";
     font-size: 12px;
-    padding-left: 10px;
 }
 
 a[href$="=jumpdrive2&z_pos_id=2502"]:after {
-    content: " >Sral";
+    content: " > Sral";
 }
 
 /*Lichtu*/
 a[href$="=jumpdrive2&z_pos_id=85"]:after {
-    content: " >Athos/Nasrana >Imantor";
+    content: " > Athos/Nasrana > Imantor";
 }
 
 /*Sivila*/
