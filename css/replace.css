@@ -1,14 +1,16 @@
 /*- Texte ersetzen -*/
 
 /*"Nehmen" ersetzen*/
+a[href*="action=takemoney&act_item_id="],
 a[href*="action=take&act_item_id="] {
     visibility: hidden;
     font-size: 0px;
     background: #0C0D0F;
 }
+a[href*="action=takemoney&act_item_id="]:after,
 a[href*="action=take&act_item_id="]:after {
     visibility: visible;
-    content: "an Bord holen";
+    content: "An Bord holen";
     font-size: 12px;
 }
 

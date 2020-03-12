@@ -13,6 +13,7 @@ Includes modifications by VenomEX (id=130)
 @import url(css/shortcuts.css);
 @import url(css/replace.css);
 @import url(css/missions.css);
+@import url(css/settings.css);
 
 
 /*global*/
@@ -30,7 +31,7 @@ p {
 
 /*body*/
 body {
-    background: #ffffff;
+    background: black;
     margin: 0px;
 }
 
@@ -348,9 +349,9 @@ input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
 
 input.input {
     color: silver;
-    font-size: 11px;
+    font-size: 14px;
     background: url(img/input.jpg) no-repeat;
-    height: 17px;
+    height: 20px;
     padding-left: 3px;
     padding-right: 3px;
     border: solid 1px #604A1D;

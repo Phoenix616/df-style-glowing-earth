@@ -1,0 +1,35 @@
+/* Settings (An) */
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipanim"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipajaxmap"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skiparrowmap"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipstditemlist"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipreports"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipmsgs"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipslapmsgs"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipnpcgfx"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipanimationerru"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipcry"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipwhisper"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipspam"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skippopup"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=skipgroup"] {
+    color: #7eff7e;
+}
+
+/* Settings (Aus) */
+p.listcaption a[href$="profil.php?showmode=preferences&action=showanim"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showajaxmap"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showarrowmap"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showstditemlist"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showreports"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showmsgs"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showslapmsgs"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=shownpcgfx"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showanimationerru"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showcry"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showwhisper"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showgroup"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showpopup"],
+p.listcaption a[href$="profil.php?showmode=preferences&action=showspam"] {
+    color: #f64459;
+}
