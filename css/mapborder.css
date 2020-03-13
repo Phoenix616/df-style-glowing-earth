@@ -2,20 +2,20 @@
 
 #mapTable > div:first-child a img.imagefield {
     margin-top: 1px;
-    z-index: 10;
+    z-index: 3;
 }
 
 #mapTable > div a:first-child img.imagefield {
     margin-left: 1px;
-    z-index: 10;
+    z-index: 3;
 }
 
 #mapTable > div a:last-child img.imagefield {
     margin-left: -1px;
-    z-index: 10;
+    z-index: 3;
 }
 
 #mapTable > div:last-child a img.imagefield {
     margin-top: -1px;
-    z-index: 10;
+    z-index: 3;
 }
