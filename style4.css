@@ -1,6 +1,7 @@
 @import url(style..base.css);
 @import url(css/cid.css);
 @import url(css/chattext.ge.css);
+@import url(css/space.css);
 
 .framemainbg {
     color: #c9c9c9;
@@ -9,7 +10,7 @@
     border-collapse: separate;
 }
 
-/*Weltraum transparent*/
+/*Karte*/
 .framemapbg a[href="map.php"] {
     right: 16px;
     color: #FF2F2F;
@@ -18,39 +19,6 @@
 .framemapbg a[href="map.php"]:hover {
     color: #E36B30;
 }
-
-.framemapbg td[style*="/rand/space"], .framemapbg td[style$="/black.jpg);"] {
-    opacity: 0.51;
-}
-
-.framemapbg td[style$="/space9117.jpg);"] {
-    opacity: 1.0;
-}
-
-.imagefield[src*="/rand/space"], .imagefield[src$="/black.jpg"] {
-    opacity: 0.51;
-}
-
-.imagefield[src$="/space9117.jpg"] {
-    opacity: 1.0;
-}
-
-.areadescription td[background*="/rand/space"], .areadescription td[background$="/black.jpg"] {
-    opacity: 0.51;
-}
-
-.areadescription td[background$="/space9117.jpg"] {
-    opacity: 1.0;
-}
-
-.areadescription table#build_fields td[background^="../images/map/"]:hover {
-    opacity: 1.0;
-}
-
-.areadescription table#destroy_fields td[background^="../images/map/"] a:hover {
-    opacity: 0.51;
-}
-
 
 /*main module*/
 .framemainbg {
@@ -61,7 +29,7 @@
 }
 
 .framemainbg:before {
-    content: "(created by Space Ph�nix / edit by VenomEX)";
+    content: "(created by Space Ph\0000F6nix / edit by VenomEX)";
     display: block;
     color: #333333;
     font-size: 9px;
