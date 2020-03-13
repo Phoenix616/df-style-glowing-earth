@@ -230,7 +230,7 @@ input[name="Submit"] {
     color: silver;
     font-size: 10px;
     cursor: pointer;
-    width: 85px;
+    width: 85px!important;
     height: 20px;
     background: url(img/registerinput85.png);
     border: 0px
@@ -250,7 +250,7 @@ input[value="Ändern"],
 input[value="Abgeben"],
 input[value="Kaufen"],
 input[value="Abwerfen"] {
-    width: 60px;
+    width: 60px!important;
     height: 20px;
     background: url(img/registerinput60.png);
     border: 0px
@@ -264,7 +264,7 @@ input[value="Rechte ändern"],
 input[value="Per Clanfunk senden"],
 input[value="Alter ändern"],
 input[value="Style ändern"] {
-    width: 60px;
+    width: 85px!important;
     height: 20px;
     background: url(img/registerinput85.png);
     border: 0px
@@ -289,7 +289,7 @@ input[value="Planet löschen"],
 input[value="Beamvorgang auslösen"],
 input[value="Raumjäger abholen"],
 input[value="Kommentar speichern"] {
-    width: 120px;
+    width: 120px!important;
     height: 20px;
     background: url(img/registerinput120.png);
     border: 0px
@@ -306,7 +306,7 @@ input[value="Namen und Geschlecht ändern"],
 input[value="Mitgliederrechte setzen"],
 input[value="Ändern (Kosten:1 Credit)"],
 input[value="Raumjäger einlagern lassen"] {
-    width: 160px;
+    width: 160px!important;
     height: 20px;
     background: url(img/registerinput160.png);
     border: 0px;
@@ -314,7 +314,7 @@ input[value="Raumjäger einlagern lassen"] {
 
 /* 265px */
 input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
-    width: 265px;
+    width: 265px!important;
     height: 20px;
     background: url(img/registerinput265.png);
     border: 0px;
@@ -367,8 +367,14 @@ input.input:focus {
     border-radius: 10px;
 }
 
-.submitsagen {
-    color: #C0C0C0;
+.submitsagen,
+.submitschreien,
+.submitmodchat,
+.submitmodchat,
+.submitclan,
+.submitgroup,
+.submitworldsay,
+.submitwhisper {
     font-size: 10px;
     font-weight: bold;
     background: url(img/button.png);
@@ -378,88 +384,39 @@ input.input:focus {
     height: 17px;
     border: 0px;
     cursor: pointer;
+}
+
+.framechatformbg input[type="submit"]:hover,
+.framechatformbg input[type="submit"]:focus {
+    background-position: bottom;
+}
+
+.submitsagen {
+    color: #C0C0C0;
 }
 
 .submitschreien {
     color: #6495ED;
-    font-size: 10px;
-    font-weight: bold;
-    background: url(img/button.png);
-    margin-right: 2px;
-    margin-left: 1px;
-    width: 88px;
-    height: 17px;
-    border: 0px;
-    cursor: pointer;
 }
 
 .submitmodchat {
     color: #9A1085;
-    font-size: 10px;
-    font-weight: bold;
-    background: url(img/button.png);
-    margin-right: 2px;
-    margin-left: 1px;
-    width: 88px;
-    height: 17px;
-    border: 0px;
-    cursor: pointer;
 }
 
 .submitclan {
     color: #EE7621;
-    font-size: 10px;
-    font-weight: bold;
-    background: url(img/button.png);
-    margin-right: 2px;
-    margin-left: 1px;
-    width: 88px;
-    height: 17px;
-    border: 0px;
-    cursor: pointer;
 }
 
 .submitgroup {
     color: #62C400;
-    font-size: 10px;
-    font-weight: bold;
-    background: url(img/button.png);
-    margin-right: 2px;
-    margin-left: 1px;
-    width: 88px;
-    height: 17px;
-    border: 0px;
-    cursor: pointer;
 }
 
 .submitworldsay {
     color: #008B00;
-    font-size: 10px;
-    font-weight: bold;
-    background: url(img/button.png);
-    margin-right: 2px;
-    margin-left: 1px;
-    width: 88px;
-    height: 17px;
-    border: 0px;
-    cursor: pointer;
 }
 
 .submitwhisper {
     color: #B90000;
-    font-size: 10px;
-    font-weight: bold;
-    background: url(img/button.png);
-    margin-right: 2px;
-    margin-left: 1px;
-    width: 88px;
-    height: 17px;
-    border: 0px;
-    cursor: pointer;
-}
-
-.framechatformbg input[type="submit"]:hover, .framechatformbg input[type="submit"]:focus {
-    background-position: bottom;
 }
 
 #fcred {
@@ -880,7 +837,7 @@ td[style*="1px solid rgb(68, 68, 153);"] {
 }
 
 
-/*Verkaufen abständevereinheitlichen*/
+/*Verkaufen Abstände vereinheitlichen*/
 
 td.areadescription > form > table[align="left"] > tbody > tr > td {
     width: 490px;
@@ -963,26 +920,25 @@ em {
     text-transform: uppercase;
 }
 
+/*Freund*/
 .friendly {
     color: #17A105;
 }
 
-/*Freund*/
+/*?-Feind*/
 .enemy {
     color: #FF0000;
 }
 
-/*?-Feind*/
+/*Clan/Flotten/Armada-Mitglied*/
 .member {
     color: #0055AA;
 }
 
-/*Clan/Flotten/Armada-Mitglied*/
+/*Admin*/
 .admin {
     color: #FF0000;
 }
-
-/*Admin*/
 
 
 /*item module*/
@@ -994,7 +950,8 @@ em {
     overflow-x: hidden;
 }
 
-.frameitembg p.listcaption {
+.frameitembg p.listcaption,
+.frameitembg br + p.listrow {
     color: #B70000;
     font-weight: bold;
     background: url(img/listcaption_n.jpg) no-repeat black;
@@ -1041,11 +998,19 @@ p.listsubcaption {
     border-right: 0px;
 }
 
-.frameitembg .listcaption ~ p.listrow:last-of-type,
-.frameitembg .listcaption ~ p:not(.listrow) + .listrow,
+.frameitembg .listrow + br {
+    background: url(img/listrow.gif) repeat-y black;
+    border-right: 1px solid #131517;
+    display: block;
+    margin-bottom: 1em;
+    content: "";
+}
+
+.frameitembg .listrow + br,
+/*.frameitembg .listcaption ~ p.listrow:last-of-type,*/ /*Old list end row, replaced with br above */
+/*.frameitembg .listcaption ~ p:not(.listrow):not(.listcaption) + .listrow,*/ /* Old list end for the stats, replaced with br above */
 .frameitembg .listcaption ~ form[name="transferfilter"] + .listrow,
 .frameitembg .listitemrow ~ #divend {
-    /*background:url(shortcutsbottom.gif) no-repeat bottom left;*/
     border-bottom: 1px solid #25282B;
     padding-bottom: 3px;
     border-bottom-right-radius: 6px;
