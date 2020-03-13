@@ -1013,6 +1013,11 @@ em {
     border-bottom-left-radius: 6px;
 }
 
+.listrow i,
+.listplaceitemsrow i,
+.itemmagic {
+    color: #65ff65;
+}
 
 p.listsubcaption {
     color: silver;
@@ -1595,9 +1600,11 @@ a#map-refresh:after {
 }
 
 /* compressed inventory */
-.listrow > b:first-child + span + b + #shieldblock > #shieldiconsleft,
+.listrow > b:first-child + span + b + #shieldblock > #shieldiconsleft {
+    margin-left: 90px;
+}
 .listrow > b:first-child + span + b + #shieldblock > #shieldiconsright {
-    margin-left: 70px;
+    margin-left: 28px;
 }
 
 #shieldiconsleft {
