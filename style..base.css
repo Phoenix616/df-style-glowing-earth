@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*
 Darkfleet style - Glowing Earth layout
 (c) 2009-2020 by Space Phönix (id=1916)
@@ -20,7 +21,7 @@ Includes modifications by VenomEX (id=130)
 p, ul, ol, div, td, span,
 layer, table, body {
     color: silver;
-    font: 12px Arial, "Bank Gothic Medium BT", Verdana
+    font: 12px Arial;
 }
 
 p {
@@ -495,15 +496,16 @@ input.input:focus {
 /*main module*/
 .framemainbg {
     color: #c9c9c9;
-    background: black url(img/framemainbg2.jpg) fixed;
+    background: black url(img/framemainbg3.jpg) fixed;
+    background-position-y: center;
     margin: 10px;
     border-collapse: separate;
 }
 
 .framemainbg:before {
-    content: "(created by Space Phönix)";
+    content: "Style by Space Phönix";
     display: block;
-    color: #333333;
+    color: #636363;
     font-size: 9px;
     opacity: 0.8;
     text-align: right;
@@ -636,6 +638,21 @@ p.maindesc2 {
     background: transparent;
     width: 100%;
     border: solid 0 #999999
+}
+
+/*Kampfbericht*/
+p.maincaption2 ~ p.maindesc1 {
+    width: 802px!important;
+    background: #0C0D0F url(img/row.gif) bottom left no-repeat;
+    border-right: 1px solid #131517;
+    padding-bottom: 3px;
+}
+
+p.maincaption2 ~ p.maindesc1:last-of-type {
+    background: url(img/row_bottom.png) transparent bottom left;
+    border: 0px;
+    padding-bottom: 17px;
+    width: 803px !important;
 }
 
 p.listusersrow {
@@ -1051,6 +1068,12 @@ p.listsubcaption {
 
 .frameitembg p.listrow .iteminventorypics {
     display: none;
+}
+
+.frameitembg a[href="item.php?action=change_filter"] img {
+    height: 14px!important;
+    width: 14px!important;
+    padding: 0!important;
 }
 
 div.listrow {
@@ -1561,6 +1584,46 @@ a#map-refresh:after {
     margin-top: 4px;
     color: #7affa0;
 }
+
+#energyblock {
+    margin-left: 120px!important;
+}
+
+#shieldiconsleft a:hover,
+#shieldiconsright a:hover {
+    opacity: 0.8;
+}
+
+/* compressed inventory */
+.listrow > b:first-child + span + b + #shieldblock > #shieldiconsleft,
+.listrow > b:first-child + span + b + #shieldblock > #shieldiconsright {
+    margin-left: 70px;
+}
+
+#shieldiconsleft {
+    top: -1px!important;
+    margin-left: 92px;
+}
+
+#shieldiconsleft img {
+    height: 0 !important;
+    background: url("img/icon_charge.gif");
+    padding-top: 14px;
+}
+
+#shieldiconsright {
+    margin-left: 30px;
+    top: 1px!important;
+}
+
+#shieldiconsright img {
+    height: 0 !important;
+    background: url(img/icon_discharge.gif);
+    padding-top: 14px;
+}
+
+
+/* Map */
 
 #mapTable a#oli:hover,
 #mapTable a#oben:hover,
