@@ -313,6 +313,7 @@ input[value="Raumjäger einlagern lassen"] {
 }
 
 /* 265px */
+input[value="Bilder speichern (Kosten: 10 Credits)"],
 input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
     width: 265px!important;
     height: 20px;
@@ -350,9 +351,9 @@ input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
 
 input.input {
     color: silver;
-    font-size: 14px;
+    font-size: 12px;
     background: url(img/input.jpg) no-repeat;
-    height: 20px;
+    height: 17px;
     padding-left: 3px;
     padding-right: 3px;
     border: solid 1px #604A1D;
@@ -365,6 +366,11 @@ input.input:focus {
     padding-left: 3px;
     border-color: #B47A06;
     border-radius: 10px;
+}
+
+.framechatformbg input.input {
+    font-size: 14px;
+    height: 20px;
 }
 
 .submitsagen,
@@ -999,13 +1005,24 @@ p.listsubcaption {
 }
 
 .frameitembg .listrow + br {
-    background: url(img/listrow.gif) repeat-y black;
-    border-right: 1px solid #131517;
     display: block;
     margin-bottom: 1em;
     content: "";
 }
 
+.frameitembg table[id^="fastspell"] + span.small br {
+    font-size: 0;
+}
+
+.frameitembg .listrow:last-of-type + form[name="formular"],
+.frameitembg table[id^="fastspell"] + span.small + form[name="formular"],
+.frameitembg .listrow + br {
+    background: url(img/listrow.gif) repeat-y black;
+    border-right: 1px solid #131517;
+}
+
+.frameitembg .listrow:last-of-type + form[name="formular"],
+.frameitembg table[id^="fastspell"] + span.small + form[name="formular"],
 .frameitembg .listrow + br,
 /*.frameitembg .listcaption ~ p.listrow:last-of-type,*/ /*Old list end row, replaced with br above */
 /*.frameitembg .listcaption ~ p:not(.listrow):not(.listcaption) + .listrow,*/ /* Old list end for the stats, replaced with br above */
@@ -1429,7 +1446,8 @@ a#map-refresh:after {
 
 #mapTable a.nocango:hover {
     background-image: url(img/map/no-cango.png) !important;
-    background-size: cover;
+    background-size: 25px;
+    background-position: center;
 }
 
 #mapTable #ore:hover {

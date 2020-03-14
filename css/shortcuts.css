@@ -42,10 +42,12 @@ table[id^="fastspell"] tr td[valign="top"] {
 
 span.small > center {
     /*background: url(../img/shortcutsbottom.gif) no-repeat bottom left;*/
+    /*
     background: url(../img/listrow.gif) repeat-y black;
     border-right: 1px solid #131517;
     border-bottom: 1px solid #25282B;
     padding-bottom: 3px;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
+    */
 }

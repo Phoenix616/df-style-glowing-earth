@@ -216,7 +216,8 @@ span[title^="2m"] {color:#FF8000;}
 span[title^="1m"] {color:#D20000;}
 span[title^="0m"] {color:#D20000;}
 
-
-
-
+span[title^="3 M"]:before {content:"3m: ";}
+span[title^="2 M"]:before {content:"2m: ";}
+span[title^="1 M"]:before {content:"1m: ";}
+span[title^="0 M"]:before {content:"0m: ";}
 
