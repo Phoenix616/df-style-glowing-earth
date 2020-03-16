@@ -1,5 +1,6 @@
 @charset "utf-8";
-/* CSS Document */
+/* Legacy Map */
+#mapTable a[title="Raumstation"] { box-shadow: inset 0 0 4px #ab24ff;}
 
 #mapTable img.imagefield[src$='base1.jpg'] { background: url(../img/rs/base1.jpg); padding-left: 50px;width: 0px;height: 50px;}
 td.mainheader img[src$="base1.jpg"] { width: 0; background: url(../img/rs/base1.jpg) no-repeat center; background-size: cover; padding-left: 65px; overflow: hidden; }

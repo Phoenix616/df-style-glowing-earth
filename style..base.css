@@ -1454,34 +1454,42 @@ a#map-refresh:after {
     background-position: center;
 }
 
+#mapTable .ore:hover,
 #mapTable #ore:hover {
     background-image: url(img/map/re-o.png);
 }
 
+#mapTable .oben:hover,
 #mapTable #oben:hover {
     background-image: url(img/map/oben.png);
 }
 
+#mapTable .oli:hover,
 #mapTable #oli:hover {
     background-image: url(img/map/li-o.png);
 }
 
+#mapTable .links:hover,
 #mapTable #links:hover {
     background-image: url(img/map/links.png);
 }
 
+#mapTable .uli:hover,
 #mapTable #uli:hover {
     background-image: url(img/map/li-u.png);
 }
 
+#mapTable .unten:hover,
 #mapTable #unten:hover {
     background-image: url(img/map/unten.png);
 }
 
+#mapTable .ure:hover,
 #mapTable #ure:hover {
     background-image: url(img/map/re-u.png);
 }
 
+#mapTable .rechts:hover,
 #mapTable #rechts:hover {
     background-image: url(img/map/rechts.png);
 }

@@ -1,9 +1,10 @@
 /*Weltraum transparent*/
-
+/* Don't use opaque space in old map until overlay opacity can be fixed
 .framemapbg td[style*="/rand/space"],
 .framemapbg td[style$="/black.jpg);"] {
     opacity: 0.51;
 }
+*/
 
 .framemapbg td[style$="/space9117.jpg);"] {
     opacity: 1.0;
