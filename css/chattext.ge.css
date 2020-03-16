@@ -6,19 +6,19 @@
 
 .chattext {
     color: silver;
-    font-size: 14px;
+    font-size: 13px;
     background: url(../img/area.png);
 }
 
 .chattextscream {
     color: #6495ED;
-    font-size: 14px;
+    font-size: 13px;
     background: url(../img/area.png);
 }
 
 .chattextclan {
     color: #EE7621;
-    font-size: 14px;
+    font-size: 13px;
     background: url(../img/area.png);
 }
 
@@ -28,7 +28,7 @@
 
 .chattextgroup {
     color: #62C400;
-    font-size: 14px;
+    font-size: 13px;
     background: url(../img/area.png);
 }
 
@@ -36,12 +36,12 @@
     color: silver;
     font-style: italic;
     background: maroon url(../img/area_d.png);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .chattextwhisper {
     color: #B90000;
-    font-size: 14px;
+    font-size: 13px;
     background: url(../img/area.png);
 }
 
@@ -51,12 +51,12 @@
 
 span.chattextclan a[href*="main.php?showallmsgs"]:before {
     content: "(holographische) ";
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .worldsay {
     background-color: #180c3e;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 p.worldsay table tr {
