@@ -555,7 +555,7 @@ p.maincaption2 {
     padding: 1px 3px 20px 10px;
 }
 
-.framemainbg table > tbody > tr > td + td > p.listrow {
+.framemainbg table > tbody > tr > td:first-of-type:first-of-type + td > p.listrow {
     color: silver;
     background: url(img/row_bottom.png) bottom right no-repeat;
     margin-left: -1px;
@@ -845,12 +845,16 @@ td[style*="1px solid rgb(68, 68, 153);"] {
 
 /*Verkaufen Abstände vereinheitlichen*/
 
-td.areadescription > form > table[align="left"] > tbody > tr > td {
+td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type {
     width: 490px;
 }
 
-td.areadescription > form > table[align="left"] > tbody > tr > td + td {
+td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type + td {
     width: 0%;
+}
+
+td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type + td + td {
+    width: 100px;
 }
 
 /*td.areadescription > form > table[align="left"] > tbody > tr > td + td + td {width:*%;}*/
