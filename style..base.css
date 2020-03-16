@@ -233,7 +233,8 @@ input[name="Submit"] {
     width: 85px!important;
     height: 20px;
     background: url(img/registerinput85.png);
-    border: 0px
+    border: 0px;
+    margin-top: 10px;
 }
 
 input[name="Submit"]:hover {
