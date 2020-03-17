@@ -175,7 +175,6 @@ h1 {
     background: url(img/registerinput.png);
     border: 0px;
     padding-bottom: 3px;
-    padding-bottom: 3px;
 }
 
 .registersubmit:hover {
@@ -213,14 +212,14 @@ textarea {
     color: #706C6B;
     font-size: 12px;
     padding-top: 5px;
-    background: #291D00 url(img/textarea.png);
+    /*background: #291D00 url(img/textarea.jpg);*/
     border: solid 1px #514000;
     border-radius: 4px;
 }
 
 textarea:focus {
     color: silver;
-    background: #332400 url(img/textarea_f.png);
+    /*background: #332400 url(img/textarea_f.jpg);*/
     border-color: #BA9400;
 }
 
@@ -234,7 +233,11 @@ input[name="Submit"] {
     height: 20px;
     background: url(img/registerinput85.png);
     border: 0px;
-    margin-top: 10px;
+    margin-top: 1em;
+}
+
+br + br + input[name="Submit"] {
+    margin-top: unset;
 }
 
 input[name="Submit"]:hover {
@@ -327,7 +330,7 @@ input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
     color: silver;
     background: black url(img/chattextbg.png) no-repeat fixed;
     background-position-y: bottom;
-    padding: 0px 5px 5px 5px;
+    padding: 0px 4px 5px 5px;
     margin-left: 30px;
     margin-bottom: 10px;
     border-top: 1px #33383b solid;
@@ -847,14 +850,15 @@ td[style*="1px solid rgb(68, 68, 153);"] {
 /*Verkaufen Abstände vereinheitlichen*/
 
 td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type {
-    width: 490px;
+    min-width: 42%;
+    padding-right: 4px;
 }
 
 td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type + td {
     width: 0%;
 }
 
-td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type + td + td {
+td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type + td + td:not(:last-of-type) {
     width: 100px;
 }
 
