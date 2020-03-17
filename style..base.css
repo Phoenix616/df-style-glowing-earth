@@ -212,14 +212,14 @@ textarea {
     color: #706C6B;
     font-size: 12px;
     padding-top: 5px;
-    /*background: #291D00 url(img/textarea.jpg);*/
+    background: #291D00 /*url(img/textarea.jpg)*/;
     border: solid 1px #514000;
     border-radius: 4px;
 }
 
 textarea:focus {
     color: silver;
-    /*background: #332400 url(img/textarea_f.jpg);*/
+    background: #332400 /*url(img/textarea_f.jpg)*/;
     border-color: #BA9400;
 }
 
