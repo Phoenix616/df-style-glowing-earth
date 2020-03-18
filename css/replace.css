@@ -3,26 +3,22 @@
 /*"Nehmen" ersetzen*/
 a[href*="action=takemoney&act_item_id="],
 a[href*="action=take&act_item_id="] {
-    visibility: hidden;
     font-size: 0px;
     background: #0C0D0F;
 }
 a[href*="action=takemoney&act_item_id="]:after,
 a[href*="action=take&act_item_id="]:after {
-    visibility: visible;
     content: "An Bord holen";
     font-size: 12px;
 }
 
 /*Bank - "Item mitnehmen" ersetzen*/
 a[href$="arrive_eval=itemmitnahme0"] {
-    visibility: hidden;
     font-size: 0px;
     background: #0D0F10;
 }
 
 a[href$="arrive_eval=itemmitnahme0"]:after {
-    visibility: visible;
     content: "Item-Kategorien anzeigen";
     font-size: 12px;
 }
@@ -75,3 +71,30 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
 .frameitembg .small center br {
     display: none;
 }
+
+/* Kurze Zustände */
+
+.frameitembg .listrow .small span:hover {
+    font-size: 12px;
+}
+
+.frameitembg .listrow .small span:hover:after {
+    content: "";
+}
+
+.frameitembg .listrow .small span:before,
+.frameitembg .listrow .small span:after {
+    font-size: 12px;
+}
+
+.frameitembg span#IS {font-size: 0px;}
+.frameitembg span#IS:after {content: "IS";}
+
+.frameitembg span#NR {font-size: 0px;}
+.frameitembg span#NR:after {content: "NPC-R.Det.";}
+
+.frameitembg span#RT {font-size: 0px;}
+.frameitembg span#RT:after {content: "Rib.";}
+
+.frameitembg span#AT {font-size: 0px;}
+.frameitembg span#AT:after {content: "Traktor";}

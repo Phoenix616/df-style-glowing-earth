@@ -70,7 +70,8 @@ a:active {
     cursor: progress;
 }
 
-a:hover {
+a:hover,
+a:focus {
     color: #D0AA06;
     text-decoration: underline;
     font-weight: bold;
@@ -897,7 +898,7 @@ p.listplaceitemsrow {
     counter-increment: items;
 }
 
-p.listplaceitemsrow > b:before {
+p.listplaceitemsrow > b:first-of-type:before {
     content: counter(items) " | ";
 }
 
@@ -905,7 +906,7 @@ div.listplaceitemsrow {
     counter-increment: items;
 }
 
-div.listplaceitemsrow > b:before {
+div.listplaceitemsrow > b:first-of-type:before {
     content: counter(items) " | ";
 }
 
@@ -920,6 +921,12 @@ div.listplaceitemsrow > b:before {
 .listplaceitemsrow {
     border: 0px solid;
     overflow: hidden;
+}
+
+/* Fix NPC Text Abstände/Flow */
+.listusersrow img[src$="/npc19877.gif"] {
+    padding-right: 19px!important;
+    padding-bottom: 20px;
 }
 
 
