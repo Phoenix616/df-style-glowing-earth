@@ -75,11 +75,16 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
 /* Kurze Zustände */
 
 .frameitembg .listrow .small span:hover {
-    font-size: 12px;
+    font-size: 12px!important;
+    cursor: default;
 }
 
-.frameitembg .listrow .small span:hover:after {
-    content: "";
+.frameitembg .listrow .small span:hover:before {
+    content: ""!important;
+}
+
+.frameitembg .listrow .small span:before {
+    font-weight: bold;
 }
 
 .frameitembg .listrow .small span:before,
@@ -87,14 +92,14 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
     font-size: 12px;
 }
 
-.frameitembg span#IS {font-size: 0px;}
-.frameitembg span#IS:after {content: "IS";}
+.frameitembg .listrow .small span#IS {font-size: 0px;}
+.frameitembg .listrow .small span#IS:before {content: "IS";}
 
-.frameitembg span#NR {font-size: 0px;}
-.frameitembg span#NR:after {content: "NPC-R.Det.";}
+.frameitembg .listrow .small span#NR {font-size: 0px;}
+.frameitembg .listrow .small span#NR:before {content: "NPC-R.Det.";}
 
-.frameitembg span#RT {font-size: 0px;}
-.frameitembg span#RT:after {content: "Rib.";}
+.frameitembg .listrow .small span#RT {font-size: 0px;}
+.frameitembg .listrow .small span#RT:before {content: "Rib.";}
 
-.frameitembg span#AT {font-size: 0px;}
-.frameitembg span#AT:after {content: "Traktor";}
+.frameitembg .listrow .small span#AT {font-size: 0px;}
+.frameitembg .listrow .small span#AT:before {content: "Traktor";}
