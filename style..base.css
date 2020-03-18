@@ -173,7 +173,7 @@ h1 {
     cursor: pointer;
     width: 160px;
     height: 20px;
-    background: url(img/registerinput.png);
+    background: url(img/registerinput160.png);
     border: 0px;
     padding-bottom: 3px;
 }
@@ -225,14 +225,17 @@ textarea:focus {
 }
 
 
+/* Special Input Buttons*/
+input[type="submit"]:not([name]),
 /*Input-Buttons*/
 input[name="Submit"] {
     color: silver;
     font-size: 10px;
     cursor: pointer;
-    width: 85px!important;
+    width: 85px;
     height: 20px;
-    background: url(img/registerinput85.png);
+    background-color: transparent;
+    background-image: url(img/registerinput85.png);
     border: 0px;
     margin-top: 1em;
 }
@@ -241,11 +244,13 @@ br + br + input[name="Submit"] {
     margin-top: unset;
 }
 
+input[type="submit"]:not([name]):hover,
 input[name="Submit"]:hover {
     color: #D0AA06;
     text-shadow: 0px 0px 0px, 0 0 0.1em #ffd800, 0 0 0.1em #ffd800;
 }
 
+input[type="submit"]:not([name]):active,
 input[name="Submit"]:active {
     background-position: bottom;
 }
@@ -256,9 +261,7 @@ input[value="Abgeben"],
 input[value="Kaufen"],
 input[value="Abwerfen"] {
     width: 60px!important;
-    height: 20px;
-    background: url(img/registerinput60.png);
-    border: 0px
+    background-image: url(img/registerinput60.png)!important;
 }
 
 /* 85px */
@@ -270,9 +273,7 @@ input[value="Per Clanfunk senden"],
 input[value="Alter ändern"],
 input[value="Style ändern"] {
     width: 85px!important;
-    height: 20px;
-    background: url(img/registerinput85.png);
-    border: 0px
+    background-image: url(img/registerinput85.png)!important;
 }
 
 /* 120px */
@@ -295,9 +296,7 @@ input[value="Beamvorgang auslösen"],
 input[value="Raumjäger abholen"],
 input[value="Kommentar speichern"] {
     width: 120px!important;
-    height: 20px;
-    background: url(img/registerinput120.png);
-    border: 0px
+    background-image: url(img/registerinput120.png)!important;
 }
 
 /* 160px */
@@ -310,20 +309,17 @@ input[value="Abschicken (Kosten:7 Credits)"],
 input[value="Namen und Geschlecht ändern"],
 input[value="Mitgliederrechte setzen"],
 input[value="Ändern (Kosten:1 Credit)"],
+input[value="markierte Items umladen"],
 input[value="Raumjäger einlagern lassen"] {
     width: 160px!important;
-    height: 20px;
-    background: url(img/registerinput160.png);
-    border: 0px;
+    background-image: url(img/registerinput160.png)!important;
 }
 
 /* 265px */
 input[value="Bilder speichern (Kosten: 10 Credits)"],
 input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
     width: 265px!important;
-    height: 20px;
-    background: url(img/registerinput265.png);
-    border: 0px;
+    background-image: url(img/registerinput265.png)!important;
 }
 
 /* Chat */
@@ -354,7 +350,7 @@ input[value="Item mit Nachricht an einen Kopfgeldjäger übergeben"] {
     padding-left: 3px !important;
 }
 
-input.input {
+input.input:not([type="submit"]) {
     color: silver;
     font-size: 12px;
     background: url(img/input.jpg) no-repeat;
@@ -365,7 +361,7 @@ input.input {
     border-radius: 10px;
 }
 
-input.input:focus {
+input.input:not([type="submit"]):focus {
     color: silver;
     background-position: bottom left;
     padding-left: 3px;
