@@ -690,17 +690,8 @@ p.landlistcaption + p.listlandrow {
     text-align: center;
 }
 
-p.personlistcaption {
-    color: #DACB65;
-    font-weight: bold;
-    background: url(img/caption.png) no-repeat;
-    width: 816px;
-    margin-bottom: -8px !important;
-    height: 30px !important;
-    padding: 8px 0px 0px 10px;
-    border: solid 0px #a2a09f;
-}
-
+p.landlistcaption,
+p.personlistcaption,
 p.itemlistcaption {
     color: silver;
     font-weight: bold;
@@ -712,15 +703,14 @@ p.itemlistcaption {
     border: solid 0px #a2a09f;
 }
 
+p.personlistcaption {
+    color: #99b8ff;
+}
+
 p.landlistcaption {
     color: #BEFC61;
-    font-weight: bold;
     background: url(img/caption_land.png) no-repeat;
     width: 600px;
-    margin-bottom: -8px !important;
-    height: 30px !important;
-    padding: 8px 0px 0px 10px;
-    border: solid 0px #a2a09f;
 }
 
 td[style*="1px solid rgb(68, 68, 153);"] {
