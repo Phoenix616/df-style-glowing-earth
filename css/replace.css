@@ -103,3 +103,6 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
 
 .frameitembg .listrow .small span#AT {font-size: 0px;}
 .frameitembg .listrow .small span#AT:before {content: "Traktor";}
+
+.frameitembg .listrow .small span#TA {font-size: 0px;}
+.frameitembg .listrow .small span#TA:before {content: "Triebw.ausf.";}
