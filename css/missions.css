@@ -46,7 +46,7 @@ td.areadescription a[href="main.php?view=quests&arrive_eval=113"]:after {content
  /*Lieferbote*/
 td.areadescription a[href="main.php?view=quests&arrive_eval=200"]:after {content:" - (+1Pp, +1SC, 60min) - Lieferung nach Imantor bringen";color:#62C400;}
  /*Gehorsamsverweigerung*/
-td.areadescription a[href="main.php?view=quests&arrive_eval=201"]:after {content:" - (+2Pp, +1SC, 60min) - 25 Plünderschiffe in Gargom vernichten";color:#62C400;}
+td.areadescription a[href="main.php?view=quests&arrive_eval=201"]:after {content:" - (+1Pp, +2SC, 60min) - 25 Plünderschiffe in Gargom vernichten";color:#62C400;}
  /*Verräter*/
 td.areadescription a[href="main.php?view=quests&arrive_eval=202"]:after {content:" - (+1Pp, +1SC, 30min) - Einen Piraten in der Gegend abschiessen";color:#62C400;} 
  /*Übernahme eines feindlichen Schiffes*/
