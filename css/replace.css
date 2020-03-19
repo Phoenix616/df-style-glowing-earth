@@ -96,7 +96,7 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
 .frameitembg .listrow .small span#IS:before {content: "IS";}
 
 .frameitembg .listrow .small span#NR {font-size: 0px;}
-.frameitembg .listrow .small span#NR:before {content: "NPC-R.Det.";}
+.frameitembg .listrow .small span#NR:before {content: "Rüst.Det.";}
 
 .frameitembg .listrow .small span#RT {font-size: 0px;}
 .frameitembg .listrow .small span#RT:before {content: "Rib.";}
