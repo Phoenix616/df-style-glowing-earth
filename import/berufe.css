@@ -8,26 +8,30 @@
 ß: \0000DF
 */
 
-
 /*http://forum.darkfleet.de/viewtopic.php?f=7&t=2248*/
+p.listusersrow a[href$="watchuser&act_user_id=1"]   {color: red;} /*Sotrax*/
+
 p.listusersrow a[href$="watchuser&act_user_id=27"]:after   {content:" (Adminhelferlein) ";color: red;} /*Phönix*/
 
+p.listusersrow a[href$="watchuser&act_user_id=1592"]:after {content:" (Entwickler)";color: red;} /*Galak*/
+p.listusersrow a[href$="watchuser&act_user_id=54"]:after   {content:" (Entwicklerin/J\0000E4gerin) ";color: red;} /*Calideya*/
+p.listusersrow a[href$="watchuser&act_user_id=821"]:after   {content:" (Entwickler) ";color: red;} /*Kapsonfire*/
+
 p.listusersrow a[href$="watchuser&act_user_id=3528"]:after {content:" (Mod/Astroj\0000E4gerin) ";color:#32CD32;} /*Ayiana*/
-p.listusersrow a[href$="watchuser&act_user_id=54"]:after {content:" (Hilfs-Admin/J\0000E4gerin) ";color:#32CD32;} /*Calideya*/
-p.listusersrow a[href$="watchuser&act_user_id=251"]:after {content:" (Mod) ";color:#32CD32;} /*Captain Jack Sparrow*/
+p.listusersrow a[href$="watchuser&act_user_id=251"]:after  {content:" (S-Mod) ";color:#32CD32;} /*Captain Jack Sparrow*/
 p.listusersrow a[href$="watchuser&act_user_id=3575"]:after {content:" (Mod) ";color:#32CD32;} /*Chay von Bass-Teth*/
-p.listusersrow a[href$="watchuser&act_user_id=304"]:after  {content:" (Mod) ";color:#32CD32;} /*Hyperion*/
-p.listusersrow a[href$="watchuser&act_user_id=4239"]:after {content:" (Mod/J\0000E4ger) ";color:#32CD32;} /*Mythos (Vagabond)*/
 p.listusersrow a[href$="watchuser&act_user_id=1142"]:after {content:" (S-Mod) ";color:#32CD32;} /*Nyrrti*/
-p.listusersrow a[href$="watchuser&act_user_id=7959"]:after {content:" (Mod) ";color:#32CD32;} /*SpaceNagao*/
 p.listusersrow a[href$="watchuser&act_user_id=5401"]:after {content:" (Mod/J\0000E4ger) ";color:#32CD32;} /*GhostStalker*/
 p.listusersrow a[href$="watchuser&act_user_id=377"]:after  {content:" (S-Mod/Geldverleiher )";color:#32CD32;} /*Tungdil Goldhand*/
-p.listusersrow a[href$="watchuser&act_user_id=71"]:after  {content:" (Mod) ";color:#32CD32;} /*STL (Arthur Dent)*/
+p.listusersrow a[href$="watchuser&act_user_id=71"]:after   {content:" (Mod) ";color:#32CD32;} /*STL (Arthur Dent)*/
+p.listusersrow a[href$="watchuser&act_user_id=1657"]:after {content:" (Mod/H\0000E4ndler) ";color:#32CD32;} /*FS60*/
 
 /*Ex-Mods*/
 p.listusersrow a[href$="watchuser&act_user_id=252"]:after  {content:" (Kartographin/J\0000E4gerin) ";color:#cc7300;}/*Dita von Teese*/
-p.listusersrow a[href$="watchuser&act_user_id=1657"]:after {content:" (H\0000E4ndler) ";color:#cc7300;} /*FS60*/
 p.listusersrow a[href$="watchuser&act_user_id=4239"]:after {content:" (J\0000E4ger) ";color:#cc7300;} /*Mythos*/
+p.listusersrow a[href$="watchuser&act_user_id=7959"]:after {content:" (Ex-Mod) ";color:#cc7300;} /*SpaceNagao*/
+p.listusersrow a[href$="watchuser&act_user_id=4239"]:after {content:" (Ex-Mod/J\0000E4ger) ";color:#cc7300;} /*Mythos (Vagabond)*/
+p.listusersrow a[href$="watchuser&act_user_id=304"]:after  {content:" (Ex-Mod) ";color:#cc7300;} /*Hyperion*/
 
 
 p.listusersrow a[href$="watchuser&act_user_id=2"]:after {content:" (J\0000E4ger) ";color:#cc7300;}
