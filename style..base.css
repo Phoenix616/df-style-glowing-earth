@@ -294,6 +294,7 @@ input[value="Sprungboje absetzen"],
 input[value="Planet löschen"],
 input[value="Beamvorgang auslösen"],
 input[value="Raumjäger abholen"],
+input[value="Antwort hinzufügen"],
 input[value="Kommentar speichern"] {
     width: 120px!important;
     background-image: url(img/registerinput120.png)!important;
@@ -310,6 +311,7 @@ input[value="Namen und Geschlecht ändern"],
 input[value="Mitgliederrechte setzen"],
 input[value="Ändern (Kosten:1 Credit)"],
 input[value="markierte Items umladen"],
+input[value="markierte Items aufladen"],
 input[value="Raumjäger einlagern lassen"] {
     width: 160px!important;
     background-image: url(img/registerinput160.png)!important;
