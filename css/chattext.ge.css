@@ -46,7 +46,7 @@
 
 .submitgroup,
 .chattextgroup {
-    color: #62C400;
+    color: #9de800;
 }
 
 .chattextinfo {
@@ -74,6 +74,10 @@ span.chattextclan a[href*="main.php?showallmsgs"]:before {
 }
 .worldsay {
     background-color: #180c3e;
+}
+
+p.worldsay table {
+    display: inline-block; /* Fig Fehler wenn Chatzeit angezeigt wird */
 }
 
 p.worldsay table tr {
