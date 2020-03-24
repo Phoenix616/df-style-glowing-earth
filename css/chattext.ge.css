@@ -4,22 +4,28 @@
     padding-bottom: 5px;
 }
 
+.chattext,
+.chattextlocal,
+.chattextscream,
+.chattextclan,
+.chattextgroup,
+.chattextinfo,
+.chattextwhisper,
+.worldsay {
+    font-size: 13px;
+    /*background: url(../img/area.png); TODO: Find out what this was */
+}
+
 .chattext {
     color: silver;
-    font-size: 13px;
-    background: url(../img/area.png);
 }
 
 .chattextscream {
     color: #6495ED;
-    font-size: 13px;
-    background: url(../img/area.png);
 }
 
 .chattextclan {
     color: #EE7621;
-    font-size: 13px;
-    background: url(../img/area.png);
 }
 
 .chattext i b {
@@ -28,21 +34,16 @@
 
 .chattextgroup {
     color: #62C400;
-    font-size: 13px;
-    background: url(../img/area.png);
 }
 
 .chattextinfo {
     color: silver;
     font-style: italic;
-    background: maroon url(../img/area_d.png);
-    font-size: 13px;
+    background: maroon /*url(../img/area_d.png)*/;
 }
 
 .chattextwhisper {
     color: #B90000;
-    font-size: 13px;
-    background: url(../img/area.png);
 }
 
 .chatpics {
@@ -56,7 +57,6 @@ span.chattextclan a[href*="main.php?showallmsgs"]:before {
 
 .worldsay {
     background-color: #180c3e;
-    font-size: 13px;
 }
 
 p.worldsay table tr {
