@@ -79,7 +79,8 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
     cursor: default;
 }
 
-.frameitembg .listrow .small span:hover:before {
+.frameitembg .listrow .small span:hover:before,
+.frameitembg .listrow .small span:hover:after {
     content: ""!important;
 }
 
@@ -92,17 +93,26 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
     font-size: 12px;
 }
 
+.frameitembg .listrow .small span#T {font-size: 0px;}
+.frameitembg .listrow .small span#T:before {content: "Tarnung";}
+
+.frameitembg .listrow .small span#AS {font-size: 0px;}
+.frameitembg .listrow .small span#AS:before {content: "AS";}
+
+.frameitembg .listrow .small span#Si {font-size: 0px;}
+.frameitembg .listrow .small span#Si:before {content: "Si";}
+
 .frameitembg .listrow .small span#IS {font-size: 0px;}
 .frameitembg .listrow .small span#IS:before {content: "IS";}
 
 .frameitembg .listrow .small span#NR {font-size: 0px;}
-.frameitembg .listrow .small span#NR:before {content: "Rüst.Det.";}
+.frameitembg .listrow .small span#NR:before {content: "NRD";}
 
 .frameitembg .listrow .small span#RT {font-size: 0px;}
-.frameitembg .listrow .small span#RT:before {content: "Rib.";}
+.frameitembg .listrow .small span#RT:before {content: "RT";}
 
 .frameitembg .listrow .small span#AT {font-size: 0px;}
 .frameitembg .listrow .small span#AT:before {content: "Traktor";}
 
 .frameitembg .listrow .small span#TA {font-size: 0px;}
-.frameitembg .listrow .small span#TA:before {content: "Triebw.ausf.";}
+.frameitembg .listrow .small span#TA:before {content: "TA";}

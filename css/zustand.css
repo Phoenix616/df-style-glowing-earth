@@ -216,6 +216,8 @@ span[title^="2m"] {color:#FF8000;}
 span[title^="1m"] {color:#D20000;}
 span[title^="0m"] {color:#D20000;}
 
+span[title$="Minuten"]:after {color: silver;}
+span[title="dauerhaft"]:after {content:": \221E";color: silver;}
 span[title^="60 M"]:after {content:": 60m";}
 span[title^="59 M"]:after {content:": 59m";}
 span[title^="58 M"]:after {content:": 58m";}
@@ -277,7 +279,6 @@ span[title^="3 M"]:after {content:": 3m";}
 span[title^="2 M"]:after {content:": 2m";color:#FF8000;}
 span[title^="1 M"]:after {content:": 1m";color:#D20000;}
 span[title^="0 M"]:after {content:": 0m";color:#D20000;}
-
 
 span[title^="1000 / "]:after {content:": 1000";}
 
