@@ -47,37 +47,31 @@ a[href$="=jumpdrive5"] {
 /*eigene Planeten*/
 
 /*Tirium-Raffinerie einfärben*/
-.areadescription a[href$="building=8&oldarrive=activatemenu"] {
-    color: #EE7621 /*FF6A00*/;
-}
-
+.areadescription a[href$="building=8&oldarrive=activatemenu"],
 .areadescription a[href$="building=8&oldarrive=buildmenu"] {
     color: #EE7621;
 }
 
 /*Sprungtor einfärben*/
-.areadescription a[href$="building=10&oldarrive=activatemenu"] {
-    color: #62C400;
-}
-
+.areadescription a[href$="building=10&oldarrive=activatemenu"],
 .areadescription a[href$="building=10&oldarrive=buildmenu"] {
     color: #62C400;
 }
 
 /*Reparaturwerft einfärben*/
-.areadescription a[href$="building=11&oldarrive=activatemenu"] {
-    color: #7F6FB7;
-}
-
+.areadescription a[href$="building=11&oldarrive=activatemenu"],
 .areadescription a[href$="building=11&oldarrive=buildmenu"] {
     color: #7F6FB7;
 }
 
-/*Struktur-Modulationslabor einfärben*/
-.areadescription a[href$="building=18&oldarrive=activatemenu"] {
-    color: #7F6FB7;
+/*Raumschiffwerft einfärben*/
+.areadescription a[href$="building=20&oldarrive=activatemenu"],
+.areadescription a[href$="building=20&oldarrive=buildmenu"] {
+    color: #b008b7;
 }
 
+/*Struktur-Modulationslabor einfärben*/
+.areadescription a[href$="building=18&oldarrive=activatemenu"],
 .areadescription a[href$="building=18&oldarrive=buildmenu"] {
     color: #7F6FB7;
 }
@@ -168,7 +162,11 @@ a[href="clanmenu.php?action=ban_member"], a[href="clanmenu.php?action=del_member
 
 /* Fix Verteidigungstärke grün statt rot ohne Waffe in minimiertem Inventar */
 .frameitembg .listrow .healthok b[onmouseover*="Waffe(0)"],
-/* Rot einfräben ohne Waffe */
+/* Rot einfärben ohne Waffe */
 .frameitembg p.listrow + p.listrow b[onmouseover*="Waffe(0)"] {
     color: #D20000;
+}
+
+.frameitembg p.listrow + p.listrow b[onmouseover*="Waffe(0)"]:after {
+    content: " (keine Waffe!)";
 }
