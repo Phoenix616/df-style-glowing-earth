@@ -625,12 +625,13 @@ p.listusersrow {
     color: silver;
     background: #0C0D0F url(img/row.gif) bottom left no-repeat;
     margin-left: -1px;
-    padding: 1px 3px 1px 10px;
+    padding: 5px 3px 5px 10px;
     width: 802px !important;
     border-right: 1px solid #131517;
 }
 
 td > p.listusersrow:last-of-type,
+td > p.listnpcrow:last-of-type,
 #UserDiv > p.listusersrow:last-of-type {
     background: url(img/row_bottom.png) transparent bottom left;
     border: 0px;
@@ -639,7 +640,7 @@ td > p.listusersrow:last-of-type,
 }
 
 td > p.listusersrow + #UserDiv > p.listusersrow:first-child {
-    margin-top: -16px;
+    margin-top: -8px;
     padding-top: 10px;
 }
 
