@@ -157,3 +157,9 @@ a[href="clanmenu.php?action=ban_member"], a[href="clanmenu.php?action=del_member
 .areadescription span[onclick$="').value = 9"] {
     color: #E24A26;
 }
+
+/* Inventar Angriff/Verteidigung Rot */
+.frameitembg .listrow b[onmouseover^="tt('Angriffsstärke"],
+.frameitembg .listrow b[onmouseover^="tt('Verteidigungsstärke"] {
+    color: #EE4000;
+}
