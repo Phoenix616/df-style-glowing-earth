@@ -158,8 +158,13 @@ a[href="clanmenu.php?action=ban_member"], a[href="clanmenu.php?action=del_member
     color: #E24A26;
 }
 
-/* Inventar Angriff/Verteidigung Rot */
-.frameitembg .listrow b[onmouseover^="tt('Angriffsstärke"],
-.frameitembg .listrow b[onmouseover^="tt('Verteidigungsstärke"] {
+/* Erweitertes Inventar Angriff/Verteidigung Rot */
+.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Angriffsst"],
+.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Verteidigungsst"] {
     color: #EE4000;
+}
+
+/* Fix Verteidigungstärke grün statt rot ohne Waffe in minimiertem Inventar */
+.frameitembg .listrow .healthok b[onmouseover*="Waffe(0)"] {
+    color: #D20000;
 }
