@@ -848,7 +848,7 @@ td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type 
 }
 
 td.areadescription > form > table[align="left"] > tbody > tr > td:first-of-type + td + td:not(:last-of-type) {
-    width: 100px;
+    /*width: 100px;*/
 }
 
 /*td.areadescription > form > table[align="left"] > tbody > tr > td + td + td {width:*%;}*/
