@@ -384,6 +384,7 @@ input.input:not([type="submit"]):focus {
 .submitgroup,
 .submitworldsay,
 .submitwhisper {
+    color: #C0C0C0;
     font-size: 10px;
     font-weight: bold;
     background: url(img/button.png);
@@ -398,34 +399,6 @@ input.input:not([type="submit"]):focus {
 .framechatformbg input[type="submit"]:hover,
 .framechatformbg input[type="submit"]:focus {
     background-position: bottom;
-}
-
-.submitsagen {
-    color: #C0C0C0;
-}
-
-.submitschreien {
-    color: #6495ED;
-}
-
-.submitmodchat {
-    color: #9A1085;
-}
-
-.submitclan {
-    color: #EE7621;
-}
-
-.submitgroup {
-    color: #62C400;
-}
-
-.submitworldsay {
-    color: #008B00;
-}
-
-.submitwhisper {
-    color: #B90000;
 }
 
 #fcred {
