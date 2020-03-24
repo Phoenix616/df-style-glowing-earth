@@ -1,0 +1,29 @@
+/* Zeige Software in minimiertem Inventar */
+.frameitembg span[title="Verteidigungsstärke"] + b {
+    font-size: 0px;
+    visibility: hidden;
+}
+
+.frameitembg b + span.healthok[title^="Energie"]:after {
+    content: ".En";
+}
+
+.frameitembg b + span.healthok[title^="Kampf"]:after {
+    content: ".Ka";
+}
+
+.frameitembg b + span.healthok[title^="Tirium"]:after {
+    content: ".Ti";
+}
+
+.frameitembg b + span.healthok[title^="Trümmer"]:after {
+    content: ".Tr";
+}
+
+.frameitembg b + span.healthok[title^="Schild"]:after {
+    content: ".Sc";
+}
+
+.frameitembg b + span.healthok[title^="Sidoner"]:after {
+    content: ".Si";
+}
