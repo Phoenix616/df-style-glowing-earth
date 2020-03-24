@@ -158,13 +158,17 @@ a[href="clanmenu.php?action=ban_member"], a[href="clanmenu.php?action=del_member
     color: #E24A26;
 }
 
-/* Erweitertes Inventar Angriff/Verteidigung Rot */
-.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Angriffsst"],
-.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Verteidigungsst"] {
-    color: #EE4000;
+/* Erweitertes Inventar Angriff/Verteidigung mit Waffe Grün */
+.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Angriffsst"]:not([onmouseover*="Waffe(0)"]),
+.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Angriffsst"]:not([onmouseover*="Waffe(0)"]) span.valueincreased,
+.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Verteidigungsst"]:not([onmouseover*="Waffe(0)"]),
+.frameitembg p.listrow + p.listrow b[onmouseover^="tt('Verteidigungsst"]:not([onmouseover*="Waffe(0)"]) span.valueincreased {
+    color: #9ACD32;
 }
 
 /* Fix Verteidigungstärke grün statt rot ohne Waffe in minimiertem Inventar */
-.frameitembg .listrow .healthok b[onmouseover*="Waffe(0)"] {
+.frameitembg .listrow .healthok b[onmouseover*="Waffe(0)"],
+/* Rot einfräben ohne Waffe */
+.frameitembg p.listrow + p.listrow b[onmouseover*="Waffe(0)"] {
     color: #D20000;
 }
