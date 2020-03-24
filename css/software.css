@@ -4,6 +4,10 @@
     visibility: hidden;
 }
 
+.frameitembg b + span.healthok[title^="Dymidrit"]:after {
+    content: ".Dym";
+}
+
 .frameitembg b + span.healthok[title^="Energie"]:after {
     content: ".En";
 }
@@ -12,18 +16,22 @@
     content: ".Ka";
 }
 
-.frameitembg b + span.healthok[title^="Tirium"]:after {
-    content: ".Ti";
-}
-
-.frameitembg b + span.healthok[title^="Trümmer"]:after {
-    content: ".Tr";
-}
-
 .frameitembg b + span.healthok[title^="Schild"]:after {
-    content: ".Sc";
+    content: ".Sch";
 }
 
 .frameitembg b + span.healthok[title^="Sidoner"]:after {
-    content: ".Si";
+    content: ".Sid";
+}
+
+.frameitembg b + span.healthok[title^="Tirium"]:after {
+    content: ".Tir";
+}
+
+.frameitembg b + span.healthok[title^="Treibstoff"]:after {
+    content: ".Trb";
+}
+
+.frameitembg b + span.healthok[title^="Trümmer"]:after {
+    content: ".Trü";
 }
