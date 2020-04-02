@@ -54,6 +54,15 @@ a[href$="arrive_eval=itemmitnahme0"]:after {
     text-decoration: underline;
 }
 
+/* Inventar Clanlink */
+.frameitembg .listrow a[href$="action=manageclan"] {
+    font-size: 0px;
+}
+.frameitembg .listrow a[href$="action=manageclan"]:after {
+    font-size: 12px;
+    content: "Clan";
+}
+
 /*Schließen*/
 /*
 .frameitembg a[href$="action=closeinv"] {

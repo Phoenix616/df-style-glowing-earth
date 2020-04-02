@@ -26,7 +26,7 @@ a[href$="=jumpdrive2&z_pos_id=1"]:after {
 }
 
 a[href$="=jumpdrive2&z_pos_id=2502"]:after {
-    content: " > Sral";
+    content: " > Sral > Nembra";
 }
 
 /*Lichtu*/
@@ -76,6 +76,14 @@ a[href$="=jumpdrive5"] {
     color: #7F6FB7;
 }
 
+/*Zerstören einfärben*/
+.areadescription a[href$="arrive_eval=destroyplanet"] {
+    margin-top: 10px;
+}
+.areadescription a[href$="arrive_eval=destroyplanet"]:hover {
+    color: red;
+}
+
 /*Clanmenü*/
 a[href="clanmenu.php?action=clanitem"], a[href="clanmenu.php?action=add_member"] {
     color: #7F6FB7 !important;
@@ -85,8 +93,26 @@ a[href="clanmenu.php?action=ban_member"], a[href="clanmenu.php?action=del_member
     color: #EE7621 !important;
 }
 
-/*Schnellangriff einfärben*/
-.areadescription p a[href$="action=fastattack"] {
+/*Angriffe einfärben*/
+/*Schnellangriff*/
+.areadescription p a[href$="action=fastattack"]:hover {
+    text-decoration-color: #ff0000;
+    -moz-text-decoration-color: #ff0000;
+    -webkit-text-decoration-color: #ff0000;
+}
+
+/*Voller Kampf*/
+p.maindesc2 a[href^="fight.php?action=attacknpc&checkid="] {
+    color: #ff0000;
+}
+
+/*Flottenangriff*/
+p.maindesc2 a[href^="fight.php?action=slapnpc&checkid="][href$="&mark=1"] {
+    color: #62C400;
+}
+
+/*Clanangriff*/
+p.maindesc2 a[href^="fight.php?action=slapnpc&checkid="][href$="&mark=2"] {
     color: #EE7621;
 }
 
@@ -169,4 +195,14 @@ a[href="clanmenu.php?action=ban_member"], a[href="clanmenu.php?action=del_member
 
 .frameitembg p.listrow + p.listrow b[onmouseover*="Waffe(0)"]:after {
     content: " (keine Waffe!)";
+}
+
+/* Inventar Flottenlink */
+.frameitembg a[href$="action=groupmenu"] {
+    color: #62C400;
+}
+
+/* Inventar Clanlink */
+.frameitembg a[href$="action=manageclan"] {
+    color: #EE7621;
 }
