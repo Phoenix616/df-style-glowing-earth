@@ -17,7 +17,6 @@ Achtung Umlaute:
 
 */
 
-
 /* Verkauf */
 
 /* Kristalle */
@@ -212,7 +211,7 @@ td.areadescription b[onmouseover^="tt('Modulslot Mark III ("]:after { content: "
 td.areadescription b[onmouseover^="tt('Modulslot Mark IV ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor CPU Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor CPU Mark III ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
-td.areadescription b[onmouseover^="tt('NPC-RÃ¼stungsdetektor Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor Mark I ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor Mark II ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('NPC-R\0000FCstungsdetektor Mark III ("]:after { content: " (Verk.STD: 250 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('NPC-Scanner Chip Mark II ("]:after { content: " (Verk.STD: 500 Gm) "; opacity: 0.7; }
@@ -265,9 +264,9 @@ td.areadescription b[onmouseover^="tt('Reparatur-Droid Mark II ("]:after { conte
 td.areadescription b[onmouseover^="tt('Reparatur-Droid Mark III ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('Reparatur-Kit der IGSB',"]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('Reservebatterie Mark I ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
-td.areadescription b[onmouseover^="tt('Reservebatterie Mark II ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
-td.areadescription b[onmouseover^="tt('Reservebatterie Mark III ("]:after { content: " (Verk.STD: 15 Gm) "; opacity: 0.7; }
-td.areadescription b[onmouseover^="tt('Reservebatterie Mark IV ("]:after { content: " (Verk.STD: 25 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reservebatterie Mark II ("]:after { content: " (Verk.STD: 40 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reservebatterie Mark III ("]:after { content: " (Verk.STD: 50 Gm) "; opacity: 0.7; }
+td.areadescription b[onmouseover^="tt('Reservebatterie Mark IV ("]:after { content: " (Verk.STD: 200 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('Rhodon"]:after { content: " (Verk.STD: 125 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('Ribium-Treibstoff Mark I ("]:after { content: " (Verk.STD: 7 Gm) "; opacity: 0.7; }
 td.areadescription b[onmouseover^="tt('Ribium-Treibstoff Mark II ("]:after { content: " (Verk.STD: 20 Gm) "; opacity: 0.7; }
@@ -489,6 +488,9 @@ td.areadescription a[href$="arrive_eval=shop&shopitem=200649"]:after {content: "
 td.areadescription a[href$="arrive_eval=shop&shopitem=200652"]:after {content: " (STD: 200.000 Gm)"; } /*Defekter Wurmloch-Generator Mark I*/
 td.areadescription a[href$="arrive_eval=shop&shopitem=200657"]:after {content: " (STD: 280.000 Gm)"; } /*Datenkristall des Energieregeneratorwissens*/
 
+/* Raumwerft */
+td.areadescription a[href$="arrive_eval=manyshop"]:after { content: " (30-100 Gm)"; opacity: 0.7; } /* Raumjäger */
+td.areadescription a[href$="arrive_eval=fuelshop"]:after { content: " (max: 60 Gm)"; opacity: 0.7; } /* Treibstoff */
 
 td.areadescription a[href$="arrive_npc=buy&shopitem=20032"]:after {content: " (STD: 50 Gm)"; opacity: 0.7;} /*Reparatur-Droid Mark II fÃ¼r 62*/
 td.areadescription a[href$="arrive_npc=buy&shopitem=20033"]:after {content: " (STD: 100 Gm)"; opacity: 0.7;} /*Reparatur-Droid Mark III*/
