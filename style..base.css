@@ -296,6 +296,7 @@ input[value="Planet löschen"],
 input[value="Beamvorgang auslösen"],
 input[value="Raumjäger abholen"],
 input[value="Antwort hinzufügen"],
+input[value="Signalgeber absetzen"],
 input[value="Kommentar speichern"] {
     width: 120px!important;
     background-image: url(img/registerinput120.png)!important;
@@ -310,7 +311,7 @@ input[value="Kompletten Account jetzt löschen"],
 input[value="Abschicken (Kosten:7 Credits)"],
 input[value="Namen und Geschlecht ändern"],
 input[value="Mitgliederrechte setzen"],
-input[value="Ändern (Kosten:1 Credit)"],
+input[value="Ändern (Kosten: 1 Credit)"],
 input[value="markierte Items umladen"],
 input[value="markierte Items aufladen"],
 input[value="Raumjäger einlagern lassen"] {
@@ -552,7 +553,7 @@ p.maincaption2 {
 
 fieldset {
     border: 3px ridge #131517; /*border-radius:4px;*/
-    background: black url(img/areadescription.gif) no-repeat;
+    background: rgba(0, 0, 0, 0.8) url(img/areadescription.png) no-repeat;
     color: silver;
     padding: 10px;
     margin: 10px;
@@ -562,7 +563,7 @@ legend {
     color: #ffd800;
     border: 1px solid #131517;
     border-radius: 4px 4px 0px 0px;
-    background: black url(img/areadescription.gif) no-repeat bottom left;
+    background: black url(img/areadescription.png) no-repeat bottom left;
 }
 
 p.maindesc1 {
@@ -575,9 +576,10 @@ p.maindesc1 {
 
 p.maindesc2 {
     color: silver;
-    background: transparent;
-    width: 100%;
-    border: solid 0 #999999
+    border: 3px ridge #131517;
+    background: rgba(0, 0, 0, 0.8) url(img/areadescription.png) no-repeat;
+    padding: 10px;
+    margin: 10px;
 }
 
 /*Kampfbericht*/
@@ -1006,7 +1008,8 @@ p.listsubcaption {
 /*.frameitembg .listcaption ~ p.listrow:last-of-type,*/ /*Old list end row, replaced with br above */
 /*.frameitembg .listcaption ~ p:not(.listrow):not(.listcaption) + .listrow,*/ /* Old list end for the stats, replaced with br above */
 .frameitembg .listcaption ~ form[name="transferfilter"] + .listrow,
-.frameitembg .listitemrow ~ #divend {
+.frameitembg .listitemrow ~ #divend,
+.frameitembg .listcaption#item_name ~ p.listrow:last-of-type {
     border-bottom: 1px solid #25282B;
     padding-bottom: 3px;
     border-bottom-right-radius: 6px;
